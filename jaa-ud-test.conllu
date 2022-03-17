@@ -7,10 +7,22 @@
 1	Yobe	yobe	NOUN	_	_	3	obj	_	_
 2	e	e	PRON	_	Clusivity=In|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	ti	ti	VERB	vt	_	0	root	_	_
-4	naminaba	na	AUX	aux	Decl=Yes|Gender=Fem|Morning=Yes|Tense=Fut	3	aux	_	_
+4	naminaba	na	AUX	aux	Decl=F|Gender=Fem|Morning=Yes|Tense=Fut	3	aux	_	_
 5	eke	e	PRON	_	Clusivity=In|Number=Sing|Person=1	3	discourse	_	_
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	e	e	PRON	_	Clusivity=In|Number=Sing|Person[psor]=1|PronType=Prs	8	nsubj	_	_
 8	nafi	nafi	VERB	vi	NCount=Yes	3	parataxis	_	_
 9	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = 002
+# text = Abise yama tama tinahaboneke ayata ya .
+# text_por = Tio, segure a coisa perto! (Okomobi 2)
+# text_eng = 
+1	Abise	abise	NOUN	n	_	3	vocative	_	_
+2	yama	yama	NOUN	n	_	3	obj	_	_
+3	tama	tama	VERB	vt	_	0	root	_	_
+4	tinahaboneke	na	AUX	aux	Decl=F|Gender=Fem|Mood=IntF|Number=Sing|Person=2	3	aux	_	_
+5	ayata	ayata	ADV	adv	_	3	obl	_	_
+6	ya	ya	X	x	_	5	dep	_	_
+7	.	.	PUNCT	punct	_	3	punct	_	_
 
