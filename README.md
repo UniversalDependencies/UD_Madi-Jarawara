@@ -1,7 +1,7 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
-
+UD_Madi-Jarawara is a collection of annotated sentences in Madí (Jarawara dialect)
+from a variety of sources, including grammar examples, oral stories, didatic material, and dictionary examples.
 
 # Introduction
 
@@ -10,7 +10,7 @@
 
 # Acknowledgments
 
-...
+The development of the treebank is supported by the by European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (Grant agreement No. [834050](https://uni-tuebingen.de/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/seminar-fuer-sprachwissenschaft/arbeitsbereiche/allg-sprachwissenschaft/projekte/crosslingference/)).
 
 ## References
 
