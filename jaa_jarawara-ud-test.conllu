@@ -26,3 +26,12 @@
 6	ya	ya	X	x	_	5	dep	_	_
 7	.	.	PUNCT	punct	_	3	punct	_	_
 
+# sent_id = 003
+# text = E taminahaba eke .
+# tetx_por = Vamos juntos
+# tetx_eng =
+1	E	e	PRON	pron	Clusivity=In|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	tabaminahaba	_	VERB	vi	Gender=Fem|Morning=Yes|Tense=Fut	0	root	_	_
+3	eke	e	PRON	pron	Clusivity=In|Decl=F|Number=Plur|Person=1	2	discourse	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
+
