@@ -63,12 +63,12 @@
 4	ka	na	AUX	aux	Comt=Yes	_	_	_	_
 5	wahi	waha	AUX	aux	Gender=Fem	_	_	_	_
 6	ya	ya	X	x	_	3	dep	_	_
-7	e	e	PRON	pron	_	7	nsubj	_	_
-8	kama	_	_	_	_	_	_	_	_
+7	e	e	PRON	pron	Clusivity=In|Number=Plur|Person=1	7	nsubj	_	_
+8-9	kama	_	_	_	_	_	_	_	_
 8	ka	ka	VERB	vi	_	_	_	_	_
-8	ma	ma	VERB	vi	_	_	_	_	_
-9	kabote	kabote	ADV	adv	_	7	advmod	_	_
-10	naba	na	AUX	aux	Gender=Fem|Tense=Fut	7	aux	_	_
-11	eke	e	PRON	pron	Clusivity=In|Decl=Fem|Number=Plur|Person=1	7	discourse	_	_
-12	.	.	PUNCT	punct	_	7	punct	_	_
+9	ma	ma	VERB	vi	_	_	_	_	_
+10	kabote	kabote	ADV	adv	_	7	advmod	_	_
+11	naba	na	AUX	aux	Gender=Fem|Tense=Fut	7	aux	_	_
+12	eke	e	PRON	pron	Clusivity=In|Decl=Fem|Number=Plur|Person=1	7	discourse	_	_
+13	.	.	PUNCT	punct	_	7	punct	_	_
 
