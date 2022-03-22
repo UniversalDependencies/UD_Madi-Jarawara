@@ -28,7 +28,7 @@
 
 # sent_id = 003
 # text = E tabaminahaba eke .
-# tetx_por = Vamos juntos
+# tetx_por = Vamos juntos (Okomobi 3)
 # tetx_eng =
 1	E	e	PRON	pron	Clusivity=In|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	tabaminahaba	_	VERB	vi	Gender=Fem|Morning=Yes|Tense=Fut	0	root	_	_
@@ -37,7 +37,7 @@
 
 # sent_id = 004
 # text =  Te sawiminahaba teke , te nafi otara te asota naminabone te .
-# tetx_por = Vocês vão também, todos vocês, para nos ajudar
+# tetx_por = Vocês vão também, todos vocês, para nos ajudar (Okomobi 4)
 # tetx_eng =
 1	Te	te	PRON	pron	Number=Plur|Person=2	2	nsubj	_	_
 2	sawiminahaba	_	VERB	vi	Gender=Fem|Morning=Yes|Number=Plur|Person=2|PronType=Prs|Tense=Fut	0	root	_	_
