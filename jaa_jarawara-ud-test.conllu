@@ -137,3 +137,11 @@
 4	otaake	ke	PART	prcl	Clusivity=Ex|Gender=Fem|Number=Plur	3	discourse	_	_
 5	.	.	PUNCT	punct	_	3	punct	_	_
 
+# sent_id = 002.8
+# text = Tiwa omitani oke .
+# text_eng = I just heard you
+1	Tiwa	tiwa	PRON	_	Number[obj]=Sing|Person[obj]=2	2	obj	_	_
+2	omitani	mita	VERB	_	Evident=Nfh|Gender=Fem|Number[subj]=Sing|Person[subj]=1|Tense=IPast	0	root	_	_
+3	oke	ke	PART	_	Gender=Fem|Number=Sing|Person=1	2	discourse	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
