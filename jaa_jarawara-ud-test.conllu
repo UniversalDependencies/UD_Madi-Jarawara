@@ -101,7 +101,7 @@
 # text = Taha me ini kitate me amake .
 # text_por =
 # text_eng = Bees have sharp teeth
-1	Taha	_	NOUN	_	_	4	obl:subj	_	_
+1	Taha	_	NOUN	_	_	4	nsubj	_	_
 2	me	_	PRON	_	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	ini	_	NOUN	_	Gender=Fem	4	obj	_	_
 4	kitate	_	VERB	vi	Aspect=Hab	0	root	_	_
