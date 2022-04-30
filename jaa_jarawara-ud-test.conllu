@@ -70,7 +70,7 @@
 9	ma	ma	VERB	vi	_	8	dep	_	_
 10	kabote	kabote	ADV	adv	_	8	advmod	_	_
 11	naba	na	AUX	aux	Gender=Fem|Tense=Fut	8	aux	_	_
-12	eke	e	PRON	pron	Clusivity=In|Decl=Fem|Number=Plur|Person=1	8	discourse	_	_
+12	eke	e	PRON	pron	Clusivity=In|Decl=F|Number=Plur|Person=1	8	discourse	_	_
 13	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 006
