@@ -206,7 +206,7 @@
 3	me	me	PRON	_	Number=Plur|Person=3	5	nsubj	_	_
 4	me	me	PRON	_	Number=Plur|Person=3	5	discourse	_	_
 5	tiwari	tiwa	VERB	_	Dist=Yes	0	root	_	_
-6	kanemetemone	na	AUX	aux	Comit=Yes|Evid=Nfh|Gender=Fem|Report=Yes|Tense=RPast	5	aux	_	_
+6	kanemetemone	na	AUX	aux	Comt=Yes|Evident=Nfh|Gender=Fem|Report=Yes|Tense=RPast	5	aux	_	_
 7	wawasi	wawasi	NOUN	_	_	5	obl	_	_
 8	ya	_	X	_	_	7	dep	_	_
 
