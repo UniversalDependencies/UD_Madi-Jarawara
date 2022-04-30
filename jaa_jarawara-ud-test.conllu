@@ -22,7 +22,7 @@
 1	Abise	abise	NOUN	n	_	3	vocative	_	_
 2	yama	yama	NOUN	n	_	3	obj	_	_
 3	tama	tama	VERB	vt	_	0	root	_	_
-4	tinahaboneke	na	AUX	aux	Decl=F|Gender=Fem|Mood=IntF|Number=Sing|Person=2	3	aux	_	_
+4	tinahaboneke	na	AUX	aux	Decl=F|Gender=Fem|Intension=Yes|Number=Sing|Person=2	3	aux	_	_
 5	ayata	ayata	ADV	adv	_	3	obl	_	_
 6	ya	ya	X	x	_	5	dep	_	_
 7	.	.	PUNCT	punct	_	3	punct	_	_
@@ -49,7 +49,7 @@
 7	otara	otara	PRON	pron	Clusivity=Ex|Number[obj]=Plur|Person[obj]=1	9	obj	_	_
 8	te	te	PRON	pron	Number=Plur|Person[psor]=2	9	nsubj	_	_
 9	asota	asota	VERB	v	_	2	xcomp	_	_
-10	naminabone	na	AUX	aux	Decl=F|Gender=Fem|Mood=IntF|Morning=Yes|Tense=Fut	9	aux	_	_
+10	naminabone	na	AUX	aux	Decl=F|Gender=Fem|Intension=Yes|Morning=Yes|Tense=Fut	9	aux	_	_
 11	te	te	PRON	_	Number[subj]=Plur|Person[subj]=2	9	discourse	_	_
 12	.	.	PUNCT	punct	_	9	punct	_	_
 
