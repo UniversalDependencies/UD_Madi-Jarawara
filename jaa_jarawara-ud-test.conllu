@@ -210,3 +210,12 @@
 7	wawasi	wawasi	NOUN	_	_	5	obl	_	_
 8	ya	_	X	_	_	7	dep	_	_
 
+# sent_id = 001.07
+# text = Kabikana amosarake ta tinaharo
+# text_eng = The fishhooks you sold were good. (DJE)
+# text_por = 
+1	Kabikana	kabikana	NOUN	_	_	3	obj	_	_
+2	amosarake	amosa	VERB	_	Decl=F|Evident=Nfh|Gender=Fem|Number[subj]=Sing|Person[subj]=1|Tense=IPast	1	amod	_	_
+3	ta	ta	VERB	_	_	0	root	_	_
+4	tinaharo	na	AUX	_	Number=Plur|Person=2	3	aux	_	_
+
