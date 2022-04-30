@@ -5,6 +5,9 @@ from a variety of sources, including grammar examples, oral stories, didatic mat
 
 # Introduction
 
+UD_Madi-Jarawara is a collection of annotated sentences in Madí (Jarawara dialect)
+from a variety of sources, including grammar examples, oral stories, didatic material, and dictionary examples. The texts are annotated by Fabrício Ferraz Gerardi.
+
 ...
 
 
@@ -14,8 +17,11 @@ The development of the treebank is supported by the by European Research Council
 
 ## References
 
-* (citation)
-
+* Vogel, Alan (2005) *Dicionário Jarawara-Portguês*. SIL.
+* Vogel, Alan (2019) *Jarawara Interlinear Texts*. Volume 2. Anápolis: SIL-Brasil.
+* Vogel, Alan (?) *Jarawara Interlinear Texts*. SIL.
+* Vogel, Alan (2021) *A Typology of Finite Subordinate Clauses in Jarawara*. SIL.
+* Dixon, R. M. W (2004) * The Jarawara Language of Southern Amazonia*. Oxford University Press.
 
 # Changelog
 
