@@ -21,7 +21,7 @@ The development of the treebank is supported by the by European Research Council
 * Vogel, Alan (2019) *Jarawara Interlinear Texts*. Volume 2. Anápolis: SIL-Brasil.
 * Vogel, Alan (?) *Jarawara Interlinear Texts*. SIL.
 * Vogel, Alan (2021) *A Typology of Finite Subordinate Clauses in Jarawara*. SIL.
-* Dixon, R. M. W (2004) * The Jarawara Language of Southern Amazonia*. Oxford University Press.
+* Dixon, R. M. W (2004) *The Jarawara Language of Southern Amazonia*. Oxford University Press.
 
 # Changelog
 
