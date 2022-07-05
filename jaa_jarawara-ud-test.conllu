@@ -208,7 +208,7 @@
 4	ahi	ahi	DET	det	_	2	det	 _	then
 5	.	.	PUNCT	punct	_	3	punct	_	_
 
-# id = 008.002
+# sent_id = 008.002
 # text = Ifa hinakati , Yanowa toaha , Yanowa bitemaro , ha Yanowa mati .
 # text_en = Her older sister . Yanowa . Yanowa's daugher . Yanowa's mother .
 1	Ifa	ifa	DET	dem	Gender=Fem	2	det	_	this
@@ -225,7 +225,7 @@
 12	mati	ami	NOUN	nf	Person[psor]=3|Poss=Yes	2	parataxis	_	3PL
 13	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.003
+# sent_id = 008.003
 # text = Yanowa bite tinabanake .
 # text_en = You should say Yanowa's daughter .
 1	Yanowa	Yanowa	PROPN	npropf	_	2	nmod:poss	_	Yanowa
@@ -234,27 +234,27 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	.
 
 
-# id = 008.005
+# sent_id = 008.005
 # text = Oharike .
 # text_en = She was alone .
 1	Oharike	ohari	_	vi	Mood=DeclF	0	root	_	be_alone
 2	.	.	PUNCT	PUNCT	_	1	punct	_	.
 
-# id = 008.006
+# sent_id = 008.006
 # text = Hinakasima abamaro .
 # text_en = Her younger sister died .
 1	Hinakasima	asima	_	nf	Person[psor]=3|Poss=Yes	2	nsubj	_	younger_sister
 2	abamaro	ahaba	_	vi	TenseEvid=FPastFh	0	root	_	die
 3	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.007
+# sent_id = 008.007
 # text = Anoti ahaba .
 # text_en = Her older brother also died .
 1	Anoti	ayo	_	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
 2	ahaba	ahaba	_	vi	LIST=Yes	0	root	_	die
 3	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.008
+# sent_id = 008.008
 # text = Anoti oohari toemata ?
 # text_en = Did she only have one brother ?
 1	Anoti	ayo	_	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
@@ -262,7 +262,7 @@
 3	toemata	ha	_	aux	CH=Yes|Gender=Masc|TenseEvid=FPastnFH	2	aux	_	AUX
 4	?	?	PUNCT	PUNCT	_	2	punct	_	_
 
-# id = 008.009
+# sent_id = 008.009
 # text = Anoti oohari toemari .
 # text_en = She only had one brother .
 1	Anoti	ayo	_	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
@@ -270,7 +270,7 @@
 3	toemari	ha	_	aux	CH=Yes|Gender=Masc|TenseEvid=FPastFH	2	aux	_	AUX
 4	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.010
+# sent_id = 008.010
 # text = Anoti ohari me ka asima ohari nene .
 # text_en = She only had one brother, and they only had one younger sister .
 1	anoti	ayo	NOUN	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
@@ -282,7 +282,7 @@
 7	nene	na	_	aux	Gender=Fem|Mood=Irr	6	aux	_	AUX
 8	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.011
+# sent_id = 008.011
 # text = Me ka me ka asima abamaro . 
 # text_en = Their younger sister [Yanowa's older sister] died .
 1	Me	me	_	pron	Person=3PL	3	dislocated	_	3PL
@@ -293,7 +293,7 @@
 6	abamaro	ahaba	_	vi	Gender=Fem|TenseEvid=FPastFH	0	root	_	die
 7	.	.	PUNCT	PUNCT	_	6	punct	_	.
 
-# id = 008.013
+# sent_id = 008.013
 # text = Onebisa amake faro , okoyo fatibisa .
 # text_en = That's another one , my older brother's wife .
 1	Onebisa	one	_	adj	ALSO=Yes|Gender=Fem	2	obl:nsubj	_	other
@@ -304,7 +304,7 @@
 6	fatibisa	fati	_	nf	ALSO=yes	3	dislocated	_	wife
 7	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.014
+# sent_id = 008.014
 # text = Ee , Yawitimawi fatibisa bite titihamaro abi hitihamaro .
 # text_en = You married Yawitimawi's wife's daughter , your father married her . 
 1	Ee	ee	_	interj	_	6	discourse	_	!!!
@@ -317,21 +317,21 @@
 8	hitihamaro	iti	_	vt	Gender=Fem|OC=Yes|TenseEvid=FPastFH	6	parataxis	_	marry
 9	.	.	PUNCT	PUNCT	_	6	punct	_	.
 
-# id = 008.016
+# sent_id = 008.016
 # text = Me abamaro . 
 # text_en = They died .
 1	Me	me	_	pron	Person=3PL	2	nsbj	_	3PL
 2	abamaro	ahaba	_	vi	Gender=Fem|TenseEvid=FPastFH	0	root	_	die
 3	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.018
+# sent_id = 008.018
 # text = Hawa toamaro .
 # text_en = she had her first menstruation .
 1	Hawa	hawa	_	vi	_	0	root	_	be_ready
 2	toamaro	ha	_	aux	CH=Yes|TEnsEvid=FPastFH	1	aux	_	AUX
 3	.	.	PUNCT	PUNCT	_	1	punct	_	.
 
-# id = 008.019
+# sent_id = 008.019
 # text = Fara me tabori ya hawa toaha Sino hitihabone Sino nonofa toaramaro .
 # text_en = She had her first menstruation at their village , and Sino wanted to marry her , but she didn't like Sino .
 1	Fara	fara	_	dem	Gender=Fem	3	det	_	same
@@ -347,7 +347,7 @@
 11	toaramaro	ha	_	aux	CH=Yes|Gender=Fem|Neg=Yes|TenseEvid=FPastFH	10	aux	_	AUX
 12	.	.	PUNCT	PUNCT	_	3	punct	_	.
 
-# id = 008.020
+# sent_id = 008.020
 # text = Afiya bote ati ihi ota kakimaro amani .
 # text_en = We came here because of old Afiya .
 1	Afiya	Afiya	_	npropf	_	3	nmod:poss	_	Afiya
@@ -359,7 +359,7 @@
 7	amani	ama	_	vc	BKG=Yes|Gender=Fem	6	aux	_	be
 8	.	.	PUNCT	PUNCT	_	6	punct	_	.
 
-# id = 008.021
+# sent_id = 008.021
 # text = Ota kakeha , ota amo nimaro .
 # text_en = We came and slept . 
 1	Ota	ota	_	pron	Person=1EX	2	nsubj	_	1EX
@@ -370,7 +370,7 @@
 6	nimaro	na	_	aux	Gender=Fem|NOM=Yes|TenseEvid=FPastFH	5	aux	_	AUX
 7	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.022
+# sent_id = 008.022
 # text = Ota amo ni ohari .
 # text_en = We slept one night [in the forest] . 
 1	Ota	ota	_	pron	Person=1EX	2	nsubj	_	1EX
@@ -379,27 +379,27 @@
 4	ohari	ohari	_	vi	NOM=Yes	2	obl	_	be_one
 5	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.025
+# sent_id = 008.025
 # text = Fare tikataobisa ?
 # text_en = Your son ?
 1	Fare	fare	_	dem	Gender=Masc	2	amod	_	same
 2	tikataobisa	bese	_	nm	ALSO=Yes|Person[psor]=2|Poss=Yes	0	root	_	son
 3	?	?	PUNCT	PUNCT	_	2	punct	_	?
 
-# id = 008.026
+# sent_id = 008.026
 # text =  Ee okataobisa .
 # text_en = Yes , my son .
 1	Ee	ee	_	interj	_	2	discourse	_	!!!
 2	okataobisa	bese	_	nm	ALSO=Yes|Person[psor]=1|Poss=Yes	0	root	_	son
 3	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# id = 008.027
+# sent_id = 008.027
 # text = Ino ?
 # text_en = What was his name ?
 1	Ino	ini	_	pn	_	0	root	_	name
 2	?	?	PUNCT	PUNCT	_	1	punct	_	?
 
-# id = 008.028
+# sent_id = 008.028
 # text = Tete amaka .
 # text_en = He was Dedé .
 1	Tete	Tete	_	npropm	_	2	obl:nsubj	_	Dedé
@@ -423,4 +423,3 @@
 3	okobi	abi	NOUN	n	Person=1|Number=Sing|Poss=Yes	4	nsubj	_	father
 4	tokematamonaka	ka	VERB	vi	Away=Yes|Decl=M|Rep=M|TenseEvid=FPastNfhM	0	root	_	ka: go, to-: away
 5	.	.	PUNCT	punct	_	4	punct	_	_
-
