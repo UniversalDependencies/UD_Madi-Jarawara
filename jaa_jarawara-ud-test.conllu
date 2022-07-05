@@ -96,10 +96,10 @@
 1	Heoniyao	heoniyao	NOUN	n	Gender=Fem	3	obj	_	meeting
 2	me	me	PRON	pro	Number=Plur|Person=3	3	nsubj	_	_
 3	hiri	hiri	VERB	vt	_	0	root	_	make
-4	na	na	AUX	aux 	Gender=Fem	3	aux	_	_
+4	na	na	AUX	aux Gender=Fem	3	aux	_	_
 5	me	me	PRON	pro 	Number=Plur|Person[psor]=3|Poss=Yes	6	det	_	_
 6	ati	ati	NOUN	n	Poss=Yes	8	obj	_	voice
-7	ota	otaa	PRON	pro 	Clusivity=Ex|Number=Plur|Person=1EX	8	nsubj	_	_
+7	ota	otaa	PRON	pro Clusivity=Ex|Number=Plur|Person=1EX	8	nsubj	_	_
 8	kamita	mita	VERB	vt	Case=Comit	3	conj	_	hear
 9	otake	otaa	PRON	pro	Agreement=Fem|Clusivity=Ex|Gender=Fem|Mood=DeclF|Number=Plur|Person=1EX|Red=Yes	7	discourse	_	_
 10	.	_	PUNCT	punct	_	8	punct	_	_
