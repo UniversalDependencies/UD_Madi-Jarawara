@@ -1,1 +1,528 @@
 
+# sent_id = 001.1
+# text= Yati era me tao naba me ni e tokineke ati nemarika.
+# text_engl = We are going right to where the Apurinãs are going to shoot us," he said.
+1	Yati	yati	PROPN	ppn	_	_	_	_	_
+2	era	era	PRON	pro	_	_	_	_	_
+3	me	me	PRON	pro	_	_	_	_	_
+4	tao	tao	VERB	vi	_	_	_	_	_
+5	naba	haba	AUX	aux	_	_	_	_	_
+6	me	me	PRON	pro	_	_	_	_	_
+7	ni	ni	PART	prt	_	_	_	_	_
+8	e	ee	PRON	pro	_	_	_	_	_
+9	tokineke	ka	VERB	vi	_	_	_	_	_
+10	ati	ati	VERB	vi	_	_	_	_	_
+11	nemarika	na	AUX	aux	_	_	_	_	_
+12	.	.	PUNCT	punc	_	_	_	_	_
+
+# sent_id = 001.2
+# text= Watohari ?
+# text_engl = Because he was afraid?
+1	Watohari	wato	VERB	vi	_	0	root	_	_
+2	?	?	PUNCT	punc	_	1	punct	_	_
+
+# sent_id = 001.3
+# text= Ee watohari.
+# text_engl = 'Yes, because he was afraid
+1	Ee	ee	INTJ	intj	_	2	discourse	_	_
+2	watohari	wato	VERB	_	_	0	root	_	_
+3	.	.	PUNCT	punc	_	2	punct	_	_
+
+# sent_id = 001.4
+# text= Ami e wete tonamahi fara e taboro ya.
+# text_engl = Mother, let's go back to our own village
+1	Ami	ami	NOUN	n	_	_	_	_	_
+2	e	ee	PRON	_	_	_	_	_	_
+3	wete	wete	VERB	_	_	_	_	_	_
+4	tonamahi	na	AUX	_	_	_	_	_	_
+5	fara	fara	_	_	_	_	_	_	_
+6	e	ee	PRON	_	_	_	_	_	_
+7	taboro	taboro	_	_	_	_	_	_	_
+8	ya	ja	_	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = 001.5
+# text= E tokatimamibeya ati nemari .
+# text_engl ='"Let's go back upstream," he said.'
+1	E	ee	PRON	pro	_	_	_	_	_
+2	tokatimamibeya	ke	VERB	vi	_	_	_	_	_
+3	ati	ati	VERB	vi	_	_	_	_	_
+4	nemari	na	AUX	aux	_	_	_	_	_
+5	.	.	PUNCT	punc	_	_	_	_	_
+
+# sent_id = 001.6
+# text= Yati me winatinimakoni tokomebona ati ama hari onahamaro oke
+# text_engl ='"Let's go back upstream," he said.'
+1	Yati	yati	NOUN	n	_	_	_	_	_
+2	me	me	PRON	pro	_	_	_	_	_
+3	winatinimakoni	wina	VERB	vi	_	_	_	_	_
+4	tokomebona	ka	VERB	vi	_	_	_	_	_
+5	ati	ati	NOUN	n	_	_	_	_	_
+6	ama	ama	VERB	vi	_	_	_	_	_
+7	hari	haari	_	_	_	_	_	_	_
+8	onahamaro	na	VERB	vi	_	_	_	_	_
+9	oke	ke	PART	prt	_	_	_	_	_
+10	.	.	PUNCT	punc	_	_	_	_	_
+
+# sent_id = 001.7
+# text= Yima me amarini ? ati tohitimari amane . 
+# text_engl = 'Then he said, "Are they Yimas?"'
+1	Yima	yima	NOUN	n	_	_	_	_	_
+2	me	me	PRON	pro	_	_	_	_	_
+3	amarini	ama	VERB	vi	_	_	_	_	_
+4	?	?	PUNCT	punc	_	_	_	_	_
+5	ati	ati	VERB	vi	_	_	_	_	_
+6	tohitimari	na	AUX	aux	_	_	_	_	_
+7	amane	ama	_	_	_	_	_	_	_
+8	.	.	PUNCT	punc	_	_	_	_	_
+
+# sent_id = 001.8
+# text= Wawato tohemari . 
+# text_engl = 'He was afraid.'
+1	Wawato	wato	VERB	vi	_	0	root	_	_
+2	tohemari	ha	AUX	aux	_	1	_	_	_
+3	.	.	PUNCT	punc	_	1	punct	_	_
+
+# sent_id = 001.9
+# text= Faya ota tokomake ota me tabori me kobo nani ota , faya ota amo na yawita hate , yawita fororo kaneno Afiya Mate hiyabe me hikaware ota kabe ota amo nimaro ama .
+# text_engl = 'We went to their village, where the others had already arrived before us. We slept. Some peach palm nuts had ripened and had fallen on the ground, and Afiya Mate picked them up and they cooked them, and we ate them. We slept
+1	Faya	faya	ADJ	adj	_	_	_	_	_
+2	ota	otaa	PRON	pro	_	_	_	_	_
+3	tokomake	ka	VERB	vi	_	_	_	_	_
+4	ota	otaa	PRON	pro	_	_	_	_	_
+5	me	me	PRON	pro	_	_	_	_	_
+6	tabori	tabori	NOUN	pn	_	_	_	_	_
+7	me	me	PRON	pro	_	_	_	_	_
+8	kobo	kobo	VERB	vi	_	_	_	_	_
+9	nani	na	AUX	aux	_	_	_	_	_
+10	ota	otaa	PRON	pro	_	_	_	_	_
+11	,	,	PUNCT	punc	_	_	_	_	_
+12	faya	faya	ADJ	adj	_	_	_	_	_
+13	ota	otaa	PRON	pro	_	_	_	_	_
+14	amo	amo	VERB	vi	_	_	_	_	_
+15	na	na	AUX	aux	_	_	_	_	_
+16	yawita	yawita	NOUN	nm	_	_	_	_	_
+17	hate	hata	VERB	vi	_	_	_	_	_
+18	,	,	PUNCT	punc	_	_	_	_	_
+19	yawita	yawita	NOUN	nm	_	_	_	_	_
+20	fororo	foro	VERB	vi	_	_	_	_	_
+21	kaneno	na	AUX	aux	_	_	_	_	_
+22	Afiya	Afiya	_	_	_	_	_	_	_
+23	Mate	Mate	_	_	_	_	_	_	_
+24	hiyabe	yaba	VERB	vt	_	_	_	_	_
+25	me	me	PRON	pro	_	_	_	_	_
+26	hikaware	waa	VERB	vt	_	_	_	_	_
+27	ota	otaa	PRON	pro	_	_	_	_	_
+28	kabe	kaba	VERB	vi	_	_	_	_	_
+29	ota	otaa	PRON	pr	_	_	_	_	_
+30	amo	amo	VERB	vi	_	_	_	_	_
+31	nimaro	na	AUX	aux	_	_	_	_	_
+32	ama	ama	VERB	vc	_	_	_	_	_
+33	.	.	PUNCT	punc	_	_	_	_	_
+
+# Sentence_ID=006.2
+# Text= Heoniyao me hiri na me ati ota kamita otake.
+# Text_English= They had a meeting , and we listened to what they were saying.
+1	Heoniyao	heoniyao	NOUN	n	Gender=Fem	3	obj	_	meeting
+2	me	me	PRON	pro	Number=Plur|Person=3	3	nsubj	_	_
+3	hiri	hiri	VERB	vt	_	0	root	_	make
+4	na	na	AUX	aux 	Gender=Fem	3	aux	_	_
+5	me	me	PRON	pro 	Number=Plur|Person[psor]=3|Poss=Yes	6	det	_	_
+6	ati	ati	NOUN	n	Poss=Yes	8	obj	_	voice
+7	ota	otaa	PRON	pro 	Clusivity=Ex|Number=Plur|Person=1EX	8	nsubj	_	_
+8	kamita	mita	VERB	vt	Case=Comit	3	conj	_	hear
+9	otake	otaa	PRON	pro	Agreement=Fem|Clusivity=Ex|Gender=Fem|Mood=DeclF|Number=Plur|Person=1EX|Red=Yes	7	discourse	_	_
+10	.	_	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = 007.1
+# text = Ee okobi okobise okobise yama me yete naba me towakemetemone
+# text_eng = My uncle and his companion went out to hunt
+1	Ee	ee	INTJ	intj	_	10	discourse	_	yes
+2	okobi	abi	NOUN	n	Case=Voc|Gender=masc|Number=Sing|Person=1|Poss=Yes	3	nmod	_	father
+3	okobise	abise	NOUN	n	Case=Voc|Gender=masc|Number=Sing|Person=1|Poss=Yes	10	nsubj	_	uncle
+4	okobise	abise	NOUN	n	Case=Voc|Gender=masc|Number=Sing|Person=1|Poss=Yes|Red=Yes	5	discourse	_	uncle
+5	yama	yama	NOUN	n	Gender=fem	3	conj	_	thing
+6	me	me	PRON	pro	Number=Pl|Person=3	10	nsubj	_	_
+7	yete	yete	VERB	vt	_	10	xcomp	_	hunt
+8	naba	na	AUX	aux	Tense=FFut	10	aux	_	_
+9	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	10	discourse	_	_
+10	towakemetemone	ka	VERB	vi	Away=Yes|Case=Com|Mood=Rep|TenseEvid=FPastNfh	0	root	_	go/come
+
+# sent_id = 007.2
+# text = Me towaka me me noki honara me Matino Matino winahi winahi ni ya.
+# text_eng = They were going along, and they didn't see any game. [They came] to where Martino lived.
+1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
+2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+3	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	10 discourse	_	_
+4	me	me	PRON	pro	Number=Pl|Person=3|Poss=Yes	5	nmod	_	_
+5	noki	noki	NOUN	n	Gender=Fem	6	nsubj	_	eye
+6	honara	hona	VERB	vi	Gender=Fem|Polarity=Neg	2	conj	_	have something
+7	me	me	PRON	pro	Number=Pl|Person=3|Poss=Yes	10	discourse	_	_
+8	Matino	Matino	PROPN	ppn	_	7	csubj	_	Martino
+9	Matino	Matino	PROPN	ppn	Red=Yes	10	discourse	_	Martino
+10	winahi	wina	VERB	vi	Gender=Masc	7	ccomp	_	live
+11	winahi	wina	VERB	vi	Gender=Masc|Red=Yes	10	discourse	_	live
+12	ni	ni	PART	prcl	_	12	case	_	to
+13	ya	ya	PART	prcl	_	7	orphan	_	_
+
+# sent_id = 007.3
+# text = Matino
+# text = Martino
+1	Matino	Matino	PROPN	ppn	_	_	_	_	Martino
+
+# sent_id = 007.4
+# text = Haa
+# text_eng = Huh?
+1	Haa	haa	INTJ	intj	_	_	_	_	huh?
+
+# sent_id = 007.5
+# text = Me me towaka me me towakemetemoneke.
+# text_eng = They went out. 
+# reduplication see above!
+1	Me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	6	discourse	_	_
+2	me	me	PRON	pro	Number=Pl|Person=3	6	nsubj	_	_
+3	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	6	discourse	_	go/come
+4	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	6	discourse	_	_
+5	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	6	discourse	_	_
+6	towakemetemoneke	ka	VERB	vi	Away=Yes|Case=Com|Dcl=F|Rep=F|TenseEvid=FPastNfh	0	root	_	go/come
+
+# sent_id = 007.6
+# text = Me towaka me, me towaka me, yama me kakatoma me yoro na me ni ya, me yoro nemetemoneke. 
+# text_eng = They went out. They were looking around, as they stood there.
+# reduplication see above!
+1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
+2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+3	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	1	discourse	_	_
+4	,	,	PUNCT	punct	_7	punct	_	_
+5	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	1	discourse	_	_
+6	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	2	discourse	_	go/come
+7	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	3	discourse	_	_
+8	,	,	PUNCT	punct	_	7	punct	_	_
+9	yama	yama	NOUN	n	Gender=Fem	11	discourse	_	thing
+10	me	me	PRON	pro	Number=Pl|Person=3	1	conj	_	_
+11	kakatoma	katoma	VERB	vt	Case=Com|Gender=Fem	2	conj	_	look at
+12	me	me	PRON	pro	Number=Pl|Person=3	1	conj	_	_
+13	yoro	yoro	VERB	vi	_	2	conj	_	stand
+14	na	na	AUX	aux	Gender=Fem	13	aux	_	_
+15	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	12	discourse	_	_
+16	ni	ni	PART	prcl	_	13	case	_	to
+17	ya	ya	PART	percl	_	13	obl	_	_
+18	,	,	PUNCT	punct	_	7	punct	_	_
+19	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	12	discourse	_	_
+20	yoro	yoro	VERB	vi	Red=Yes	13	discourse	_	stand
+21	nemetemoneke	na	AUX	aux	Decl=F|Rep=F|TenseEvid=FPastNfh	13	aux	_	_
+22	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = 007.7
+# text = Me yoro na me, E towakamaba ereke.
+# text_eng = They were standing there. "Let's go back."
+1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
+2	yoro	yoro	VERB	vi	_	0	root	_	stand
+3	na	na	AUX	aux	Gender=Fem	2	aux	_	_
+4	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	1	discourse	_	_
+5	,	,	PUNCT	punct	_	7	punct	_	_
+6	E	ee	PRON	pro	Person=1IN	7	nsubj	_	_
+7	towakamaba	ka	VERB	vi	Away=Yes|Case=Com|Tense=FutF	2	conj	_	go/come
+8	ereke	ere	PRON	pro	Mood=DeclF|Person=1IN|Red=Yes	6	discourse	_	_
+9	.	.	PUNCT	punct	Mood=DeclF	7	punct	_	_
+
+# sent_id=007.8
+# text = E towakamibe ha ya ahi.
+# text_eng = Let's go the other direction.
+1	E	ee	PRON	pro	Person=1IN	2	nsubj	_	_
+2	towakamibe	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmedF	0	root	_	go/come
+3	ha	haa	DET	det	_	2	det	_	_
+4	ya	ya	PART	prcl	_	2	obl	_	_
+5	ahi	ahi	DET	det	_	2	det	_	there
+6	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id=007.9
+# text = Matino e towakosamibeya.
+# text_eng = Let´s see Martino on the way home.
+1	Matino	Matino	PROPN	ppn	_	3	obj	_	Martino
+2	e	ee	PRON	pro	Person=1IN	3	nsubj	_	_
+3	towakosamibeya	awa	VERB	vt	Away=Yes|Mood=ImmedF	0	root	_	see
+4	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id=007.10
+# text = Matino kamareba amaka mata.
+# text_eng = Martino is not going to come back now.
+1	Matino	Martino	PROPN	ppn	_	2	nsubj	_	Martino_
+2	kamareba	ka	VERB	vi	Polarity=Neg|Tense=FutM	0	root	_	go/come
+3	amaka	ama	AUX	aux	Mood=DeclM	2	aux	_	_
+4	mata	mata	PART	prcl	_	2	advmod	_	for now
+5	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id=007.12
+# text = Ee me towaka me ni ya, yama ati yana tonemetemone amani , Mmm eeeeyi oooo ooo.
+# text_eng = They went on, and the sound of something came to them. "Mmm eeeeyi oooo ooo."
+1	Ee	ee	INTJ	intj	_	3	discourse	_	_
+2	me	me	PRON	pro	Number=Pl|Person=3	3	nsubj	_	_
+3	towaka	ka	VERB 	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+4	me	me	PRON	pro	Number=Pl|Person=3	10	obj	_	_
+5	ni	ni	PART	prcl	_	10	obl	_	to
+6	ya	ya	PART	prcl	_	10	case	_	_
+7	,	,	PUNCT	punct	_	10	punct	_	_
+8	yama	yama	NOUN	n	_	9	nmod	_	thing
+9	ati	ati 	NOUN	n	_	10	nsubj	_	voice
+10	yana	yana	VERB	vi	_	3	ccomp	_	start
+11	tonemetemone	na	AUX	aux	Rep=F|TenseEvid=FPastNfhF	10	aux	_	_
+12	amani	ama	AUX	cop	SecV=Yes	10	cop	_	_
+13	,	,	PUNCT	punct	_	10	punct	_	_
+14	Mmm	Mmm	INTJ	intj	_	10	discourse	_	_
+15	eeeeyi	eeeeyi	INTJ	intj	_	10	discourse	_	_
+16	oooo	oooo	INTJ	intj	_	10	discourse	_	_
+17	ooo	ooo	INTJ	intj	_	10	discourse	_	_
+
+# sent_id=007.13
+# text = Yiko me, yiko me ayakemetemoneke ahi.
+# text_eng = The howler monkeys were howling.
+1	Yiko	yiko	NOUN	n	Red=M	6	discourse	_	howler monkey
+2	me	me	PRON	pro	Number=Pl|Person=3|Red=F	6	discourse	_	_
+3	,	,	PUNCT	punct	_	6	punct	_	_
+4	yiko	yiko	NOUN	n	_	5	appos	_	howler monkey
+5	me	me	PRON	pro	Number=Pl|Person=3	6	nsubj	_	_
+6	ayakemetemoneke	ayaka	VERB	vi	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
+7	ahi	ahi	DET	det	_	5	det	_	then
+8	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id=007.14
+# text = Me ayakemetemoneke ahi, Yio yio yio, ioioio ooooo.
+# text_eng = They were howling. "Yio yio yio ioioio ooooo".
+1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
+2	ayakemetemoneke	ayaka	VERB	vi	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
+3	ahi	ahi	DET	det	_	1	det	_	then
+4	,	,	PUNCT	punct	_	5	punct	_	_
+5	yio	yio	INTJ	intj	_	3	discourse	_	_
+6	yio	yio	INTJ	intj	_	3	discourse	_	_
+7	yio	yio	INTJ	intj	_	3	discourse	_	_
+8	,	,	PUNCT	punct	_	9	punct	_	_
+9	ioioio	ioioio	INTJ	intj	_	3	discourse	_	_
+10	ooooo	ooooo	INTJ	intj	_	3	discourse	_	_
+11	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id=007.15
+# text= Yiko me ayakemetemone ahi.
+# text_eng= The howlers were howling.
+1	Yiko	yiko	NOUN	n	_	2	appos	_	howler monkeys
+2	me	me	PRON	pro	Number=Pl|Person=3	3	nsubj	_	_
+3	ayakemetemone	ayaka	VERB	vi	Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
+4	ahi	ahi	DET	det	_	2	det	 _	then
+5	.	.	PUNCT	punct	_	3	punct	_	_
+
+# id = 008.002
+# text = Ifa hinakati , Yanowa toaha , Yanowa bitemaro , ha Yanowa mati .
+# text_en = Her older sister . Yanowa . Yanowa's daugher . Yanowa's mother .
+1	Ifa	ifa	DET	dem	Gender=Fem	2	det	_	this
+2	hinakati	ati	NOUN	nf	Person[psor]=3|Poss=Yes	0	root	_	older_sister
+3	,	,	PUNCT	PUNCT	_	2	punct	_	,
+4	Yanowa	Yanowa	PROPN	npropf	_	5	nmod:poss	_	Yanowa
+5	toaha	ha	VERB	vc	CH=Yes|Gender=Fem	2	parataxis	_	be
+6	,	,	PUNCT	PUNCT	_	2	punct	_	,
+7	Yanowa	Yanowa	PROPN	npropf	_	8	nmod:poss	_	Yanowa
+8	bitemaro	iseni 	NOUN	nf	Person[psor]=3|Poss=Yes|TenseEvid=FPastFH	2	parataxis	_	daugher
+9	,	,	PUNCT	PUNCT	_	2	punct	_	,
+10	ha	ha	dem	DET	_	12	det	_	DEM
+11	Yanowa	Yanowa	PROPN	npropf	_	12	nmod:poss	_	Yanowa
+12	mati	ami	NOUN	nf	Person[psor]=3|Poss=Yes	2	parataxis	_	3PL
+13	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.003
+# text = Yanowa bite tinabanake .
+# text_en = You should say Yanowa's daughter .
+1	Yanowa	Yanowa	PROPN	npropf	_	2	nmod:poss	_	Yanowa
+2	bite	iseni	NOUN	nf	Person[psor]=3	3	obj	_	daugher
+3	tinabanake	ati	VERB	vt	Mood=DeclF|Person=2|TenseEvid=Future	0	root	_	say
+4	.	.	PUNCT	PUNCT	_	3	punct	_	.
+
+
+# id = 008.005
+# text = Oharike .
+# text_en = She was alone .
+1	Oharike	ohari	_	vi	Mood=DeclF	0	root	_	be_alone
+2	.	.	PUNCT	PUNCT	_	1	punct	_	.
+
+# id = 008.006
+# text = Hinakasima abamaro .
+# text_en = Her younger sister died .
+1	Hinakasima	asima	_	nf	Person[psor]=3|Poss=Yes	2	nsubj	_	younger_sister
+2	abamaro	ahaba	_	vi	TenseEvid=FPastFh	0	root	_	die
+3	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.007
+# text = Anoti ahaba .
+# text_en = Her older brother also died .
+1	Anoti	ayo	_	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
+2	ahaba	ahaba	_	vi	LIST=Yes	0	root	_	die
+3	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.008
+# text = Anoti oohari toemata ?
+# text_en = Did she only have one brother ?
+1	Anoti	ayo	_	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
+2	oohari	ohari	_	vi	RED=Yes	0	root	_	be_alone
+3	toemata	ha	_	aux	CH=Yes|Gender=Masc|TenseEvid=FPastnFH	2	aux	_	AUX
+4	?	?	PUNCT	PUNCT	_	2	punct	_	_
+
+# id = 008.009
+# text = Anoti oohari toemari .
+# text_en = She only had one brother .
+1	Anoti	ayo	_	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
+2	oohari	ohari	_	vi	_	0	root	_	be_alone
+3	toemari	ha	_	aux	CH=Yes|Gender=Masc|TenseEvid=FPastFH	2	aux	_	AUX
+4	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.010
+# text = Anoti ohari me ka asima ohari nene .
+# text_en = She only had one brother, and they only had one younger sister .
+1	anoti	ayo	NOUN	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
+2	ohari	ohari	_	vi	Gender=Masc	0	root	_	be_alone
+3	me	me	_	pron	Person=3PL	5	nmod:poss	_	3PL
+4	ka	ka	_	prt	Poss=Yes	3	case	_	POSS
+5	asima	asima	_	nf	Person[psor]=3|Poss=Yes	6	nsubj	_	younger_sister
+6	ohari	ohari	_	vi	LIST=Yes	2	parataxis	_	be_alone
+7	nene	na	_	aux	Gender=Fem|Mood=Irr	6	aux	_	AUX
+8	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.011
+# text = Me ka me ka asima abamaro . 
+# text_en = Their younger sister [Yanowa's older sister] died .
+1	Me	me	_	pron	Person=3PL	3	dislocated	_	3PL
+2	ka	ka	_	prt	_	1	case	_	POSS
+3	me	me	_	pron	Person=3PL	5	nmod:poss	_	3PL
+4	ka	ka	_	prt	_	3	case	_	POSS
+5	asima	asima	_	nf	_	6	nsubj	_	younger_sister
+6	abamaro	ahaba	_	vi	Gender=Fem|TenseEvid=FPastFH	0	root	_	die
+7	.	.	PUNCT	PUNCT	_	6	punct	_	.
+
+# id = 008.013
+# text = Onebisa amake faro , okoyo fatibisa .
+# text_en = That's another one , my older brother's wife .
+1	Onebisa	one	_	adj	ALSO=Yes|Gender=Fem	2	obl:nsubj	_	other
+2	amake	ama	_	vc	Gender=Fem|Mood=Decl	0	root	_	be
+3	faro	faro	_	dem	Gender=Fem	2	obl:nsubj	_	that
+4	,	,	PUNCT	PUNCT	_	2	punct	_	,
+5	okoyo	ayo	_	nm	Person[psor]=1|Poss=Yes	6	nmod:poss	_	older_brother
+6	fatibisa	fati	_	nf	ALSO=yes	3	dislocated	_	wife
+7	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.014
+# text = Ee , Yawitimawi fatibisa bite titihamaro abi hitihamaro .
+# text_en = You married Yawitimawi's wife's daughter , your father married her . 
+1	Ee	ee	_	interj	_	6	discourse	_	!!!
+2	,	,	PUNCT	PUNCT	_	6	punct	_	,
+3	Yawitimawi	Yawitimawi	_	npropm	_	4	nmod:pos	_	Yawitimawi
+4	fatibisa	fati	_	nf	ALSO=yes|Person[psor]=3||Poss=Yes	5	nmod:poss	_	wife
+5	bite	bite	_	nf	Person[psor]=3|Poss=Yes	6	obj	_	daughter
+6	titihamaro	iti	_	vt	Gender=Fem|Person=2|TenseEvid=FPastFH	0	root	_	marry
+7	abi	abi	_	nm	Person[psor]=2||Poss=Yes	8	nsubj	_	father
+8	hitihamaro	iti	_	vt	Gender=Fem|OC=Yes|TenseEvid=FPastFH	6	parataxis	_	marry
+9	.	.	PUNCT	PUNCT	_	6	punct	_	.
+
+# id = 008.016
+# text = Me abamaro . 
+# text_en = They died .
+1	Me	me	_	pron	Person=3PL	2	nsbj	_	3PL
+2	abamaro	ahaba	_	vi	Gender=Fem|TenseEvid=FPastFH	0	root	_	die
+3	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.018
+# text = Hawa toamaro .
+# text_en = she had her first menstruation .
+1	Hawa	hawa	_	vi	_	0	root	_	be_ready
+2	toamaro	ha	_	aux	CH=Yes|TEnsEvid=FPastFH	1	aux	_	AUX
+3	.	.	PUNCT	PUNCT	_	1	punct	_	.
+
+# id = 008.019
+# text = Fara me tabori ya hawa toaha Sino hitihabone Sino nonofa toaramaro .
+# text_en = She had her first menstruation at their village , and Sino wanted to marry her , but she didn't like Sino .
+1	Fara	fara	_	dem	Gender=Fem	3	det	_	same
+2	me	me	_	pron	Person=3PL|Poss=Yes	3	nmod:poss	_	3PL.POSS
+3	tabori	tabori	_	pn	Gender=Fem	5	advmod:lmod	_	place
+4	ya	ya	_	prt	_	3	case	_	ADJU
+5	hawa	hawa	_	vi	0	root	_	_	be_ready
+6	toaha	ha	_	aux	CH=Yes|Gender=Fem	5	aux	_	AUX
+7	Sino	Sino	_	npropm	8	nsubj	_	_	Sino
+8	hitihabone	iti	_	vt	Gender=Fem|OC=Yes|Mood=Int	3	parataxis	_	marry
+9	Sino	Sino	_	npropm	_	10	nsubj	_	Sino
+10	nonofa	nofa	_	vt	RED=Yes	3	parataxis	_	like
+11	toaramaro	ha	_	aux	CH=Yes|Gender=Fem|Neg=Yes|TenseEvid=FPastFH	10	aux	_	AUX
+12	.	.	PUNCT	PUNCT	_	3	punct	_	.
+
+# id = 008.020
+# text = Afiya bote ati ihi ota kakimaro amani .
+# text_en = We came here because of old Afiya .
+1	Afiya	Afiya	_	npropf	_	3	nmod:poss	_	Afiya
+2	bote	bote	_	adj	_	1	amod	_	old
+3	ati	ati	_	pn	_	4	nmod:poss	_	voice
+4	ihi	ihi	_	pn	Gender=F	6	obl	_	because_of
+5	ota	ota	_	pron	Person=1EX	6	nsubj	_	1EX
+6	kakimaro	ka	_	vi	COMING=Yes|Gender=Fem|NOM=Yes|TenseEvid=FPastFH	0	root	_	move
+7	amani	ama	_	vc	BKG=Yes|Gender=Fem	6	aux	_	be
+8	.	.	PUNCT	PUNCT	_	6	punct	_	.
+
+# id = 008.021
+# text = Ota kakeha , ota amo nimaro .
+# text_en = We came and slept . 
+1	Ota	ota	_	pron	Person=1EX	2	nsubj	_	1EX
+2	kakeha	ka	_	vi	COMING=Yes|Gender=Fem	0	root	_	move
+3	,	,	PUNCT	PUNCT	_	2	punct	_	,
+4	ota	ota	_	pron	Person=1EX	5	nsubj	_	1EX
+5	amo	amo	_	vi	_	2	parataxis	_	sleep
+6	nimaro	na	_	aux	Gender=Fem|NOM=Yes|TenseEvid=FPastFH	5	aux	_	AUX
+7	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.022
+# text = Ota amo ni ohari .
+# text_en = We slept one night [in the forest] . 
+1	Ota	ota	_	pron	Person=1EX	2	nsubj	_	1EX
+2	amo	amo	_	vi	_	0	root	_	sleep
+3	ni	na	_	aux	NFIN=Yes	2	aux	_	AUX
+4	ohari	ohari	_	vi	NOM=Yes	2	obl	_	be_one
+5	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.025
+# text = Fare tikataobisa ?
+# text_en = Your son ?
+1	Fare	fare	_	dem	Gender=Masc	2	amod	_	same
+2	tikataobisa	bese	_	nm	ALSO=Yes|Person[psor]=2|Poss=Yes	0	root	_	son
+3	?	?	PUNCT	PUNCT	_	2	punct	_	?
+
+# id = 008.026
+# text =  Ee okataobisa .
+# text_en = Yes , my son .
+1	Ee	ee	_	interj	_	2	discourse	_	!!!
+2	okataobisa	bese	_	nm	ALSO=Yes|Person[psor]=1|Poss=Yes	0	root	_	son
+3	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# id = 008.027
+# text = Ino ?
+# text_en = What was his name ?
+1	Ino	ini	_	pn	_	0	root	_	name
+2	?	?	PUNCT	PUNCT	_	1	punct	_	?
+
+# id = 008.028
+# text = Tete amaka .
+# text_en = He was Dedé .
+1	Tete	Tete	_	npropm	_	2	obl:nsubj	_	Dedé
+2	amaka	ama	_	vc	Gender=Masc|Mood=Decl	0	root	_	be
+3	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# sent_id = 005.7
+# text = Oko wai yaboharo oke mata.
+# text_eng = I was standing far away.
+1	oko	ka	PART	prt	Number=1|Person=SING	_	_	_	_
+2	wai	waa	VERB	vi	_	_	_	_	_
+3	yaboharo	yabo	VERB	vi	Gender=F|TenseEvid=RPastFh	_	_	_	_
+4	oke	ke	PART	prt	Number=1|Person=SING	_	_	_	_
+5	mata	mata	PART	prt	_	_	_	_	_
+
+# sent_id = 002.001
+# text = Okobi , okobi tokematamonaka .
+# text_eng = My father went out.
+1	Okobi	abi	NOUN	n	Person=1|Number=Sing|Poss=Yes	4	discourse	_	father
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	okobi	abi	NOUN	n	Person=1|Number=Sing|Poss=Yes	4	nsubj	_	father
+4	tokematamonaka	ka	VERB	vi	Away=Yes|Decl=M|Rep=M|TenseEvid=FPastNfhM	0	root	_	ka: go, to-: away
+5	.	.	PUNCT	punct	_	4	punct	_	_
+
