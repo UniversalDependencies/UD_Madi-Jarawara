@@ -5,21 +5,21 @@
 2	?	?	PUNCT	punc	_	1	punct	_	_
 
 # sent_id = 001.3
-# text= Ee watohari.
+# text= Ee watohari .
 # text_engl = 'Yes, because he was afraid
 1	Ee	ee	INTJ	intj	_	2	discourse	_	_
 2	watohari	wato	VERB	_	_	0	root	_	_
 3	.	.	PUNCT	punc	_	2	punct	_	_
 
 # sent_id = 001.8
-# text= Wawato tohemari . 
+# text= Wawato tohemari .
 # text_engl = 'He was afraid.'
 1	Wawato	wato	VERB	vi	_	0	root	_	_
 2	tohemari	ha	AUX	aux	_	1	_	_	_
 3	.	.	PUNCT	punc	_	1	punct	_	_
 
 # Sentence_ID=006.2
-# Text= Heoniyao me hiri na me ati ota kamita otake.
+# Text= Heoniyao me hiri na me ati ota kamita otake .
 # Text_English= They had a meeting , and we listened to what they were saying.
 1	Heoniyao	heoniyao	NOUN	n	Gender=Fem	3	obj	_	meeting
 2	me	me	PRON	pro	Number=Plur|Person=3	3	nsubj	_	_
