@@ -18,43 +18,6 @@
 2	tohemari	ha	AUX	aux	_	1	_	_	_
 3	.	.	PUNCT	punc	_	1	punct	_	_
 
-# sent_id = 001.9
-# text= Faya ota tokomake ota me tabori me kobo nani ota , faya ota amo na yawita hate , yawita fororo kaneno Afiya Mate hiyabe me hikaware ota kabe ota amo nimaro ama .
-# text_engl = 'We went to their village, where the others had already arrived before us. We slept. Some peach palm nuts had ripened and had fallen on the ground, and Afiya Mate picked them up and they cooked them, and we ate them. We slept
-1	Faya	faya	ADJ	adj	_	_	_	_	_
-2	ota	otaa	PRON	pro	_	_	_	_	_
-3	tokomake	ka	VERB	vi	_	_	_	_	_
-4	ota	otaa	PRON	pro	_	_	_	_	_
-5	me	me	PRON	pro	_	_	_	_	_
-6	tabori	tabori	NOUN	pn	_	_	_	_	_
-7	me	me	PRON	pro	_	_	_	_	_
-8	kobo	kobo	VERB	vi	_	_	_	_	_
-9	nani	na	AUX	aux	_	_	_	_	_
-10	ota	otaa	PRON	pro	_	_	_	_	_
-11	,	,	PUNCT	punc	_	_	_	_	_
-12	faya	faya	ADJ	adj	_	_	_	_	_
-13	ota	otaa	PRON	pro	_	_	_	_	_
-14	amo	amo	VERB	vi	_	_	_	_	_
-15	na	na	AUX	aux	_	_	_	_	_
-16	yawita	yawita	NOUN	nm	_	_	_	_	_
-17	hate	hata	VERB	vi	_	_	_	_	_
-18	,	,	PUNCT	punc	_	_	_	_	_
-19	yawita	yawita	NOUN	nm	_	_	_	_	_
-20	fororo	foro	VERB	vi	_	_	_	_	_
-21	kaneno	na	AUX	aux	_	_	_	_	_
-22	Afiya	Afiya	_	_	_	_	_	_	_
-23	Mate	Mate	_	_	_	_	_	_	_
-24	hiyabe	yaba	VERB	vt	_	_	_	_	_
-25	me	me	PRON	pro	_	_	_	_	_
-26	hikaware	waa	VERB	vt	_	_	_	_	_
-27	ota	otaa	PRON	pro	_	_	_	_	_
-28	kabe	kaba	VERB	vi	_	_	_	_	_
-29	ota	otaa	PRON	pr	_	_	_	_	_
-30	amo	amo	VERB	vi	_	_	_	_	_
-31	nimaro	na	AUX	aux	_	_	_	_	_
-32	ama	ama	VERB	vc	_	_	_	_	_
-33	.	.	PUNCT	punc	_	_	_	_	_
-
 # Sentence_ID=006.2
 # Text= Heoniyao me hiri na me ati ota kamita otake.
 # Text_English= They had a meeting , and we listened to what they were saying.
