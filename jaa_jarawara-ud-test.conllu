@@ -11,41 +11,6 @@
 2	watohari	wato	VERB	_	_	0	root	_	_
 3	.	.	PUNCT	punc	_	2	punct	_	_
 
-# sent_id = 001.5
-# text= E tokatimamibeya ati nemari .
-# text_engl ='"Let's go back upstream," he said.'
-1	E	ee	PRON	pro	_	_	_	_	_
-2	tokatimamibeya	ke	VERB	vi	_	_	_	_	_
-3	ati	ati	VERB	vi	_	_	_	_	_
-4	nemari	na	AUX	aux	_	_	_	_	_
-5	.	.	PUNCT	punc	_	_	_	_	_
-
-# sent_id = 001.6
-# text= Yati me winatinimakoni tokomebona ati ama hari onahamaro oke
-# text_engl ='"Let's go back upstream," he said.'
-1	Yati	yati	NOUN	n	_	_	_	_	_
-2	me	me	PRON	pro	_	_	_	_	_
-3	winatinimakoni	wina	VERB	vi	_	_	_	_	_
-4	tokomebona	ka	VERB	vi	_	_	_	_	_
-5	ati	ati	NOUN	n	_	_	_	_	_
-6	ama	ama	VERB	vi	_	_	_	_	_
-7	hari	haari	_	_	_	_	_	_	_
-8	onahamaro	na	VERB	vi	_	_	_	_	_
-9	oke	ke	PART	prt	_	_	_	_	_
-10	.	.	PUNCT	punc	_	_	_	_	_
-
-# sent_id = 001.7
-# text= Yima me amarini ? ati tohitimari amane . 
-# text_engl = 'Then he said, "Are they Yimas?"'
-1	Yima	yima	NOUN	n	_	_	_	_	_
-2	me	me	PRON	pro	_	_	_	_	_
-3	amarini	ama	VERB	vi	_	_	_	_	_
-4	?	?	PUNCT	punc	_	_	_	_	_
-5	ati	ati	VERB	vi	_	_	_	_	_
-6	tohitimari	na	AUX	aux	_	_	_	_	_
-7	amane	ama	_	_	_	_	_	_	_
-8	.	.	PUNCT	punc	_	_	_	_	_
-
 # sent_id = 001.8
 # text= Wawato tohemari . 
 # text_engl = 'He was afraid.'
