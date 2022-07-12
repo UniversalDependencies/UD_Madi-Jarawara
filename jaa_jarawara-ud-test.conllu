@@ -18,20 +18,6 @@
 2	tohemari	ha	AUX	aux	_	1	_	_	_
 3	.	.	PUNCT	punc	_	1	punct	_	_
 
-# Sentence_ID=006.2
-# Text= Heoniyao me hiri na me ati ota kamita otake .
-# Text_English= They had a meeting , and we listened to what they were saying.
-1	Heoniyao	heoniyao	NOUN	n	Gender=Fem	3	obj	_	meeting
-2	me	me	PRON	pro	Number=Plur|Person=3	3	nsubj	_	_
-3	hiri	hiri	VERB	vt	_	0	root	_	make
-4	na	na	AUX	aux Gender=Fem	3	aux	_	_
-5	me	me	PRON	pro 	Number=Plur|Person[psor]=3|Poss=Yes	6	det	_	_
-6	ati	ati	NOUN	n	Poss=Yes	8	obj	_	voice
-7	ota	otaa	PRON	pro Clusivity=Ex|Number=Plur|Person=1EX	8	nsubj	_	_
-8	kamita	mita	VERB	vt	Case=Comit	3	conj	_	hear
-9	otake	otaa	PRON	pro	Agreement=Fem|Clusivity=Ex|Gender=Fem|Mood=DeclF|Number=Plur|Person=1EX|Red=Yes	7	discourse	_	_
-10	.	_	PUNCT	punct	_	8	punct	_	_
-
 # sent_id = 007.1
 # text = Ee okobi okobise okobise yama me yete naba me towakemetemone
 # text_eng = My uncle and his companion went out to hunt
