@@ -403,15 +403,6 @@
 2	amaka	ama	_	vc	Gender=Masc|Mood=Decl	0	root	_	be
 3	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
-# sent_id = 005.7
-# text = Oko wai yaboharo oke mata.
-# text_eng = I was standing far away.
-1	oko	ka	PART	prt	Number=1|Person=SING	_	_	_	_
-2	wai	waa	VERB	vi	_	_	_	_	_
-3	yaboharo	yabo	VERB	vi	Gender=F|TenseEvid=RPastFh	_	_	_	_
-4	oke	ke	PART	prt	Number=1|Person=SING	_	_	_	_
-5	mata	mata	PART	prt	_	_	_	_	_
-
 # sent_id = 002.001
 # text = Okobi , okobi tokematamonaka .
 # text_eng = My father went out .
