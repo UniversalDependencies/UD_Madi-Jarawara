@@ -18,9 +18,9 @@
 2	tohemari	ha	AUX	aux	_	1	_	_	_
 3	.	.	PUNCT	punc	_	1	punct	_	_
 
-# Sentence_ID=006.2
-# Text= Heoniyao me hiri na me ati ota kamita otake .
-# Text_English= They had a meeting , and we listened to what they were saying.
+# sent_id=006.2
+# text=Heoniyao me hiri na me ati ota kamita otake.
+# text_en=They had a meeting, and we listened to what they were saying.
 1	Heoniyao	heoniyao	NOUN	n	Gender=Fem	3	obj	_	meeting
 2	me	me	PRON	pro	Number=Plur|Person=3	3	nsubj	_	_
 3	hiri	hiri	VERB	vt	_	0	root	_	make
@@ -231,7 +231,6 @@
 3	tinabanake	ati	VERB	vt	Mood=DeclF|Person=2|TenseEvid=Future	0	root	_	say
 4	.	.	PUNCT	PUNCT	_	3	punct	_	.
 
-
 # sent_id = 008.005
 # text = Oharike .
 # text_en = She was alone .
@@ -421,3 +420,4 @@
 3	okobi	abi	NOUN	n	Number=Sing|Person[psor]=1	4	nsubj	_	father
 4	tokematamonaka	ka	VERB	vi	Away=Yes|Decl=M|Rep=M|TenseEvid=FPastNfhM	0	root	_	ka: go, to-: away
 5	.	.	PUNCT	punct	_	4	punct	_	_
+
