@@ -18,6 +18,20 @@
 2	tohemari	ha	AUX	aux	_	1	_	_	_
 3	.	.	PUNCT	punc	_	1	punct	_	_
 
+# Sentence_ID=006.2
+# Text= Heoniyao me hiri na me ati ota kamita otake .
+# Text_English= They had a meeting , and we listened to what they were saying.
+1	Heoniyao	heoniyao	NOUN	n	Gender=Fem	3	obj	_	meeting
+2	me	me	PRON	pro	Number=Plur|Person=3	3	nsubj	_	_
+3	hiri	hiri	VERB	vt	_	0	root	_	make
+4	na	na	AUX	aux	Gender=Fem	3	aux	_	_
+5	me	me	PRON	pro 	Number=Plur|Person[psor]=3|Poss=Yes	6	det	_	_
+6	ati	ati	NOUN	n	Poss=Yes	8	obj	_	voice
+7	ota	otaa	PRON	pro	Clusivity=Ex|Number=Plur|Person=1EX	8	nsubj	_	_
+8	kamita	mita	VERB	vt	Case=Comit	3	conj	_	hear
+9	otake	otaa	PRON	pro	Agreement=Fem|Clusivity=Ex|Gender=Fem|Mood=DeclF|Number=Plur|Person=1EX|Red=Yes	7	discourse	_	_
+10	.	_	PUNCT	punct	_	8	punct	_	_
+
 # sent_id = 007.1
 # text = Ee okobi okobise okobise yama me yete naba me towakemetemone
 # text_eng = My uncle and his companion went out to hunt
@@ -33,11 +47,11 @@
 10	towakemetemone	ka	VERB	vi	Away=Yes|Case=Com|Mood=Rep|TenseEvid=FPastNfh	0	root	_	go/come
 
 # sent_id = 007.2
-# text = Me towaka me me noki honara me Matino Matino winahi winahi ni ya.
-# text_eng = They were going along, and they didn't see any game. [They came] to where Martino lived.
+# text = Me towaka me me noki honara me Matino Matino winahi winahi ni ya
+# text_eng = They were going along, and they didn't see any game. [They came] to where Martino lived
 1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
 2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
-3	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	10 discourse	_	_
+3	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	10	discourse	_	_
 4	me	me	PRON	pro	Number=Pl|Person=3|Poss=Yes	5	nmod	_	_
 5	noki	noki	NOUN	n	Gender=Fem	6	nsubj	_	eye
 6	honara	hona	VERB	vi	Gender=Fem|Polarity=Neg	2	conj	_	have something
@@ -56,13 +70,12 @@
 
 # sent_id = 007.4
 # text = Haa
-# text_eng = Huh?
-1	Haa	haa	INTJ	intj	_	_	_	_	huh?
+# text_eng = Huh
+1	Haa	haa	INTJ	intj	_	_	_	_	huh
 
 # sent_id = 007.5
-# text = Me me towaka me me towakemetemoneke.
-# text_eng = They went out. 
-# reduplication see above!
+# text = Me me towaka me me towakemetemoneke
+# text_eng = They went out 
 1	Me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	6	discourse	_	_
 2	me	me	PRON	pro	Number=Pl|Person=3	6	nsubj	_	_
 3	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	6	discourse	_	go/come
@@ -71,9 +84,8 @@
 6	towakemetemoneke	ka	VERB	vi	Away=Yes|Case=Com|Dcl=F|Rep=F|TenseEvid=FPastNfh	0	root	_	go/come
 
 # sent_id = 007.6
-# text = Me towaka me, me towaka me, yama me kakatoma me yoro na me ni ya, me yoro nemetemoneke. 
-# text_eng = They went out. They were looking around, as they stood there.
-# reduplication see above!
+# text = Me towaka me , me towaka me , yama me kakatoma me yoro na me ni ya , me yoro nemetemoneke . 
+# text_eng = They went out . They were looking around , as they stood there .
 1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
 2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
 3	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	1	discourse	_	_
@@ -98,8 +110,8 @@
 22	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 007.7
-# text = Me yoro na me, E towakamaba ereke.
-# text_eng = They were standing there. "Let's go back."
+# text = Me yoro na me , E towakamaba ereke .
+# text_eng = They were standing there . "Let's go back."
 1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
 2	yoro	yoro	VERB	vi	_	0	root	_	stand
 3	na	na	AUX	aux	Gender=Fem	2	aux	_	_
@@ -111,8 +123,8 @@
 9	.	.	PUNCT	punct	Mood=DeclF	7	punct	_	_
 
 # sent_id=007.8
-# text = E towakamibe ha ya ahi.
-# text_eng = Let's go the other direction.
+# text = E towakamibe ha ya ahi .
+# text_eng = Let's go the other direction .
 1	E	ee	PRON	pro	Person=1IN	2	nsubj	_	_
 2	towakamibe	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmedF	0	root	_	go/come
 3	ha	haa	DET	det	_	2	det	_	_
@@ -121,8 +133,8 @@
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id=007.9
-# text = Matino e towakosamibeya.
-# text_eng = Let´s see Martino on the way home.
+# text = Matino e towakosamibeya .
+# text_eng = Let´s see Martino on the way home .
 1	Matino	Matino	PROPN	ppn	_	3	obj	_	Martino
 2	e	ee	PRON	pro	Person=1IN	3	nsubj	_	_
 3	towakosamibeya	awa	VERB	vt	Away=Yes|Mood=ImmedF	0	root	_	see
@@ -138,8 +150,8 @@
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id=007.12
-# text = Ee me towaka me ni ya, yama ati yana tonemetemone amani , Mmm eeeeyi oooo ooo.
-# text_eng = They went on, and the sound of something came to them. "Mmm eeeeyi oooo ooo."
+# text = Ee me towaka me ni ya , yama ati yana tonemetemone amani , Mmm eeeeyi oooo ooo .
+# text_eng = They went on , and the sound of something came to them . "Mmm eeeeyi oooo ooo."
 1	Ee	ee	INTJ	intj	_	3	discourse	_	_
 2	me	me	PRON	pro	Number=Pl|Person=3	3	nsubj	_	_
 3	towaka	ka	VERB 	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
@@ -159,8 +171,8 @@
 17	ooo	ooo	INTJ	intj	_	10	discourse	_	_
 
 # sent_id=007.13
-# text = Yiko me, yiko me ayakemetemoneke ahi.
-# text_eng = The howler monkeys were howling.
+# text = Yiko me , yiko me ayakemetemoneke ahi .
+# text_eng = The howler monkeys were howling .
 1	Yiko	yiko	NOUN	n	Red=M	6	discourse	_	howler monkey
 2	me	me	PRON	pro	Number=Pl|Person=3|Red=F	6	discourse	_	_
 3	,	,	PUNCT	punct	_	6	punct	_	_
@@ -171,8 +183,8 @@
 8	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id=007.14
-# text = Me ayakemetemoneke ahi, Yio yio yio, ioioio ooooo.
-# text_eng = They were howling. "Yio yio yio ioioio ooooo".
+# text = Me ayakemetemoneke ahi , Yio yio yio, ioioio ooooo .
+# text_eng = They were howling . "Yio yio yio ioioio ooooo" .
 1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
 2	ayakemetemoneke	ayaka	VERB	vi	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
 3	ahi	ahi	DET	det	_	1	det	_	then
@@ -186,8 +198,8 @@
 11	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id=007.15
-# text= Yiko me ayakemetemone ahi.
-# text_eng= The howlers were howling.
+# text= Yiko me ayakemetemone ahi .
+# text_eng= The howlers were howling .
 1	Yiko	yiko	NOUN	n	_	2	appos	_	howler monkeys
 2	me	me	PRON	pro	Number=Pl|Person=3	3	nsubj	_	_
 3	ayakemetemone	ayaka	VERB	vi	Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
@@ -259,17 +271,17 @@
 # sent_id = 008.010
 # text = Anoti ohari me ka asima ohari nene .
 # text_en = She only had one brother, and they only had one younger sister .
-1	anoti	ayo	NOUN	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
+1	Anoti	ayo	NOUN	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
 2	ohari	ohari	_	vi	Gender=Masc	0	root	_	be_alone
 3	me	me	_	pron	Person=3PL	5	nmod:poss	_	3PL
 4	ka	ka	_	prt	Poss=Yes	3	case	_	POSS
 5	asima	asima	_	nf	Person[psor]=3|Poss=Yes	6	nsubj	_	younger_sister
 6	ohari	ohari	_	vi	LIST=Yes	2	parataxis	_	be_alone
 7	nene	na	_	aux	Gender=Fem|Mood=Irr	6	aux	_	AUX
-8	.	.	PUNCT	PUNCT	_	2	punct	_	.
+8	.	.	PUNCT	PUNCT	_	_	punct	_	.
 
 # sent_id = 008.011
-# text = Me ka me ka asima abamaro . 
+# text = Me ka me ka asima abamaro .
 # text_en = Their younger sister [Yanowa's older sister] died .
 1	Me	me	_	pron	Person=3PL	3	dislocated	_	3PL
 2	ka	ka	_	prt	_	1	case	_	POSS
@@ -392,6 +404,15 @@
 2	amaka	ama	_	vc	Gender=Masc|Mood=Decl	0	root	_	be
 3	.	.	PUNCT	PUNCT	_	2	punct	_	.
 
+# sent_id = 005.7
+# text = Oko wai yaboharo oke mata.
+# text_eng = I was standing far away.
+1	oko	ka	PART	prt	Number=1|Person=SING	_	_	_	_
+2	wai	waa	VERB	vi	_	_	_	_	_
+3	yaboharo	yabo	VERB	vi	Gender=F|TenseEvid=RPastFh	_	_	_	_
+4	oke	ke	PART	prt	Number=1|Person=SING	_	_	_	_
+5	mata	mata	PART	prt	_	_	_	_	_
+
 # sent_id = 002.001
 # text = Okobi , okobi tokematamonaka .
 # text_eng = My father went out .
@@ -400,4 +421,3 @@
 3	okobi	abi	NOUN	n	Number=Sing|Person[psor]=1	4	nsubj	_	father
 4	tokematamonaka	ka	VERB	vi	Away=Yes|Decl=M|Rep=M|TenseEvid=FPastNfhM	0	root	_	ka: go, to-: away
 5	.	.	PUNCT	punct	_	4	punct	_	_
-
