@@ -417,9 +417,10 @@
 
 # sent_id = 002.001
 # text = Okobi , okobi tokematamonaka .
-# text_eng = My father went out.
-1	Okobi	abi	NOUN	n	Person=1|Number=Sing|Poss=Yes	4	discourse	_	father
+# text_eng = My father went out .
+1	Okobi	abi	NOUN	n	Number=Sing|Person[psor]=1	4	discourse	_	father
 2	,	,	PUNCT	punct	_	4	punct	_	_
-3	okobi	abi	NOUN	n	Person=1|Number=Sing|Poss=Yes	4	nsubj	_	father
+3	okobi	abi	NOUN	n	Number=Sing|Person[psor]=1	4	nsubj	_	father
 4	tokematamonaka	ka	VERB	vi	Away=Yes|Decl=M|Rep=M|TenseEvid=FPastNfhM	0	root	_	ka: go, to-: away
 5	.	.	PUNCT	punct	_	4	punct	_	_
+
