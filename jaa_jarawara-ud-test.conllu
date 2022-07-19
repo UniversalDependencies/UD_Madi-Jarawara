@@ -587,14 +587,6 @@
 7	hekamahari	ka	_	vt	Away=Yes|Back=Yes|Commit=Yes|Oc=Yes|TenseEvid=IPastFhM	2	parataxis	_	move
 8	.	.	PUNCT	punct	_	2	punct	_	.
 
-# sent_id = 005.7
-# text = Oko wai yaboharo oke mata.
-# text_eng = I was standing far away.
-1	oko	ka	PART	prt	Number=1|Person=SING	_	_	_	_
-2	wai	waa	VERB	vi	_	_	_	_	_
-3	yaboharo	yabo	VERB	vi	Gender=F|TenseEvid=RPastFh	_	_	_	_
-4	oke	ke	PART	prt	Number=1|Person=SING	_	_	_	_
-5	mata	mata	PART	prt	_	_	_	_	_
 
 # sent_id = 002.001
 # text = Okobi , okobi tokematamonaka .
