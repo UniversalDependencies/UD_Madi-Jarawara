@@ -66,12 +66,12 @@
 # sent_id = 007.3
 # text = Matino
 # text = Martino
-1	Matino	Matino	PROPN	ppn	_	_	_	_	Martino
+1	Matino	Matino	PROPN	ppn	_	0	root	_	Matino
 
 # sent_id = 007.4
 # text = Haa
-# text_eng = Huh
-1	Haa	haa	INTJ	intj	_	_	_	_	huh
+# text_eng = Huh?
+1	Haa	haa	INTJ	intj	_	0	root	_	huh?
 
 # sent_id = 007.5
 # text = Me me towaka me me towakemetemoneke
@@ -84,12 +84,13 @@
 6	towakemetemoneke	ka	VERB	vi	Away=Yes|Case=Com|Dcl=F|Rep=F|TenseEvid=FPastNfh	0	root	_	go/come
 
 # sent_id = 007.6
-# text = Me towaka me , me towaka me , yama me kakatoma me yoro na me ni ya , me yoro nemetemoneke . 
-# text_eng = They went out . They were looking around , as they stood there .
+# text = Me towaka me, me towaka me, yama me kakatoma me yoro na me ni ya, me yoro nemetemoneke. 
+# text_eng = They went out. They were looking around, as they stood there.
+# reduplication see above!
 1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
 2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
 3	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	1	discourse	_	_
-4	,	,	PUNCT	punct	_7	punct	_	_
+4	,	,	PUNCT	punct	_	7	punct	_	_
 5	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	1	discourse	_	_
 6	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	2	discourse	_	go/come
 7	me	me	PRON	pro	Number=Pl|Person=3|Red=Yes	3	discourse	_	_
@@ -141,7 +142,7 @@
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id=007.10
-# text = Matino kamareba amaka mata.
+# text = Matino kamareba amaka mata .
 # text_eng = Martino is not going to come back now.
 1	Matino	Martino	PROPN	ppn	_	2	nsubj	_	Martino_
 2	kamareba	ka	VERB	vi	Polarity=Neg|Tense=FutM	0	root	_	go/come
@@ -154,13 +155,13 @@
 # text_eng = They went on , and the sound of something came to them . "Mmm eeeeyi oooo ooo."
 1	Ee	ee	INTJ	intj	_	3	discourse	_	_
 2	me	me	PRON	pro	Number=Pl|Person=3	3	nsubj	_	_
-3	towaka	ka	VERB 	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+3	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
 4	me	me	PRON	pro	Number=Pl|Person=3	10	obj	_	_
 5	ni	ni	PART	prcl	_	10	obl	_	to
 6	ya	ya	PART	prcl	_	10	case	_	_
 7	,	,	PUNCT	punct	_	10	punct	_	_
 8	yama	yama	NOUN	n	_	9	nmod	_	thing
-9	ati	ati 	NOUN	n	_	10	nsubj	_	voice
+9	ati	ati	NOUN	n	_	10	nsubj	_	voice
 10	yana	yana	VERB	vi	_	3	ccomp	_	start
 11	tonemetemone	na	AUX	aux	Rep=F|TenseEvid=FPastNfhF	10	aux	_	_
 12	amani	ama	AUX	cop	SecV=Yes	10	cop	_	_
@@ -169,6 +170,7 @@
 15	eeeeyi	eeeeyi	INTJ	intj	_	10	discourse	_	_
 16	oooo	oooo	INTJ	intj	_	10	discourse	_	_
 17	ooo	ooo	INTJ	intj	_	10	discourse	_	_
+18	.	.	PUNCT	punct	_	10	punct	_	_
 
 # sent_id=007.13
 # text = Yiko me , yiko me ayakemetemoneke ahi .
@@ -183,13 +185,13 @@
 8	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id=007.14
-# text = Me ayakemetemoneke ahi , Yio yio yio, ioioio ooooo .
+# text = Me ayakemetemoneke ahi , Yio yio yio , ioioio ooooo .
 # text_eng = They were howling . "Yio yio yio ioioio ooooo" .
 1	Me	me	PRON	pro	Number=Pl|Person=3	2	nsubj	_	_
 2	ayakemetemoneke	ayaka	VERB	vi	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
 3	ahi	ahi	DET	det	_	1	det	_	then
 4	,	,	PUNCT	punct	_	5	punct	_	_
-5	yio	yio	INTJ	intj	_	3	discourse	_	_
+5	Yio	yio	INTJ	intj	_	3	discourse	_	_
 6	yio	yio	INTJ	intj	_	3	discourse	_	_
 7	yio	yio	INTJ	intj	_	3	discourse	_	_
 8	,	,	PUNCT	punct	_	9	punct	_	_
@@ -203,7 +205,7 @@
 1	Yiko	yiko	NOUN	n	_	2	appos	_	howler monkeys
 2	me	me	PRON	pro	Number=Pl|Person=3	3	nsubj	_	_
 3	ayakemetemone	ayaka	VERB	vi	Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
-4	ahi	ahi	DET	det	_	2	det	 _	then
+4	ahi	ahi	DET	det	_	2	det	_	then
 5	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 008.002
@@ -211,17 +213,17 @@
 # text_en = Her older sister . Yanowa . Yanowa's daugher . Yanowa's mother .
 1	Ifa	ifa	DET	dem	Gender=Fem	2	det	_	this
 2	hinakati	ati	NOUN	nf	Person[psor]=3|Poss=Yes	0	root	_	older_sister
-3	,	,	PUNCT	PUNCT	_	2	punct	_	,
+3	,	,	PUNCT	punct	_	2	punct	_	,
 4	Yanowa	Yanowa	PROPN	npropf	_	5	nmod:poss	_	Yanowa
-5	toaha	ha	VERB	vc	CH=Yes|Gender=Fem	2	parataxis	_	be
-6	,	,	PUNCT	PUNCT	_	2	punct	_	,
+5	toaha	ha	VERB	vc	Ch=Yes|Gender=Fem	2	parataxis	_	be
+6	,	,	PUNCT	punct	_	2	punct	_	,
 7	Yanowa	Yanowa	PROPN	npropf	_	8	nmod:poss	_	Yanowa
-8	bitemaro	iseni 	NOUN	nf	Person[psor]=3|Poss=Yes|TenseEvid=FPastFH	2	parataxis	_	daugher
-9	,	,	PUNCT	PUNCT	_	2	punct	_	,
-10	ha	ha	dem	DET	_	12	det	_	DEM
+8	bitemaro	iseni	NOUN	nf	Person[psor]=3|Poss=Yes|TenseEvid=FPastFH	2	parataxis	_	daugher
+9	,	,	PUNCT	punct	_	2	punct	_	,
+10	ha	ha	DET	dem	_	12	det	_	DEM
 11	Yanowa	Yanowa	PROPN	npropf	_	12	nmod:poss	_	Yanowa
 12	mati	ami	NOUN	nf	Person[psor]=3|Poss=Yes	2	parataxis	_	3PL
-13	.	.	PUNCT	PUNCT	_	2	punct	_	.
+13	.	.	PUNCT	punct	_	2	punct	_	.
 
 # sent_id = 008.003
 # text = Yanowa bite tinabanake .
@@ -271,13 +273,13 @@
 # text = Anoti ohari me ka asima ohari nene .
 # text_en = She only had one brother, and they only had one younger sister .
 1	Anoti	ayo	NOUN	nm	Person[psor]=3|Poss=Yes	2	nsubj	_	older_brother
-2	ohari	ohari	_	vi	Gender=Masc	0	root	_	be_alone
-3	me	me	_	pron	Person=3PL	5	nmod:poss	_	3PL
-4	ka	ka	_	prt	Poss=Yes	3	case	_	POSS
-5	asima	asima	_	nf	Person[psor]=3|Poss=Yes	6	nsubj	_	younger_sister
-6	ohari	ohari	_	vi	LIST=Yes	2	parataxis	_	be_alone
-7	nene	na	_	aux	Gender=Fem|Mood=Irr	6	aux	_	AUX
-8	.	.	PUNCT	PUNCT	_	_	punct	_	.
+2	ohari	ohari	VERB	vi	Gender=Masc	0	root	_	be_alone
+3	me	me	PRON	pron	Person=3PL	5	nmod:poss	_	3PL
+4	ka	ka	!!!	prt	Poss=Yes	3	case	_	POSS
+5	asima	asima	NOUN	nf	Person[psor]=3|Poss=Yes	6	nsubj	_	younger_sister
+6	ohari	ohari	VERB	vi	LIST=Yes	2	parataxis	_	be_alone
+7	nene	na	AUX	aux	Gender=Fem|Mood=Irr	6	aux	_	AUX
+8	.	.	PUNCT	punct	_	2	punct	_	.
 
 # sent_id = 008.011
 # text = Me ka me ka asima abamaro .
@@ -315,7 +317,7 @@
 9	.	.	PUNCT	PUNCT	_	6	punct	_	.
 
 # sent_id = 008.016
-# text = Me abamaro . 
+# text = Me abamaro .
 # text_en = They died .
 1	Me	me	_	pron	Person=3PL	2	nsbj	_	3PL
 2	abamaro	ahaba	_	vi	Gender=Fem|TenseEvid=FPastFH	0	root	_	die
@@ -402,6 +404,15 @@
 1	Tete	Tete	_	npropm	_	2	obl:nsubj	_	Dedé
 2	amaka	ama	_	vc	Gender=Masc|Mood=Decl	0	root	_	be
 3	.	.	PUNCT	PUNCT	_	2	punct	_	.
+
+# sent_id = 005.7
+# text = Oko wai yaboharo oke mata.
+# text_eng = I was standing far away.
+1	oko	ka	PART	prt	Number=1|Person=SING	_	_	_	_
+2	wai	waa	VERB	vi	_	_	_	_	_
+3	yaboharo	yabo	VERB	vi	Gender=F|TenseEvid=RPastFh	_	_	_	_
+4	oke	ke	PART	prt	Number=1|Person=SING	_	_	_	_
+5	mata	mata	PART	prt	_	_	_	_	_
 
 # sent_id = 002.001
 # text = Okobi , okobi tokematamonaka .
