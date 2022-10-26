@@ -1202,7 +1202,7 @@
 3	yati	yati	PROPN	npropm	_	4	obl:nsubj	_	Apurinã
 4	me	me	PRON	pron	Number=Plur|Person=3	5	nsubj	_	pron
 5	tao	tao	VERB	vt	_	9	adv	_	shoot
-6	ni	na	VERB	aux	Gender=Fem|Nmzr=Yes	5	aux	_	AUX
+6	ni	na	AUX	aux	Gender=Fem|Nmzr=Yes	5	aux	_	AUX
 7	ya	ya	ADP	prt	_	5	obl	_	ADJU
 8	ota	ota	PRON	pron	Clusivity=Ex|Number=Plur|Person=1	9	nsubj	_	1EX
 9	kisimaro	ka	VERB	vi	Down=Yes|Nmzr=Yes|TenseEvid=FPastFhF	0	root	_	move
@@ -1272,7 +1272,7 @@
 # text_en = I'm going fishing .
 1	Fa	faha	NOUN	nf	_	2	obj	_	water
 2	koro	koro	VERB	vt	_	0	root	_	throw
-3	omatibe	na	VERB	aux	Immed=Fem|Number=Sing|Person=1|ShortTime=Yes	2	aux	_	AUX
+3	omatibe	na	AUX	aux	Immed=Fem|Number=Sing|Person=1|ShortTime=Yes	2	aux	_	AUX
 4	.	.	PUNCT	punct	_	2	punct	_	.
 
 # sent_id = 008.031
@@ -1281,7 +1281,7 @@
 1	Sako	sako	NOUN	nf	_	2	obj	_	Sako
 2	okanawasimatibeya	wasi	VERB	vt	Comit=Yes|Immed=Fem|Now=Yes|Number=Sing|Person=1|ShortTime=Yes	3	csubj	_	find
 3	ati	ati	VERB	vt	_	0	root	_	say
-4	nematamonaka	na	VERB	aux	Mood=DeclM|Rep=M|TenseEvid=FPastNFhM	3	aux	_	_+AUX
+4	nematamonaka	na	AUX	aux	Mood=DeclM|Rep=M|TenseEvid=FPastNFhM	3	aux	_	AUX
 5	.	.	PUNCT	punct	_	3	punct	_	.
 
 # sent_id = 008.032
@@ -1289,7 +1289,7 @@
 # text_en = He started fishing .
 1	Fa	faha	NOUN	nf	_	2	obj	_	water
 2	koro	koro	VERB	vt	_	0	root	_	throw
-3	nematamona	na	VERB	aux	Rep=M|TenseEvid=FPastNFhM	2	aux	_	AUX
+3	nematamona	na	AUX	aux	Rep=M|TenseEvid=FPastNFhM	2	aux	_	AUX
 4	.	.	PUNCT	punct	_	2	punct	_	.
 
 # sent_id = 008.033
@@ -1310,17 +1310,17 @@
 4	itari	ita	VERB	vi	RaisedSurface=Yes	0	root	_	sit
 5	fa	faha	NOUN	nf	_	6	obj	_	water
 6	koro	koro	VERB	vt	_	4	parataxis	_	throw
-7	ne	na	VERB	aux	Gender=Masc	6	aux	_	AUX
+7	ne	na	AUX	aux	Gender=Masc	6	aux	_	AUX
 8	,	,	PUNCT	punct	_	4	punct	_	_
 9	aba	aba	NOUN	nm	_	10	nmod:poss	_	fish
 10	tati	tati	NOUN	pn	_	11	obj	_	head
 11	ba	baa	VERB	vt	_	6	parataxis	_	hit
-12	nare	na	VERB	aux	RaisedSurface=Yes	11	aux	_	AUX
+12	nare	na	AUX	aux	RaisedSurface=Yes	11	aux	_	AUX
 13	,	,	PUNCT	punct	_	4	punct	_	,
 14	mano	mano	NOUN	pn	Gender=Masc	16	obj	_	arm
 15	inohowe	inohowe	NOUN	nm	_	16	nsubj	_	alligator
 16	wai	wai	VERB	vt	_	11	parataxis	_	bite
-17	hinematamonaka	na	VERB	aux	Mood=DeclM|OC=Yes|Rep=M|TenseEvid=FPastNFhM	16	aux	_	AUX
+17	hinematamonaka	na	AUX	aux	Mood=DeclM|OC=Yes|Rep=M|TenseEvid=FPastNFhM	16	aux	_	AUX
 18	ahi	ahi	DET	dem	_	17	advmod	_	then
 19	.	.	PUNCT	punct	_	4	punct	_	.
 
