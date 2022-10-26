@@ -54,8 +54,8 @@
 # sent_id = 006.6
 # text = Fonai Mako owa ha ne okoma Fonai Mako ota tokomakibone.
 # text_en = Marco from FUNAI called me and I went. Marco, we are leaving.
-1	Fonai	Fonai	PROPN	nprop	Gender=Masc	2	nsubj	_	Funai
-2	Mako	Mako	PROPN	nprop	Gender=Masc	4	nsubj	_	Marco
+1	Fonai	Fonai	PROPN	nprop	_	2	nsubj	_	Funai
+2	Mako	Mako	PROPN	nprop	_	4	nsubj	_	Marco
 3	owa	owa	PRON	pro	Number=Sing|Person=1	4	obj	_	_
 4	ha	haa	VERB	vt	_	0	root	_	call
 5	ne	na	AUX	aux	Gender=Masc	6	aux	_	_
