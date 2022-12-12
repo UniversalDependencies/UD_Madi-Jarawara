@@ -1,219 +1,161 @@
-# text source = TEXTOS JARAWARAS INTERLINEARES Compilados e traduzidos por Alan Vogel (SIL)
-# text source = Dixon (2000)
-# Annotated by Fabrício Ferraz Gerardi
-# sent_id = 001
-# text = Yobe e ti naminaba eke , e nafi .
-# text_por = Amanhã vamos cortar palha, todos nós. (Let's get straw)
-# text_eng = 
-1	Yobe	yobe	NOUN	_	_	3	obj	_	_
-2	e	e	PRON	_	Clusivity=In|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	ti	ti	VERB	vt	_	0	root	_	_
-4	naminaba	na	AUX	aux	Cfm=Morning|Decl=F|Gender=Fem|Tense=Fut	3	aux	_	_
-5	eke	e	PRON	_	Clusivity=In|Number=Sing|Person=1	3	discourse	_	_
-6	,	,	PUNCT	_	_	3	punct	_	_
-7	e	e	PRON	_	Clusivity=In|Number=Sing|Person[psor]=1|PronType=Prs	8	nsubj	_	_
-8	nafi	nafi	VERB	vi	NCount=Yes	3	parataxis	_	_
-9	.	.	PUNCT	punct	_	8	punct	_	_
+# sent_id = NfSC01
+# text = okomara oke
+# text_eng = I came back.
+# text_por = Eu voltei
+1	okomara	ka	VERB	v	Back=Yes|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	_
+2	oke	ke	X	_	Mood=DeclF|Number=Sing|Person=1	1	dep	_	_
 
-# sent_id = 002
-# text = Abise yama tama tinahaboneke ayata ya .
-# text_por = Tio, segure a coisa perto! (Let's get straw)
-# text_eng = 
-1	Abise	abise	NOUN	n	_	3	vocative	_	_
-2	yama	yama	NOUN	n	_	3	obj	_	_
-3	tama	tama	VERB	vt	_	0	root	_	_
-4	tinahaboneke	na	AUX	aux	Decl=F|Gender=Fem|Intension=Yes|Number=Sing|Person=2	3	aux	_	_
-5	ayata	ayata	ADV	adv	_	3	obl	_	_
-6	ya	ya	X	x	_	5	dep	_	_
-7	.	.	PUNCT	punct	_	3	punct	_	_
+# sent_id = NfSC02
+# text = Faja okisama okomara oke
+# text_eng = I came out of the house, and came back.
+# text_por = Eu saí da casa e voltei
+1	Faja	faja	ADV	_	_	2	advmod	_	_
+2	okisama	ka	VERB	_	Back=Yes|Down=Yes|Number[subj]=Sing|Person[subj]=1	3	xcomp	_	_
+3	okomara	ka	VERB	v	Back=Yes|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	_
+4	oke	ke	X	_	Mood=DeclF|Number=Sing|Person=1	3	dep	_	_
 
-# sent_id = 003
-# text = E tabaminahaba eke .
-# tetx_por = Vamos juntos (Let's get straw)
-# tetx_eng =
-1	E	e	PRON	pron	Clusivity=In|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
-2	tabaminahaba	_	VERB	vi	Cfm=Morning|Gender=Fem|Tense=Fut	0	root	_	_
-3	eke	e	PRON	pron	Clusivity=In|Decl=F|Number=Plur|Person=1	2	discourse	_	_
-4	.	.	PUNCT	punct	_	2	punct	_	_
+# sent_id = NfSC03
+# text = Owaharihamaro oke me ohiyara owa
+# text_eng = I was the only one talking to them.
+# text_por = Eu era o único falando com eles
+1	Owaharihamaro	ohari	VERB	_	Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	_
+2	oke	ke	X	_	Mood=DeclF|Number=Sing|Person=1	1	dep	_	dep
+3	me	_	PRON	_	Number[obj]=Plur|Person[obj]=3	4	obj	_	_
+4	ohijara	_	VERB	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	1	xcomp	_	_
+5	owa	_	X	_	Number[subj]=Sing|Person[subj]=1	4	dep	_	_
 
-# sent_id = 004
-# text =  Te sawiminahaba teke , te nafi otara te asota naminabone te .
-# tetx_por = Vocês vão também, todos vocês, para nos ajudar (Let's get straw)
-# tetx_eng =
-1	Te	te	PRON	pron	Number=Plur|Person=2	2	nsubj	_	_
-2	sawiminahaba	_	VERB	vi	Cfm=Morning|Gender=Fem|Number=Plur|Person=2|PronType=Prs|Tense=Fut	0	root	_	_
-3	teke	te	PRON	_	Decl=F|Number=Plur|Person=2	2	discourse	_	_
-4	,	,	PUNCT	punct	_	2	punct	_	_
-5	te	te	PRON	pron	Number=Plur|Person[psor]=2	2	discourse	_	_
-6	nafi	nafi	PRON	pron	PronType=Tot	5	nmod	_	_
-7	otara	otara	PRON	pron	Clusivity=Ex|Number[obj]=Plur|Person[obj]=1	9	obj	_	_
-8	te	te	PRON	pron	Number=Plur|Person[psor]=2	9	nsubj	_	_
-9	asota	asota	VERB	v	_	2	xcomp	_	_
-10	naminabone	na	AUX	aux	Cfm=Morning|Decl=F|Gender=Fem|Intension=Yes|Tense=Fut	9	aux	_	_
-11	te	te	PRON	_	Number[subj]=Plur|Person[subj]=2	9	discourse	_	_
-12	.	.	PUNCT	punct	_	9	punct	_	_
-
-# sent_id = 005
-# text = Yobe e titi kawahi ya e kama kabote naba eke .
-# text_por = (Let's get straw)
-# text_eng = Quando cortarmos o resto da palha, vamos voltar logo
-1	Yobe	yobe	NOUN	n	_	3	obj	_	_
-2	e	e	PRON	pron	Clusivity=In|Number=Plur|Person=1	3	nsubj	_	_
-3	titi	ti	VERB	vt	Redup=Yes	7	advcl	_	_
-4	kawahi	na	AUX	aux	Comt=Yes|Gender=Fem	3	aux	_	_
-5	ya	ya	X	x	_	3	dep	_	_
-6	e	e	PRON	pron	Clusivity=In|Number=Plur|Person=1	7	nsubj	_	_
-7-8	kama	_	_	_	_	_	_	_	_
-7	ka	ka	VERB	vi	_	0	root	_	_
-8	ma	ma	VERB	vi	_	7	dep	_	_
-9	kabote	kabote	ADV	adv	_	7	advmod	_	_
-10	naba	na	AUX	aux	Gender=Fem|Tense=Fut	7	aux	_	_
-11	eke	e	PRON	pron	Clusivity=In|Decl=F|Number=Plur|Person=1	7	discourse	_	_
-12	.	.	PUNCT	punct	_	7	punct	_	_
-
-# sent_id = 006
-# text = Yama abe tamiba amake .
-# text_por = Vai ter muitos insetos (Let's get straw)
-# text_eng =
-1	Yama	yama	NOUN	n	_	3	nsubj	_	_
-2	abe	abe	NOUN	n	_	1	compound	_	_
-3	tamiba	tama	VERB	vi	Gender=Fem|Tense=Fut	0	root	_	_
-4	amake	ama	AUX	cop	Decl=F	3	cop	_	_
-5	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id = 007
-# text = Taha era me hero ni ya me te awahabana faro .
-# text_por = Vocês vão ver quando nos lamberem (Let's get straw)
-# text_eng = You will see when they bite us
-1	Taha	taha	NOUN	_	_	4	nsubj	_	_
-2	era	era	PRON	_	Clusivity=In|Number=Plur|Person=1	4	obj	_	_
-3	me	me	PRON	_	Number=Plur|Person=3	4	nsubj	_	_
-4	hero	hero	VERB	vt	_	9	advcl	_	_
-5	ni	na	AUX	_	Gender=Fem	4	aux	_	_
-6	ya	ya	X	_	_	4	dep	_	_
-7	me	me	PRON	_	Number=Plur|Person=3	4	dep	_	_
-8	te	te	PRON	_	Number=Plur|Person=2	9	nsubj	_	_
-9	awahabana	awa	VERB	vt	Gender=Fem|Tense=Fut	0	root	_	_
-10	faro	faro	ADV	_	Gender=Fem	9	advmod	_	_
-11	.	.	PUNCT	_	_	9	punct	_	_
-
-# sent_id = 008
-# text = Taha me ini kitate me amake .
+# sent_id = NfSC04
+# text = Tomiko ya onakakehabanake .
+# text_eng = I will come to get it on Sunday .
 # text_por =
-# text_eng = Bees have sharp teeth
-1	Taha	_	NOUN	_	_	4	nsubj	_	_
-2	me	_	PRON	_	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
-3	ini	_	NOUN	_	Gender=Fem	4	obj	_	_
-4	kitate	_	VERB	vi	Aspect=Hab	0	root	_	_
-5	me	_	PRON	_	Number=Plur|Person=3|PronType=Prs	4	discourse	_	_
-6	amake	ama	AUX	_	Decl=F	4	dep	_	_
-7	.	.	PUNCT	_	_	4	punct	_	_
+1	tomiko	tomiko	NOUN	n	Gender=Fem	3	obl:tmod	_	Sunday
+2	ya	ya	PART	prcl	_	1	case	_	_
+3	onakakehabanake	ka	VERB	v	AC=Yes|Coming=Yes|Mood=DeclF|Number=Sing|Person=1|TenseEvid=FutF|Voice=Cau	0	root	_	go/come
+4	.	.	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 002.1
-# text = Otafara .
+# sent_id = NfSC05
+# text = Kafe ofi ya ohiwawahaba ama oke .
+# text_eng = When I drink the coffee, I will feel warm .
 # text_por =
-# text_eng = I have just eaten 
-1	Otafara	tafa	VERB	v	Evident=Fh|Gender=Fem|Number[subj]=Sing|Person[subj]=1|Tense=IPast	0	root	_	_
-2	.	.	PUNCT	punct	_	1	punct	_	_
+1	kafe	kafe	NOUN	n	Gender=Fem	2	obj	_	coffee
+2	ofi	fawa	VERB	_	AC=Yes|Gender=Fem|Nom=Yes|Number=Sing|Person=1	4	xcomp	_	drink
+3	ya	ya	PART	prcl	_	2	case	_	_
+4	ohiwawahaba	hiwa	VERB	v	Ch=Yes|Number[subj]=Sing|Person[subj]=1|TenseEvid=FutF	0	root	_	be hot
+5	ama	ama	AUX	cop	SecV=Yes	4	aux	_	_
+6	oke	ke	X	_	Mood=DeclF|Number[subj]=Sing|Person[subj]=1	4	dep	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 002.2
-# text = Kobo onahara .
+# sent_id = NfSC06
+# text = Koko ni ya tisawiya mata .
+# text_eng = You stay with your uncle for now .
 # text_por =
-# text_eng = I have just arrived
-1	Kobo	kobo	VERB	_	_	0	root	_	_
-2	onahara	na	AUX	aux	Evident=Fh|Gender=Fem|Number[subj]=Sing|Person[subj]=1|Tense=IPast	1	dep	_	_
-3	.	.	PUNCT	punct	_	1	punct	_	_
+1	Koko	koko	NOUN	n	Gender=Masc|Number=Sing|Person=2|Poss=Yes	4	obl:lmod	_	mother´s brother
+2	ni	ni	PART	prcl	_	1	case	_	to
+3	ya	ya	PART	prcl	_	1	case	_	_
+4	tisawiya	sawi	VERB	v	Dist=Yes|Gender=Fem|Mood=ImpF|Number=Sing|Person=2	0	root	_	be present
+5	mata	mata	ADV	_	_	4	advmod	_	for now
+6	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 002.3
-# text = Tiwa otaa mita .
+# sent_id = NfSC07
+# text = Tiwini ka otaa winineke.
+# text_eng = We're staying here because you are living here .
 # text_por =
-# text_eng = We hear you
-1	Tiwa	tiwa	PRON	_	Number[obj]=Sing|Person[obj]=2	3	obj	_	_
-2	otaa	otaa	PRON	_	Clusivity=Ex|Number[subj]=Plur|Person[subj]=1	3	nsubj	_	_
-3	mita	mita	VERB	_	Gender=Fem	0	root	_	_
-4	.	_	PUNCT	_	_	3	punct	_	_
+1	Tiwini	wina	VERB	v	Gender=Fem|Nom=Yes|Number=Sing|Person=2	4	ccomp	_	live
+2	ka	ka	CCONJ	_	_	1	cc	_	because
+3	otaa	otaa	PRON	pro	Clusivity=Ex	4	nsubj	_	_
+4	winineke	wina	VERB	v	Aspect=Cont|Mood=DeclF	0	root	_	live
+5	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 002.4
-# text = Tiwa otaa haa na .
-# text_por =
-# text_eng = We call you
-1	Tiwa	tiwa	PRON	_	Number[obj]=Sing|Person[obj]=2	3	obj	_	_
-2	otaa	otaa	PRON	_	Clusivity=Ex|Number[subj]=Plur|Person[subj]=1	3	nsubj	_	_
-3	haa	haa	VERB	_	_	0	root	_	_
-4	na	na	AUX	_	Gender=Fem	3	aux	_	_
-5	.	.	PUNCT	_	_	3	punct	_	_
-
-# sent_id = 002.5
-# text = Tiwa omita .
-# text_por =
-# text_eng = I hear you
-1	Tiwa	tiwa	PRON	_	Number[obj]=Sing|Person[obj]=2	2	obj	_	_
-2	omita	mita	VERB	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	0	root	_	_
-3	.	.	PUNCT	_	_	2	punct	_	_
-
-# sent_id = 002.6
-# text = Tiwa haa ona .
-# text_por =
-# text_eng = I call you
-1	Tiwa	tiwa	PRON	_	Number[obj]=Sing|Person[obj]=2	2	obj	_	_
-2	haa	haa	VERB	_	_	0	root	_	_
-3	ona	na	AUX	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	2	aux	_	_
-4	.	.	PUNCT	_	_	2	punct	_	_
-
-# sent_id = 002.7
-# text = Tiwa otaa mitahani otaake .
-# text_por =
-# text_eng = We just heard you
-1	Tiwa	tiwa	PRON	_	Number[obj]=Sing|Person[obj]=2	3	obj	_	_
-2	otaa	otaa	PRON	_	Clusivity=Ex|Number[subj]=Plur|Person[subj]=1	3	nsubj	_	_
-3	mitahani	mita	VERB	_	Evident=Nfh|Gender=Fem|Tense=IPast	0	root	_	_
-4	otaake	ke	PART	prcl	Clusivity=Ex|Gender=Fem|Number=Plur	3	discourse	_	_
-5	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id = 002.8
-# text = Tiwa omitani oke .
-# text_por =
-# text_eng = I just heard you
-1	Tiwa	tiwa	PRON	_	Number[obj]=Sing|Person[obj]=2	2	obj	_	_
-2	omitani	mita	VERB	_	Evident=Nfh|Gender=Fem|Number[subj]=Sing|Person[subj]=1|Tense=IPast	0	root	_	_
-3	oke	ke	PART	_	Gender=Fem|Number=Sing|Person=1	2	discourse	_	_
-4	.	.	PUNCT	_	_	2	punct	_	_
-
-# sent_id = 009.1
-# text = Howe ino .
-# text_por =
-# text_eng = Name of the alligator
-1	Howe	howe	NOUN	_	_	2	nmod	_	_
-2	ino	ino	NOUN	_	Gender=Masc	0	root	_	_
-3	.	.	PUNCT	_	_	2	punct	_	_
-
-# sent_id = 009.2
-# text = Abe ini .
-# text_por =
-# text_eng = Name of the bug/bee/inhabitant
-1	Abe	abe	NOUN	_	_	2	nmod	_	_
-2	ini	ini	NOUN	_	Gender=Fem	0	root	_	_
-3	.	.	PUNCT	_	_	2	punct	_	_
-
-# sent_id = 001.06
-# text = Aba tamabote me me tiwari kanemetemone wawasi ya
-# text_eng = They carried many fish in the fish trap (DJE)
+# sent_id = NfSC08
+# text = Boni ihi awa boto tonahani amake .
+# text_eng = The tree fell over because of the wind .
 # text_por = 
-1	Aba	_	NOUN	_	_	5	obj	_	_
-2	tamabote	tama	VERB	_	Intension=Yes	1	amod	_	_
-3	me	me	PRON	_	Number=Plur|Person=3	5	nsubj	_	_
-4	me	me	PRON	_	Number=Plur|Person=3	5	discourse	_	_
-5	tiwari	tiwa	VERB	_	Dist=Yes	0	root	_	_
-6	kanemetemone	na	AUX	aux	Comt=Yes|Evident=Nfh|Gender=Fem|Report=Yes|Tense=RPast	5	aux	_	_
-7	wawasi	wawasi	NOUN	_	_	5	obl	_	_
-8	ya	_	X	_	_	7	dep	_	_
+1	boni	boni	NOUN	n	Gender=Fem	2	obl	_	wind
+2	ihi	ihi	CCONJ	_	Gender=Fem	4	cc	_	because of
+3	awa	awa	NOUN	n	_	4	nsubj	_	tree
+4	boto	boto	VERB	v	_	0	root	_	fall over
+5	tonahani	na	AUX	aux	Ch=Yes|TenseEvid=IPastNfHF	4	aux	_	_
+6	amake	ama	AUX	aux	Mood=DeclF|SecV=Yes	4	aux	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 001.07
-# text = Kabikana amosarake ta tinaharo
-# text_eng = The fishhooks you sold were good. (DJE)
+# sent_id = NfSC09
+# text = Bane tabiyo okamatibe .
+# text_eng = I'm going out [hunting] for giant anteater .
 # text_por = 
-1	Kabikana	kabikana	NOUN	_	_	3	obj	_	_
-2	amosarake	amosa	VERB	_	Decl=F|Evident=Nfh|Gender=Fem|Number[subj]=Sing|Person[subj]=1|Tense=IPast	1	amod	_	_
-3	ta	ta	VERB	_	_	0	root	_	_
-4	tinaharo	na	AUX	_	Number=Plur|Person=2	3	aux	_	_
+1	bane	banehe	NOUN	n	Gender=Fem	2	obl	_	giant anteater
+2	tabiyo	tabiyo	CCONJ	_	_	3	cc	_	absence
+3	okamatibe	ka	VERB	v	Away=Yes|Mood=ImmF|Number[subj]=Sing|Person[subj]=1|St=Yes	0	root	_	go/come
+4	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = NfSC10
+# text = Yara me towasimeno yara me namoni kameno ama .
+# text_eng = He had found the Brazilians and was coming to tell us about them .
+# text_por = 
+1	yara	yara	PROPN	ppn	Gender=Masc	2	discourse	_	Brazilian
+2	me	me	PRON	pro	Number[obj]=Plur|Person[obj]=3	3	obj	_	_
+3	towasimeno	wasi	VERB	v	Away=Yes|Back=Yes|TenseEvid=IPastNfHM	0	root	_	find
+4	yara	yara	PROPN	ppn	Gender=Masc	5	discourse	_	Brazilian
+5	me	me	PRON	pro	Number[obj]=Plur|Person[obj]=3|Poss=Yes	6	nmod	_	_
+6	namoni	namoni	CCONJ	_	_	3	cc	_	report
+7	kameno	ka	VERB	v	Back=Yes	3	conj	_	go/come
+8	ama	ama	AUX	aux	SecV=Yes	7	aux	_	_
+9	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = NfSC11
+# text`= faya yana tonematamona fahi waha .
+# text_eng = Then he was ready to go .
+# text_por =
+1	faya	faya	CCONJ	cc	_	2	cc	_	so
+2	yana	yana	VERB	vi	_	0	root	_	start
+3	tonematamona	na	AUX	aux	Ch=Yes|Rep=M|TenseEvid=FPastFhM	2	aux	_	_
+4	fahi	fahi	DET	det	_	2	det	_	then
+5	wana	wana	ADV	_	_	2	advmod	_	now
+6	.	.	PUNCT	punct	_	2	punct	_	_
+
+# send_id = NfSC12
+# text = Oko koraisi nake ohabibone karo .
+# text_eng = I have the courage to die .
+# text_por = 
+1	oko	o	PRON	pro	Number=Sing|Person=1|Poss=Yes	2	case	_	_
+2	koraisi	koraisi	NOUN	n	Gender=Fem	3	nsubj	_	courage
+3	nake	na	VERB	v	Mood=DeclF	0	root	_	exists
+4	ohabibone	ahaba	VERB	v	Mood=IntF|Nom=Yes|Number[subj]=Sing|Person[subj]=1	3	xcomp	_	die
+5	karo	karo	X	_	_	3	mark	_	so that
+6	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = NfSC13
+# text = Tokisemonaka faa boti ya .
+# text_eng = He went down to the bottom of the lake [ someone said ] .
+# text_por = 
+1	tokisemonaka	ka	VERB	v	Away=Yes|Down=Yes|Mood=DeclM|Rep=M	0	root	_	go/come
+2	faa	faha	NOUN	n	_	3	case	_	water
+3	boti	boti	ADP	posp	_	1	obl	_	inside
+4	ya	ya	PART	prcl	_	3	case	_	_
+5	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = NfSC14
+# text = kokowi ohi naka bahi hiwene ehene .
+# text_eng = The kokowi hawk is calling because of the heat of the sun .
+# text_por =
+1	kokowi	kokowi	NOUN	n	Gender=Masc|Sp=Yes	2	nsubj	_	bird species
+2	ohi	ohi	VERB	v	_	0	root	_	cry
+3	naka	na	AUX	aux	Aspect=Cont|Mood=DeclM	2	aux	_	_
+4	bahi	bahi	NOUN	n	_	5	nmod	_	sun
+5	hiwene	hiwene	NOUN	n	Gender=Masc	6	obl	_	heat
+6	ehene	ehene	CCONJ	_	Gender=Masc	2	cc	_	because of
+7	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = NfSC15
+# text = Owakosamaro oke oko abohi bai owa nabowe owa .
+# text_eng = I stood there having lost my bearings, because the lightning had stunned me .
+# text_por = 
+1	owakosamaro	kosa	VERB	v	Ch=Yes|Middle=Yes|Number[subj]=Sing|Person[subj]=1|TenseEvid=FPastFhF	0	root	_	stand
+2	oke	o	PRON	pro	Mood=DeclF|Number[subj]=Sing|Person[subj]=1	1	nsubj	_	_
+3	oko	o	PRON	pro	Number=Sing|Person=1|Poss=Yes	4	case	_	_
+4	abohi	abohi	NOUN	n	_	1	obl	_	dead body
+5	bai	bahi	NOUN	n	Gender=Masc	7	nsubj	_	lightning
+6	owa	owa	PRON	pro	Number[obj]=Sing|Person[obj]=1	7	obj	_	_
+7	nabowe	aboha	VERB	v	Gender=Masc|Voice=Cau	1	advcl	_	die
+8	owa	owa	PRON	pro	Number[obj]=Sing|Person[obj]=1	7	discourse	_	_
+9	.	.	PUNCT	punct	_	7	punct	_	_
 
