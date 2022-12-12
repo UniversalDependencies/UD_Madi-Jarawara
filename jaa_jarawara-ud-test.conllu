@@ -159,3 +159,498 @@
 8	owa	owa	PRON	pro	Number[obj]=Sing|Person[obj]=1	7	discourse	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
 
+# sent_id = 007.001
+# text = Ee okobi okobise okobise yama me yete naba me towakemetemone .
+# text_eng = My uncle and his companion went out to hunt .
+1	Ee	ee	INTJ	intj	_	10	discourse	_	yes
+2	okobi	abi	NOUN	n	Case=Voc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	3	nmod	_	father
+3	okobise	abise	NOUN	n	Case=Voc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	10	nsubj	_	uncle
+4	okobise	abise	NOUN	n	Case=Voc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|Red=Yes	5	discourse	_	uncle
+5	yama	yama	NOUN	n	Gender=Fem	3	conj	_	thing
+6	me	me	PRON	pro	Number=Plur|Person=3	3	conj	_	_
+7	yete	yete	VERB	vt	_	10	xcomp	_	hunt
+8	naba	na	AUX	aux	TenseEvid=FutF	10	aux	_	_
+9	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	10	discourse	_	_
+10	towakemetemone	ka	VERB	vi	Away=Yes|Case=Com|Rep=F|TenseEvid=FPastNfhF	0	root	_	go/come
+11	.	.	PUNCT	punct	_	10	punct	_	_
+
+# sent_id = 007.002
+# text = Me towaka me me noki honara me Matino Matino winahi winahi ni ya .
+# text_eng = They were going along , and they didn't see any game . [They came] to where Martino lived .
+1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
+2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+3	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	10	discourse	_	_
+4	me	me	PRON	pro	Number=Plur|Person=3|Poss=Yes	5	nmod	_	_
+5	noki	noki	NOUN	n	Gender=Fem	6	nsubj	_	eye
+6	honara	hona	VERB	vi	Gender=Fem|Polarity=Neg	2	conj	_	have something
+7	me	me	PRON	pro	Number=Plur|Person=3|Poss=Yes	10	discourse	_	_
+8	Matino	Matino	PROPN	ppn	_	7	csubj	_	Martino
+9	Matino	Matino	PROPN	ppn	Red=Yes	10	discourse	_	Martino
+10	winahi	wina	VERB	vi	Gender=Masc	7	ccomp	_	live
+11	winahi	wina	VERB	vi	Gender=Masc|Red=Yes	10	discourse	_	live
+12	ni	ni	PART	prcl	_	12	case	_	to
+13	ya	ya	PART	prcl	_	7	obl	_	_
+14	.	.	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = 007.003
+# text = Matino .
+# text_eng = Martino .
+1	Matino	Matino	PROPN	ppn	_	0	root	_	Martino
+2	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 007.004
+# text = Haa .
+# text_eng = Huh ?
+1	Haa	haa	INTJ	intj	_	0	root	_	huh
+2	?	?	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 007.005
+# text = Me me towaka me me towakemetemoneke .
+# text_eng = They went out .
+1	Me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	3	discourse	_	_
+2	me	me	PRON	pro	Number=Plur|Person=3	3	nsubj	_	_
+3	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+4	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	3	discourse	_	_
+5	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	3	discourse	_	_
+6	towakemetemoneke	ka	VERB	vi	Away=Yes|Case=Com|Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	3	discourse	_	_
+7	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id = 007.006
+# text = Me towaka me , me towaka me , yama me kakatoma me yoro na me ni ya , me yoro nemetemoneke .
+# text_eng = They went out . They were looking around , as they stood there .
+1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
+2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+3	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	2	discourse	_	_
+4	,	,	PUNCT	punct	_	2	punct	_	_
+5	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	1	discourse	_	_
+6	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	2	discourse	_	go/come
+7	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	3	discourse	_	_
+8	,	,	PUNCT	punct	_	6	punct	_	_
+9	yama	yama	NOUN	n	Gender=Fem	11	discourse	_	thing
+10	me	me	PRON	pro	Number=Plur|Person=3	1	conj	_	_
+11	kakatoma	katoma	VERB	vt	Case=Com|Gender=Fem	2	conj	_	look at
+12	me	me	PRON	pro	Number=Plur|Person=3	1	conj	_	_
+13	yoro	yoro	VERB	vi	_	2	conj	_	stand
+14	na	na	AUX	aux	Gender=Fem	13	aux	_	_
+15	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	12	discourse	_	_
+16	ni	ni	PART	prcl	_	13	case	_	to
+17	ya	ya	PART	prcl	_	13	obl	_	_
+18	,	,	PUNCT	punct	_	13	punct	_	_
+19	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	12	discourse	_	_
+20	yoro	yoro	VERB	vi	Red=Yes	13	discourse	_	stand
+21	nemetemoneke	na	AUX	aux	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	13	aux	_	_
+22	.	.	PUNCT	punct	_	20	punct	_	_
+
+# sent_id = 007.007
+# text = Me yoro na me , E towakamaba ereke .
+# text_eng = They were standing there . Let's go back.
+1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
+2	yoro	yoro	VERB	vi	_	0	root	_	stand
+3	na	na	AUX	aux	Gender=Fem	2	aux	_	_
+4	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	1	discourse	_	_
+5	,	,	PUNCT	punct	_	7	punct	_	_
+6	E	ee	PRON	pro	Clusivity=In|Person=1	7	nsubj	_	_
+7	towakamaba	ka	VERB	vi	Away=Yes|Case=Com|TenseEvid=FutF	2	conj	_	go/come
+8	ereke	ere	PRON	pro	Clusivity=In|Mood=DeclF|Person=1|Red=Yes	6	discourse	_	_
+9	.	.	PUNCT	punct	Mood=DeclF	7	punct	_	_
+
+# sent_id = 007.008
+# text = E towakamibe ha ya ahi .
+# text_eng = Let's go the other direction .
+1	E	ee	PRON	pro	Clusivity=In|Person=1	2	nsubj	_	_
+2	towakamibe	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmF	0	root	_	go/come
+3	ha	haa	DET	det	_	2	det	_	_
+4	ya	ya	PART	prcl	_	2	obl	_	_
+5	ahi	ahi	DET	det	_	2	obl:lmod	_	there
+6	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 007.009
+# text = Matino e towakosamibeya .
+# text_eng = Let´s see Martino on the way home .
+1	Matino	Matino	PROPN	ppn	_	3	obj	_	Martino
+2	e	ee	PRON	pro	Clusivity=In|Person=1	3	nsubj	_	_
+3	towakosamibeya	awa	VERB	vt	Away=Yes|Mood=ImmF	0	root	_	see
+4	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 007.010
+# text = Matino kamareba amaka mata .
+# text_eng = Martino is not going to come back now .
+1	Matino	Martino	PROPN	ppn	_	2	nsubj	_	Martino_
+2	kamareba	ka	VERB	vi	Polarity=Neg|TenseEvid=FutM	0	root	_	go/come
+3	amaka	ama	AUX	aux	Mood=DeclM	2	aux	_	_
+4	mata	mata	PART	prcl	_	2	advmod	_	for now
+5	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 007.011
+# text = Sirika fene tonakama neba amaka mata , okobise ati nematamona .
+# text_eng = He will have gone after latex , my uncle said .
+1	Sirika	sirika	NOUN	n	_	2	nmod	_	rubber tree
+2	fene	fehene	NOUN	n	Gender=Masc	3	obj	_	latex
+3	tonakama	ka	VERB	vt	Away=Yes|Voice=Cau	9	ccomp	_	go/come
+4	neba	na	AUX	aux	TenseEvid=FutM	3	aux	_	_
+5	amaka	ama	AUX	cop	Mood=DeclM|SecV=Yes	3	cop	_	_
+6	mata	mata	PART	prcl	_	3	case	_	for now
+7	,	,	PUNCT	punct	_	9	punct	_	_
+8	okobise	abise	NOUN	n	Case=Voc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	9	nsubj	_	uncle
+9	ati	ati	VERB	vt	_	0	root	_	say
+10	nematamona	na	AUX	aux	Rep=M|TenseEvid=FPastNfhM	9	aux	_	_
+11	.	.	PUNCT	punct	_	9	punct	_	_
+
+# sent_id = 007.012
+# text = Ee me towaka me ni ya , yama ati yana tonemetemone amani , Mmm eeeeyi oooo ooo .
+# text_eng = They went on , and the sound of something came to them . Mmm eeeeyi oooo ooo .
+1	Ee	ee	INTJ	intj	_	3	discourse	_	_
+2	me	me	PRON	pro	Number=Plur|Person=3	3	nsubj	_	_
+3	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+4	me	me	PRON	pro	Number=Plur|Person=3	10	obj	_	_
+5	ni	ni	PART	prcl	_	10	obl	_	to
+6	ya	ya	PART	prcl	_	10	case	_	_
+7	,	,	PUNCT	punct	_	10	punct	_	_
+8	yama	yama	NOUN	n	_	9	nmod	_	thing
+9	ati	ati	NOUN	n	_	10	nsubj	_	voice
+10	yana	yana	VERB	vi	_	3	ccomp	_	start
+11	tonemetemone	na	AUX	aux	Rep=F|TenseEvid=FPastNfhF	10	aux	_	_
+12	amani	ama	AUX	cop	SecV=Yes	10	cop	_	_
+13	,	,	PUNCT	punct	_	10	punct	_	_
+14	Mmm	Mmm	INTJ	intj	_	10	discourse	_	_
+15	eeeeyi	eeeeyi	INTJ	intj	_	10	discourse	_	_
+16	oooo	oooo	INTJ	intj	_	10	discourse	_	_
+17	ooo	ooo	INTJ	intj	_	10	discourse	_	_
+18	.	.	PUNCT	punct	_	10	punct	_	_	
+
+# sennt_id=007.013
+# text = Yiko me , yiko me ayakemetemoneke ahi .
+# text_eng = The howler monkeys were howling .
+1	Yiko	yiko	NOUN	n	Red=M	6	discourse	_	howler monkey
+2	me	me	PRON	pro	Number=Plur|Person=3|Red=F	6	discourse	_	_
+3	,	,	PUNCT	punct	_	6	punct	_	_
+4	yiko	yiko	NOUN	n	_	6	nsubj	_	howler monkey
+5	me	me	PRON	pro	Number=Plur|Person=3	4	appos	_	_
+6	ayakemetemoneke	ayaka	VERB	vi	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
+7	ahi	ahi	DET	det	_	5	obl:tmod	_	then
+8	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id=007.014
+# text = Me ayakemetemoneke ahi , Yio yio yio , ioioio ooooo .
+# text_eng = They were howling . Yio yio yio ioioio ooooo .
+1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
+2	ayakemetemoneke	ayaka	VERB	vi	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
+3	ahi	ahi	DET	det	_	1	obl:tmod	_	then
+4	,	,	PUNCT	punct	_	5	punct	_	_
+5	Yio	yio	INTJ	intj	_	3	discourse	_	_
+6	yio	yio	INTJ	intj	_	3	discourse	_	_
+7	yio	yio	INTJ	intj	_	3	discourse	_	_
+8	,	,	PUNCT	punct	_	9	punct	_	_
+9	ioioio	ioioio	INTJ	intj	_	3	discourse	_	_
+10	ooooo	ooooo	INTJ	intj	_	3	discourse	_	_
+11	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id=007.015
+# text= Yiko me ayakemetemone ahi .
+# text_eng= The howlers were howling .
+1	Yiko	yiko	NOUN	n	_	3	nsubj	_	_
+2	me	me	PRON	pro	Number=Plur|Person=3	1	appos	_	_
+3	ayakemetemone	ayaka	VERB	vi	Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
+4	ahi	ahi	DET	det	_	2	obl:tmod	_	then
+5	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 007.016
+# text = Ayaka me Me e fora nahi .
+# text_eng = They were howling . Let's shoot them with our blowguns .
+1	Ayaka	ayaka	VERB	vi	Gender=Fem	0	root	_	sing
+2	me	me	PRON	pro	Number=Plur|Person=3	1	nsubj	_	_
+3	Me	me	PRON	pro	Number=Plur|Person=3	5	obj	_	_
+4	e	ee	PRON	pro	Clusivity=In|Person=1	5	nsubj	_	_
+5	fora	fora	VERB	vt	_	1	conj	_	shoot with blowgun
+6	nahi	na	AUX	aux	Mood=ImpF	5	aux	_	_
+7	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = 007.017
+# text = Ee me e fora nibe , hima .
+# text_eng = Yes , let's shoot them , let's go .
+1	Ee	ee	INTJ	intj	_	4	discourse	_	_
+2	me	me	PRON	pro	Number=Plur|Person=3	4	obj	_	_
+3	e	ee	PRON	pro	Clusivity=In|Person=1	4	nsubj	_	_
+4	fora	fora	VERB	vt	_	0	root	_	shoot with blowgun
+5	nibe	na	AUX	aux	Mood=ImmF	4	aux	_	_
+6	,	,	PUNCT	punct	_	7	punct	_	_
+7	hima	hima	INTJ	intj	_	4	conj	_	let´s go
+8	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = 007.018
+# text = Me towakemetemoneke .
+# text_eng = They went .
+1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
+2	towakemetemoneke	ka	VERB	vi	Away=Yes|Case=Com|Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	0	root	_	go/come
+3	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 007.019
+# text = Me towaka me towakimisawitia , me towakimisawitia me , me towakimisawitia me towaka me yoro towitia me , me kawehemetemone ahi awa aya wawa na ini ya ahi .
+# text_eng = They went . They went up a hill . They went on . They stood there . They were in branches of low trees .
+1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
+2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+3	me	me	PRON	pro	Number=Plur|Person=3	2	discourse	_	_
+4	towakimisawitia	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmF|Out=Yes|Up=Yes	2	compound:svc	_	go/come
+5	,	,	PUNCT	punct	_	7	punct	_	_
+6	me	me	PRON	pro	Number=Plur|Person=3	7	nsubj	_	_
+7	towakimisawitia	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmF|Out=Yes|Up=Yes	2	parataxis	_	go/come
+8	me	me	PRON	pro	Number=Plur|Person=3	7	discourse	_	_
+9	,	,	PUNCT	punct	_	11	punct	_	_
+10	me	me	PRON	pro	Number=Plur|Person=3	11	nsubj	_	_
+11	towakimisawitia	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmF|Out=Yes|Up=Yes	2	parataxis	_	go/come
+12	me	me	PRON	pro	Number=Plur|Person=3	11	discourse	_	_
+13	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	11	compound:svc	_	go/come
+14	me	me	PRON	pro	Number=Plur|Person=3	15	nsubj	_	_
+15	yoro	yoro	VERB	vi	_	2	parataxis	_	stand
+16	towitia	na	AUX	aux	Away=Yes|Gender=Fem|Out=Yes	15	compound:svc	_	_
+17	me	me	PRON	pro	Number=Plur|Person=3	15	discourse	_	_
+18	,	,	PUNCT	punct	_	20	punct	_	_
+19	me	me	PRON	pro	Number=Plur|Person=3	20	nsubj	_	_
+20	kawehemetemone	waa	VERB	vi	Case=Com|Rep=F|TenseEvid=FPastNfhF	2	parataxis	_	stand
+21	ahi	ahi	DET	det	_	20	obl:tmod	_	then
+22	awa	awa	NOUN	n	_	26	nmod:poss	_	tree
+23	aya	aya	DET	det	_	22	det	_	this
+24	wawa	waa	VERB	vi	Red=Yes	20	compound:svc	_	stand
+25	na	na	AUX	aux	Gender=Fem	24	aux	_	_
+26	ini	ini	NOUN	n	Gender=Fem|Poss=Yes	20	obl	_	branch
+27	ya	ya	PART	prcl	_	20	obl	_	_
+28	ahi	ahi	DET	det	_	20	obl:tmod	_	then
+29	.	.	PUNCT	punct	_	24	punct	_	_
+
+# sent_id = 007.020
+# text = Me yobiyobiri tokana me ayakemetemone ahi Yioyio .
+# text_eng = They were going back and forth and howling . Yioyio .
+1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
+2	yobiyobiri	yobi	VERB	vi	Red=Yes	0	root	_	go back and forth
+3	tokana	na	AUX	aux	Case=Comit|Ch=Yes|Gender=Fem	2	aux	_	_
+4	me	me	PRON	pro	Number=Plur|Person=3	5	nsubj	_	_
+5	ayakemetemone	ayaka	VERB	vi	Rep=F|TenseEvid=FPastNfhF	2	conj	_	sing
+6	ahi	ahi	DET	det	_	4	obl:tmod	_	then
+7	Yioyio	yioyio	INTJ	intj	_	5	discourse	_	_
+8	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = 007.021
+# text = Faya ona , onatebana .
+# text_eng = The first ona alligator .
+1	Faya	faya	CCONJ	cc	_	2	cc	_	so
+2	ona	ona	NOUN	n	Gender=Masc|Sp=Yes	0	root	_	alligator
+3	,	,	PUNCT	punct	_	4	punct	_	_
+4	onatebana	ona	NOUN	n	Aspect=Hab|Sp=Yes|TenseEvid=FutM	2	appos	_	alligator
+5	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 007.022
+# text = Onateba karaboa karaboa kini nematamonaka .
+# text_eng = The first ona alligator wrapped the shaft of the blowgun .
+1	Onateba	ona	NOUN	n	Aspect=Hab|Sp=Yes|TenseEvid=FutM	4	nsubj	_	alligator
+2	karaboa	karaboha	NOUN	n	Gender=Fem	4	obj	_	blowgun
+3	karaboa	karaboha	NOUN	n	Gender=Fem	4	iobj	_	blowgun
+4	kini	kini	VERB	vt	_	0	root	_	wrap
+5	nematamonaka	na	AUX	aux	Mood=DeclM|Rep=M|TenseEvid=FPastNfhM	4	aux	_	_
+6	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 007.023
+# text = Karaboa kini ne karaboa hawa tonihe , karaboa kawa nematamonaka ahi .
+# text_eng = He wrapped the blowgun . He finished the blowgun . He cleaned out the inside of the blowgun .
+1	Karaboa	karaboha	NOUN	n	Gender=Fem	2	nsubj	_	blowgun
+2	kini	kini	VERB	vt	_	0	root	_	wrap
+3	ne	na	AUX	aux	Gender=Masc	2	aux	_	_
+4	karaboa	karaboha	NOUN	n	Gender=Fem	5	nsubj	_	blowgun
+5	hawa	hava	VERB	vt	_	2	parataxis	_	be finished
+6	tonihe	ha	AUX	aux	Ch=Yes|Gender=Masc|Voice=Cau	5	aux	_	_
+7	,	,	PUNCT	punct	_	9	punct	_	_
+8	karaboa	karaboha	NOUN	n	Gender=Fem	9	nsubj	_	blowgun
+9	kawa	kawa	VERB	vt	_	2	parataxis	_	thrust
+10	nematamonaka	na	AUX	aux	Mood=DeclM|Rep=M|TenseEvid=FPastNfhM	9	aux	_	_
+11	ahi	ahi	DET	det	_	9	obl:tmod	_	then
+12	.	.	PUNCT	punct	_	9	punct	_	_
+
+# sent_id = 007.024
+# text = Karaboa kawa ne ni ya , yama yama oye kakemetemoneke ahi .
+# text_eng = He was cleaning the inside of the blowgun out , and a light came toward him .
+1	Karaboa	karaboha	NOUN	n	Gender=Fem	2	obj	_	blowgun
+2	kawa	kawa	VERB	vt	_	0	root	_	thrust
+3	ne	na	AUX	aux	Gender=Masc	2	aux	_	_
+4	ni	ni	PART	prcl	_	2	obl	_	to
+5	ya	ya	PART	prcl	_	2	case	_	_
+6	,	,	PUNCT	punct	_	10	punct	_	_
+7	yama	yama	NOUN	n	Gender=Fem	9	discourse	_	thing
+8	yama	yama	NOUN	n	Gender=Fem|Red=Yes	7	discourse	_	thing
+9	oye	oye	NOUN	n	Gender=Fem|Poss=Yes	10	nsubj	_	light
+10	kakemetemoneke	ka	VERB	vi	Coming=Yes|Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	2	conj	_	go/come
+11	ahi	ahi	DET	det	_	10	obl:tmod	_	then
+12	.	.	PUNCT	punct	_	10	punct	_	_
+
+# sent_id = 007.026
+# text = Himata amari ?
+# text_eng = What is that ?
+1	Himata	himata	PRON	pro	_	2	det	_	what
+2	amari	ama	VERB	vc	Cq=Yes|Gender=Fem	0	root	_	be
+3	?	?	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 007.027
+# text = Oof , karaboa karaboa kawa tine ti ?
+# text_eng = Whew , are you cleaning out the inside of the blowgun ?
+1	Oof	oof	INTJ	intj	_	5	discourse	_	_
+2	,	,	PUNCT	punct	_	5	punct	_	_
+3	karaboa	karaboha	NOUN	n	Gender=Fem	5	obj	_	blowgun
+4	karaboa	karaboha	NOUN	n	Gender=Femm	5	discourse	_	blowgun
+5	kawa	kawa	VERB	vt	_	0	root	_	thrust
+6	tine	na	Aux	aux	Aspect=Cont|Gender=Fem|Number=Sing|Person=2	5	aux	_	_
+7	ti	ti	PART	prcl	Number=Sing|Person=2	5	nsubj	_	_
+8	?	?	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = 007.028
+# text = Ee karaboa kawa one o .
+# text_eng = Yes , I am cleaning out the inside of the blowgun .
+1	Ee	ee	INTJ	intj	_	3	discourse	_	yes
+2	karaboa	karaboha	NOUN	n	Gender=Fem	3	obj	_	blowgun
+3	kawa	kawa	VERB	vt	_	0	root	_	thrust
+4	one	na	AUX	aux	Aspect=Cont|Gender=Fem|Number=Sing|Person=1	3	aux	_	_
+5	o	o	PART	prcl	Number=Sing|Person=1	3	nsubj	_	_
+6	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 007.029
+# text = Faya karaboa kawa ne , karaboa kawa nematamonaka .
+# text_eng = He was cleaning out the inside of the blowgun .
+1	Faya	faya	CCONJ	conj	_	3	cc	_	_
+2	karaboa	karaboha	NOUN	n	Gender=Femm	3	obj	_	blowgun
+3	kawa	kawa	VERB	vt	_	0	root	_	thrust
+4	ne	na	AUX	aux	Gender=Masc	3	aux	_	_
+5	,	,	PUNCT	punct	_	_	_	_	_
+6	karaboa	karaboha	NOUN	n	Gender=Fem	7	obj	_	blowgun
+7	kawa	kawa	VERB	vt	_	3	parataxis	_	thrust
+8	nematamonaka	na	AUX	aux	Mood=DeclM|Rep=M|TenseEvid=FPastNfhM	7	aux	_	_
+9	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = 007.030
+# text = Karaboa kawa ne ya , karaboa kawa ne karaboa kasiro kawa ne karaboa baka tokanemetemoneke ahi .
+# text_eng = As he was cleaning out the inside of the blowgun , he was thrusting the stick through the blowgun really hard , and he broke the stick off inside the blowgun .
+1	Karaboa	karaboha	NOUN	n	_	2	obj	_	blowgun
+2	kawa	kawa	VERB	vt	_	0	root	_	thrust
+3	ne	na	AUX	aux	Gender=Masc|Nom=Yes	2	aux	_	_
+4	ya	ya	PART	prcl	_	2	obl	_	_
+5	,	,	PUNCT	punct	_	7	punct	_	_
+6	karaboa	karaboha	NOUN	n	_	7	obj	_	blowgun
+7	kawa	kawa	VERB	vt	_	2	conj	_	thrust
+8	ne	na	AUX	aux	Gender=Masc	7	aux	_	_
+9	karaboa	karaboha	NOUN	n	_	11	obj	_	blowgun
+10	kasiro	kasiro	ADV	adv	_	11	advmod	_	a lot
+11	kawa	kawa	VERB	vt	_	7	conj	_	thrust
+12	ne	na	AUX	aux	Gender=Masc	11	aux	_	_
+13	karaboa	karaboha	NOUN	n	_	14	obj	_	blowgun
+14	baka	baka	VERB	vt	_	11	conj	_	break
+15	tokanemetemoneke	na	AUX	aux	Case=Com|Ch=Yes|Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	14	aux	_	_
+16	ahi	ahi	DET	det	_	14	obl:tmod	_	then
+17	.	.	PUNCT	punct	_	14	punct	_	_
+
+# sent_id = 007.031
+# text = Ooo .
+# text = Oh no .
+1	Ooo	ooo	INTJ	intj	_	0	root	_	oh no
+2	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 007.032
+# text = Oko karaboa hoti awe , baka tokani awane .
+# text_eng = He broke off my stick for making the hole of the blowgun inside .
+1	Oko	ka	PART	prcl	Number=Sing|Person=1|Poss=Yes	4	nmod	_	_
+2	karaboa	karaboha	NOUN	n	Gender=Fem	3	nmod	_	karaboha
+3	hoti	hoti	NOUN	n	Gender=Fem|Poss=Yes	4	case	_	hole
+4	awe	awe	NOUN	n	Gender=Fem|Poss=Yes	6	obj	_	wood
+5	,	,	PUNCT	punct	_	6	punct	_	_
+6	baka	baka	VERB	vt	_	0	root	_	break
+7	tokani	na	AUX	aux	Away=Yes|Case=Com|Gender=Masc|Voice=Cau	6	aux	_	_
+8	awane	awa	AUX	cop	Backgrounding=Masc|SecV=Yes	6	aux	_	seem
+9	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id = 007.033
+# text = Karaboa baka tokana ihi yawamise , karaboa horo nakematamonaka .
+# text_eng = He got upset because of the stick breaking off inside the blowgun . He yanked the blowgun away .
+1	Karaboa	karaboha	NOUN	n	Gender=Fem	2	case	_	blowgun
+2	baka	baka	VERB	vt	_	5	advcl	_	break
+3	tokana	na	AUX	aux	Case=Com|Ch=Yes|Gender=Fem	2	aux	_	_
+4	ihi	ihi	NOUN	n	Gender=Fem|Poss=Yes	5	mark	_	because of
+5	yawamise	yawa	VERB	vi	Gender=Masc|Up=Yes	0	root	_	be upset
+6	,	,	PUNCT	punct	_	_	_	_	_
+7	karaboa	karaboha	NOUN	n	Gender=Yes	8	obj	_	blowgun
+8	horo	horo	VERB	vt	_	5	parataxis	_	drag
+9	nakematamonaka	na	AUX	aux	Coming=Yes|Mood=DeclM|Rep=M|TenseEvid=FPastNfhM	8	aux	_	_
+10	.	.	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 007.034
+# text = Karaboa horo nake , karaboa horo nake onateba , onateba nabowematamonaka karaboa ya ahi , onabana .
+# text_eng = He yanked the blowgun away . He yanked the blowgun away , and hit the alligator with the blowgun , to make him into the alligator .
+1	Karaboa	karaoha	NOUN	n	Gender=Fem	2	nsubj	_	blowgun
+2	horo	horo	VERB	vt	_	0	root	_	drag
+3	nake	na	AUX	aux	Coming=Yes	2	aux	_	_
+4	,	,	PUNCT	punct	_	6	punct	_	_
+5	karaboa	karaboha	NOUN	n	Gender=Fem	6	nsubj	_	blowgun
+6	horo	horo	VERB	vt	_	2	parataxis	_	drag
+7	nake	na	AUX	aux	Coming=Yes	6	aux	_	_
+8	onateba	ona	NOUN	n	Aspect=Hab|Sp=Yes|TenseEvid=FutM	11	discourse	_	alligator
+9	,	,	PUNCT	punct	_	6	punct	_	_
+10	onateba	ona	NOUN	n	Aspect=Hab|Sp=Yes|TenseEvid=FutM	11	nsubj	_	alligator
+11	nabowematamonaka	aboha	VERB	vt	Mood=DeclM|Rep=M|TenseEvid=FPastNfhM|Voice=Cau	6	conj	die	_
+12	karaboa	karaboha	NOUN	n	Gender=Fem	11	case	_	blowgun
+13	ya	ya	PART	prcl	_	11	obl	_	_
+14	ahi	ahi	DET	det	_	10	obl:tmod	_	then
+15	,	,	PUNCT	punct	_	11	punct	_	_
+16	onabana	ona	NOUN	n	Sp=Yes|TenseEvid=FutM	10	obl	_	alligator
+17	.	.	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = 007.035
+# text = Onaba nabowematamonaka .
+# text_eng = He hit the alligator .
+1	Onaba	ona	NOUN	n	Sp=Yes|TenseEvid=FutM	2	nsubj	_	alligator
+2	nabowematamonaka	aboha	VERB	vt	Mood=DeclM|Rep=M|TenseEvid=FPastNfhM|Voice=Cau	0	root	_	die
+3	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 007.036
+# text = Faya hinabowematamonaka fahi .
+# text_eng = He hit the alligator .
+1	Faya	faya	CCONJ	cc	_	2	cc	_	so
+2	hinabowematamonaka	aboha	VERB	vt	Mood=DeclM|OC=Yes|Rep=M|TenseEvid=FPastNfhM|Voice=Cau	0	root	_	die
+3	fahi	fahi	DET	det	_	2	det	_	then
+4	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 007.037
+# text = Karaboa kakawa tihine ti ?
+# text_eng = Have you been making blowguns ?
+1	Karaboa	karaboha	NOUN	n	Gender=Fem	2	obj	_	blowgun
+2	kakawa	kawa	VERB	vt	Red=Yes	0	root	_	thrust
+3	tihine	ha	AUX	aux	Aspect=Cont|Ch=Yes|Gender=Fem|Number=Sing|Person=2	2	aux	_	_
+4	ti	ti	PART	prcl	Number=Sing|Person=2	2	nsubj	_	_
+5	?	?	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 007.038
+# text = Fa bite nafi tititehaba ama tini .
+# text_eng = You are going to live in all the streams .
+1	Fa	faha	NOUN	nf	Gender=Fem	4	obl	_	water
+2	bite	bite	ADJ	adj	Gender=Fem	1	amod	_	small
+3	nafi	nafi	NOUN	n	Poss=Yes	1	det	_	all
+4	tititehaba	iti	VERB	vi	Aspect=Hab|Number=Sing|Person=2|TenseEvid=FutF	0	root	_	inhabit
+5	ama	ama	AUX	aux	SecV=Yes	4	aux	_	_
+6	tini	ti	PART	prcl	Backgrounding=Fem|Number=Sing|Person=2	4	nsubj	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 007.039
+# text = Faya yana tone toke hinakaki yiwa kero nemetemone ahi .
+# text_eng = He left . He went out in the forest . His grandmother was making a pot .
+1	Faya	faya	CCONJ	cc	_	2	cc	_	so
+2	yana	yana	VERB	vi	_	0	root	_	start
+3	tone	na	AUX	aux	Ch=Yes|Gender=Masc	2	aux	_	_
+4	toke	ka	VERB	vi	Away=Yes|Gender=Masc	2	parataxis	_	go/come
+5	hinakaki	hinaka	NOUN	n	Number=Sing|Person=2	7	nsubj	_	grandmother
+6	yiwa	yiwa	NOUN	n	Gender=Fem	7	obj	_	pot
+7	kero	kero	VERB	vt	_	2	parataxis	_	_
+8	nemetemone	na	AUX	aux	Rep=F|TenseEvid=FPastNfhF	7	aux	_	make with circular motion
+9	ahi	ahi	DET	det	_	7	obl:tmod	_	then
+10	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = 070.040
+# text = Yiwa kero nemetemoneke .
+# text_eng = She was making a pot .
+1	Yiwa	yiwa	NOUN	n	Gender=Fem	2	obj	_	pot
+2	kero	kero	VERB	vt	_	0	root	_	make with circular motion
+3	nemetemoneke	na	AUX	aux	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	2	aux	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
+
