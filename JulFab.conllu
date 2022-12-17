@@ -21,7 +21,7 @@
 1	Owaharihamaro	ohari	VERB	_	Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	_
 2	oke	ke	X	_	Mood=DeclF|Number=Sing|Person=1	1	dep	_	dep
 3	me	_	PRON	_	Number[obj]=Plur|Person[obj]=3	4	obj	_	_
-4	ohijara	_	VERB	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	1	xcomp	_	_
+4	ohiyara	_	VERB	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	1	xcomp	_	_
 5	owa	_	X	_	Number[subj]=Sing|Person[subj]=1	4	dep	_	_
 
 # sent_id = NfSC04
