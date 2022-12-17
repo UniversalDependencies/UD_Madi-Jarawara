@@ -252,7 +252,7 @@
 6	E	ee	PRON	pro	Clusivity=In|Person=1	7	nsubj	_	_
 7	towakamaba	ka	VERB	vi	Away=Yes|Case=Com|TenseEvid=FutF	2	conj	_	go/come
 8	ereke	ere	PRON	pro	Clusivity=In|Mood=DeclF|Person=1|Red=Yes	6	discourse	_	_
-9	.	.	PUNCT	punct	Mood=DeclF	7	punct	_	_
+9	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 007.008
 # text = E towakamibe ha ya ahi .
