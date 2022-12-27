@@ -27,7 +27,7 @@
 # sent_id = NfSC04
 # text = Tomiko ya onakakehabanake .
 # text_eng = I will come to get it on Sunday .
-# text_por =
+# text_por =j
 1	tomiko	tomiko	NOUN	n	Gender=Fem	3	obl:tmod	_	Sunday
 2	ya	ya	PART	prcl	_	1	case	_	_
 3	onakakehabanake	ka	VERB	v	AC=Yes|Coming=Yes|Mood=DeclF|Number=Sing|Person=1|TenseEvid=FutF|Voice=Cau	0	root	_	go/come
