@@ -57,7 +57,7 @@
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = NfSC07
-# text = Tiwini ka otaa winineke.
+# text = Tiwini ka otaa winineke .
 # text_eng = We're staying here because you are living here .
 # text_por =
 1	Tiwini	wina	VERB	v	Gender=Fem|Nom=Yes|Number=Sing|Person=2	4	ccomp	_	live
