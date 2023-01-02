@@ -102,7 +102,7 @@
 9	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = NfSC11
-# text`= faya yana tonematamona fahi waha .
+# text = faya yana tonematamona fahi waha .
 # text_eng = Then he was ready to go .
 # text_por =
 1	faya	faya	CCONJ	cc	_	2	cc	_	so
