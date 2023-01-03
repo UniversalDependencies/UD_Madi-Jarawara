@@ -513,7 +513,7 @@
 # text = Faya karaboa kawa ne , karaboa kawa nematamonaka .
 # text_eng = He was cleaning out the inside of the blowgun .
 1	Faya	faya	CCONJ	conj	_	3	cc	_	_
-2	karaboa	karaboha	NOUN	n	Gender=Femm	3	obj	_	blowgun
+2	karaboa	karaboha	NOUN	n	Gender=Fem	3	obj	_	blowgun
 3	kawa	kawa	VERB	vt	_	0	root	_	thrust
 4	ne	na	AUX	aux	Gender=Masc	3	aux	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
