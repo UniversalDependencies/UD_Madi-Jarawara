@@ -571,7 +571,7 @@
 4	ihi	ihi	NOUN	n	Gender=Fem|Poss=Yes	5	mark	_	because of
 5	yawamise	yawa	VERB	vi	Gender=Masc|Up=Yes	0	root	_	be upset
 6	,	,	PUNCT	punct	_	_	_	_	_
-7	karaboa	karaboha	NOUN	n	Gender=Yes	8	obj	_	blowgun
+7	karaboa	karaboha	NOUN	n	Gender=Fem	8	obj	_	blowgun
 8	horo	horo	VERB	vt	_	5	parataxis	_	drag
 9	nakematamonaka	na	AUX	aux	Coming=Yes|Mood=DeclM|Rep=M|TenseEvid=FPastNfhM	8	aux	_	_
 10	.	.	PUNCT	punct	_	_	_	_	_
