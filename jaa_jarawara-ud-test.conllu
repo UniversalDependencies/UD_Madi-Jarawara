@@ -495,7 +495,7 @@
 3	karaboa	karaboha	NOUN	n	Gender=Fem	5	obj	_	blowgun
 4	karaboa	karaboha	NOUN	n	Gender=Fem	5	discourse	_	blowgun
 5	kawa	kawa	VERB	vt	_	0	root	_	thrust
-6	tine	na	Aux	aux	Aspect=Cont|Gender=Fem|Number=Sing|Person=2	5	aux	_	_
+6	tine	na	AUX	aux	Aspect=Cont|Gender=Fem|Number=Sing|Person=2	5	aux	_	_
 7	ti	ti	PART	prcl	Number=Sing|Person=2	5	nsubj	_	_
 8	?	?	PUNCT	punct	_	5	punct	_	_
 
