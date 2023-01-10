@@ -202,7 +202,7 @@
 # text = Haa .
 # text_eng = Huh ?
 1	Haa	haa	INTJ	intj	_	0	root	_	huh
-2	?	?	PUNCT	punct	_	1	punct	_	_
+2	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 007.005
 # text = Me me towaka me me towakemetemoneke .
