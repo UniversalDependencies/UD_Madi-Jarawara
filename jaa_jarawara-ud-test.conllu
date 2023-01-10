@@ -516,7 +516,7 @@
 2	karaboa	karaboha	NOUN	n	Gender=Fem	3	obj	_	blowgun
 3	kawa	kawa	VERB	vt	_	0	root	_	thrust
 4	ne	na	AUX	aux	Gender=Masc	3	aux	_	_
-5	,	,	PUNCT	punct	_	_	_	_	_
+5	,	,	PUNCT	punct	_	7	punct	_	_
 6	karaboa	karaboha	NOUN	n	Gender=Fem	7	obj	_	blowgun
 7	kawa	kawa	VERB	vt	_	3	parataxis	_	thrust
 8	nematamonaka	na	AUX	aux	Mood=DeclM|Rep=M|TenseEvid=FPastNfhM	7	aux	_	_
