@@ -109,7 +109,7 @@
 2	yana	yana	VERB	vi	_	0	root	_	start
 3	tonematamona	na	AUX	aux	Ch=Yes|Rep=M|TenseEvid=FPastFhM	2	aux	_	_
 4	fahi	fahi	DET	det	_	2	det	_	then
-5	wana	wana	ADV	_	_	2	advmod	_	now
+5	waha	waha	ADV	_	_	2	advmod	_	now
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # send_id = NfSC12
