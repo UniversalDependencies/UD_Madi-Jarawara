@@ -297,7 +297,7 @@
 11	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 007.012
-# text = Ee me towaka me ni ya , yama ati yana tonemetemone amani , Mmm eeeeyi oooo ooo .
+# text = Ee me towaka me ni ya , yama ati yana tonemetemone amani , mmm eeeeyi oooo ooo .
 # text_eng = They went on , and the sound of something came to them . Mmm eeeeyi oooo ooo .
 1	Ee	ee	INTJ	intj	_	3	discourse	_	_
 2	me	me	PRON	pro	Number=Plur|Person=3	3	nsubj	_	_
@@ -312,7 +312,7 @@
 11	tonemetemone	na	AUX	aux	Rep=F|TenseEvid=FPastNfhF	10	aux	_	_
 12	amani	ama	AUX	cop	SecV=Yes	10	cop	_	_
 13	,	,	PUNCT	punct	_	10	punct	_	_
-14	Mmm	Mmm	INTJ	intj	_	10	discourse	_	_
+14	mmm	mmm	INTJ	intj	_	10	discourse	_	_
 15	eeeeyi	eeeeyi	INTJ	intj	_	10	discourse	_	_
 16	oooo	oooo	INTJ	intj	_	10	discourse	_	_
 17	ooo	ooo	INTJ	intj	_	10	discourse	_	_
