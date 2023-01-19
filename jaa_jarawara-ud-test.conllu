@@ -71,7 +71,7 @@
 # text_eng = The tree fell over because of the wind .
 # text_por = 
 1	Boni	boni	NOUN	n	Gender=Fem	2	obl	_	wind
-2	ihi	ihi	CCONJ	_	Gender=Fem	4	cc	_	because of
+2	ihi	ihi	CCONJ	_	Gender=Fem	_	_	_	_
 3	awa	awa	NOUN	n	_	4	nsubj	_	tree
 4	boto	boto	VERB	v	_	0	root	_	fall over
 5	tonahani	na	AUX	aux	Ch=Yes|TenseEvid=IPastNfHF	4	aux	_	_
