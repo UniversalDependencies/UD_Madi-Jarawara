@@ -71,7 +71,7 @@
 # text_eng = The tree fell over because of the wind .
 # text_por = 
 1	Boni	boni	NOUN	n	Gender=Fem	2	obl	_	wind
-2	ihi	ihi	CCONJ	_	Gender=Fem	_	_	_	_
+2	ihi	ihi	SCONJ	_	Gender=Fem	4	case	_	_
 3	awa	awa	NOUN	n	_	4	nsubj	_	tree
 4	boto	boto	VERB	v	_	0	root	_	fall over
 5	tonahani	na	AUX	aux	Ch=Yes|TenseEvid=IPastNfHF	4	aux	_	_
@@ -96,7 +96,7 @@
 3	towasimeno	wasi	VERB	v	Away=Yes|Back=Yes|TenseEvid=IPastNfHM	0	root	_	find
 4	yara	yara	PROPN	ppn	Gender=Masc	5	discourse	_	Brazilian
 5	me	me	PRON	pro	Number[obj]=Plur|Person[obj]=3|Poss=Yes	6	nmod	_	_
-6	namoni	namoni	CCONJ	_	_	3	cc	_	report
+6	namoni	namoni	SCONJ	_	_	3	case	_	report
 7	kameno	ka	VERB	v	Back=Yes	3	conj	_	go/come
 8	ama	ama	AUX	aux	SecV=Yes	7	aux	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
