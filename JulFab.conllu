@@ -112,11 +112,11 @@
 5	waha	waha	ADV	_	_	2	advmod	_	now
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = NfSC12
+# send_id = NfSC12
 # text = Oko koraisi nake ohabibone karo .
 # text_eng = I have the courage to die .
 # text_por = 
-1	Oko	o	PRON	pro	Number=Sing|Person=1|Poss=Yes	2	case	_	_
+1	Oko	o	PRON	pro	Number=Sing|Person=1|Poss=Yes	2	nmod:poss	_	_
 2	koraisi	koraisi	NOUN	n	Gender=Fem	3	nsubj	_	courage
 3	nake	na	VERB	v	Mood=DeclF	0	root	_	exists
 4	ohabibone	ahaba	VERB	v	Mood=IntF|Nom=Yes|Number[subj]=Sing|Person[subj]=1	3	xcomp	_	die
