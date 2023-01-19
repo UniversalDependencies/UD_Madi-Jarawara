@@ -218,28 +218,28 @@
 # sent_id = 007.006
 # text = Me towaka me , me towaka me , yama me kakatoma me yoro na me ni ya , me yoro nemetemoneke .
 # text_eng = They went out . They were looking around , as they stood there .
-1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	2:nsubj	_
-2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	0:root	go/come
-3	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	2	discourse	2:discourse	_
-4	,	,	PUNCT	punct	_	6	punct	6:punct	_
-5	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	1	discourse	1:discourse	_
-6	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	2	discourse	2:discourse	go/come
-7	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	3	discourse	3:discourse	_
-8	,	,	PUNCT	punct	_	6	punct	6:punct	_
-9	yama	yama	NOUN	n	Gender=Fem	11	discourse	11:discourse	thing
-10	me	me	PRON	pro	Number=Plur|Person=3	1	conj	1:conj	_
-11	kakatoma	katoma	VERB	vt	Case=Com|Gender=Fem	2	conj	2:conj	look at
-12	me	me	PRON	pro	Number=Plur|Person=3	1	conj	1:conj	_
-13	yoro	yoro	VERB	vi	_	2	conj	2:conj	stand
-14	na	na	AUX	aux	Gender=Fem	13	aux	13:aux	_
-15	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	12	discourse	12:discourse	_
-16	ni	ni	PART	prcl	_	13	case	13:case	to
-17	ya	ya	PART	prcl	_	13	obl	13:obl	_
-18	,	,	PUNCT	punct	_	20	punct	20:punct	_
-19	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	12	discourse	12:discourse	_
-20	yoro	yoro	VERB	vi	Red=Yes	13	discourse	13:discourse	stand
-21	nemetemoneke	na	AUX	aux	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	13	aux	13:aux	_
-22	.	.	PUNCT	punct	_	20	punct	20:punct	_
+1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
+2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
+3	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	2	discourse	_	_
+4	,	,	PUNCT	punct	_	2	punct	_	_
+5	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	1	discourse	_	_
+6	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	2	discourse	_	go/come
+7	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	3	discourse	_	_
+8	,	,	PUNCT	punct	_	6	punct	_	_
+9	yama	yama	NOUN	n	Gender=Fem	11	discourse	_	thing
+10	me	me	PRON	pro	Number=Plur|Person=3	1	conj	_	_
+11	kakatoma	katoma	VERB	vt	Case=Com|Gender=Fem	2	conj	_	look at
+12	me	me	PRON	pro	Number=Plur|Person=3	1	conj	_	_
+13	yoro	yoro	VERB	vi	_	2	conj	_	stand
+14	na	na	AUX	aux	Gender=Fem	13	aux	_	_
+15	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	12	discourse	_	_
+16	ni	ni	PART	prcl	_	13	case	_	to
+17	ya	ya	PART	prcl	_	13	obl	_	_
+18	,	,	PUNCT	punct	_	13	punct	_	_
+19	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	12	discourse	_	_
+20	yoro	yoro	VERB	vi	Red=Yes	13	discourse	_	stand
+21	nemetemoneke	na	AUX	aux	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	13	aux	_	_
+22	.	.	PUNCT	punct	_	20	punct	_	_
 
 # sent_id = 007.007
 # text = Me yoro na me , E towakamaba ereke .
