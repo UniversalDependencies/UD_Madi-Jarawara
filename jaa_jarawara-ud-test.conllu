@@ -83,7 +83,7 @@
 # text_eng = I'm going out [hunting] for giant anteater .
 # text_por = 
 1	Bane	banehe	NOUN	n	Gender=Fem	2	obl	_	giant anteater
-2	tabiyo	tabiyo	CCONJ	_	_	3	cc	_	absence
+2	tabiyo	tabiyo	SCONJ	_	_	3	case	_	absence
 3	okamatibe	ka	VERB	v	Away=Yes|Mood=ImmF|Number[subj]=Sing|Person[subj]=1|St=Yes	0	root	_	go/come
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
