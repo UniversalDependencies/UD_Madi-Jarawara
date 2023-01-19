@@ -217,7 +217,7 @@
 
 # sent_id = 007.006
 # text = Me towaka me , me towaka me , yama me kakatoma me yoro na me ni ya , me yoro nemetemoneke .
-# text_eng = They went out . They were looking around , as they stood there .
+# text_eng = They went out . They were looking around , as they stood ther .
 1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
 2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
 3	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	2	discourse	_	_
