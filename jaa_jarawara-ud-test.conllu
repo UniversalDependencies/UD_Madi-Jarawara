@@ -145,7 +145,7 @@
 6	ehene	ehene	CCONJ	_	Gender=Masc	2	cc	_	because of
 7	.	.	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = NfSC15.02
+# sent_id = NfSC15
 # text = Owakosamaro oke oko abohi bai owa nabowe owa .
 # text_eng = I stood there having lost my bearings, because the lightning had stunned me .
 # text_por = 
@@ -155,7 +155,7 @@
 4	abohi	abohi	NOUN	n	_	1	obl	_	dead body
 5	bai	bahi	NOUN	n	Gender=Masc	7	nsubj	_	lightning
 6	owa	owa	PRON	pro	Number[obj]=Sing|Person[obj]=1	7	obj	_	_
-7	nabowe	aboha	VERB	v	Gender=Masc|Voice=Cau	1	case	_	die
+7	nabowe	aboha	VERB	v	Gender=Masc|Voice=Cau	1	xcomp	_	die
 8	owa	owa	PRON	pro	Number[obj]=Sing|Person[obj]=1	7	discourse	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
 
