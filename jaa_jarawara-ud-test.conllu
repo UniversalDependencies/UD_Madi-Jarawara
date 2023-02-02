@@ -586,7 +586,7 @@
 6	horo	horo	VERB	vt	_	2	parataxis	_	drag
 7	nake	na	AUX	aux	Coming=Yes	6	aux	_	_
 8	onateba	ona	NOUN	n	Aspect=Hab|Sp=Yes|TenseEvid=FutM	11	discourse	_	alligator
-9	,	,	PUNCT	punct	_	_	punct	_	_
+9	,	,	PUNCT	punct	_	6	punct	_	_
 10	onateba	ona	NOUN	n	Aspect=Hab|Sp=Yes|TenseEvid=FutM	11	nsubj	_	alligator
 11	nabowematamonaka	aboha	VERB	vt	Mood=DeclM|Rep=M|TenseEvid=FPastNfhM|Voice=Cau	6	conj	_	die
 12	karaboa	karaboha	NOUN	n	Gender=Fem	11	case	_	blowgun
