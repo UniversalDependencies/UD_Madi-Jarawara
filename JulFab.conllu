@@ -87,7 +87,7 @@
 3	okamatibe	ka	VERB	v	Away=Yes|Mood=ImmF|Number[subj]=Sing|Person[subj]=1|St=Yes	0	root	_	go/come
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = NfSC10
+# sent_id = NfSC10.02
 # text = Yara me towasimeno yara me namoni kameno ama .
 # text_eng = He had found the Brazilians and was coming to tell us about them .
 # text_por = 
@@ -96,7 +96,7 @@
 3	towasimeno	wasi	VERB	v	Away=Yes|Back=Yes|TenseEvid=IPastNfHM	0	root	_	find
 4	yara	yara	PROPN	ppn	Gender=Masc	5	discourse	_	Brazilian
 5	me	me	PRON	pro	Number[obj]=Plur|Person[obj]=3|Poss=Yes	6	nmod	_	_
-6	namoni	namoni	SCONJ	_	_	3	case	_	report
+6	namoni	namoni	ADP	posp	_	3	obl	_	report
 7	kameno	ka	VERB	v	Back=Yes	3	conj	_	go/come
 8	ama	ama	AUX	aux	SecV=Yes	7	aux	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
