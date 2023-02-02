@@ -116,7 +116,7 @@
 # text = Oko koraisi nake ohabibone karo .
 # text_eng = I have the courage to die .
 # text_por = 
-1	Oko	o	PRON	pro	Number=Sing|Person=1|Poss=Yes	2	nmod:poss	_	_
+1	Oko	o	PRON	pro	Number=Sing|Person=1|Poss=Yes	2	nmod	_	_
 2	koraisi	koraisi	NOUN	n	Gender=Fem	3	nsubj	_	courage
 3	nake	na	VERB	v	Mood=DeclF	0	root	_	exists
 4	ohabibone	ahaba	VERB	v	Mood=IntF|Nom=Yes|Number[subj]=Sing|Person[subj]=1	3	xcomp	_	die
@@ -151,7 +151,7 @@
 # text_por = 
 1	Owakosamaro	kosa	VERB	v	Ch=Yes|Middle=Yes|Number[subj]=Sing|Person[subj]=1|TenseEvid=FPastFhF	0	root	_	stand
 2	oke	o	PRON	pro	Mood=DeclF|Number[subj]=Sing|Person[subj]=1	1	nsubj	_	_
-3	oko	o	PRON	pro	Number=Sing|Person=1|Poss=Yes	4	nmod:poss	_	_
+3	oko	o	PRON	pro	Number=Sing|Person=1|Poss=Yes	4	nmod	_	_
 4	abohi	abohi	NOUN	n	_	1	obl	_	dead body
 5	bai	bahi	NOUN	n	Gender=Masc	7	nsubj	_	lightning
 6	owa	owa	PRON	pro	Number[obj]=Sing|Person[obj]=1	7	obj	_	_
@@ -390,7 +390,7 @@
 1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
 2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
 3	me	me	PRON	pro	Number=Plur|Person=3	2	discourse	_	_
-4	towakimisawitia	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmF|Out=Yes|Up=Yes	2	compound:svc	_	go/come
+4	towakimisawitia	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmF|Out=Yes|Up=Yes	2	compound	_	go/come
 5	,	,	PUNCT	punct	_	7	punct	_	_
 6	me	me	PRON	pro	Number=Plur|Person=3	7	nsubj	_	_
 7	towakimisawitia	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmF|Out=Yes|Up=Yes	2	parataxis	_	go/come
@@ -399,18 +399,18 @@
 10	me	me	PRON	pro	Number=Plur|Person=3	11	nsubj	_	_
 11	towakimisawitia	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmF|Out=Yes|Up=Yes	2	parataxis	_	go/come
 12	me	me	PRON	pro	Number=Plur|Person=3	11	discourse	_	_
-13	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	11	compound:svc	_	go/come
+13	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	11	compound	_	go/come
 14	me	me	PRON	pro	Number=Plur|Person=3	15	nsubj	_	_
 15	yoro	yoro	VERB	vi	_	2	parataxis	_	stand
-16	towitia	na	AUX	aux	Away=Yes|Gender=Fem|Out=Yes	15	compound:svc	_	_
+16	towitia	na	AUX	aux	Away=Yes|Gender=Fem|Out=Yes	15	compound	_	_
 17	me	me	PRON	pro	Number=Plur|Person=3	15	discourse	_	_
 18	,	,	PUNCT	punct	_	20	punct	_	_
 19	me	me	PRON	pro	Number=Plur|Person=3	20	nsubj	_	_
 20	kawehemetemone	waa	VERB	vi	Case=Com|Rep=F|TenseEvid=FPastNfhF	2	parataxis	_	stand
 21	ahi	ahi	DET	det	_	20	obl	_	then
-22	awa	awa	NOUN	n	_	26	nmod:poss	_	tree
+22	awa	awa	NOUN	n	_	26	nmod	_	tree
 23	aya	aya	DET	det	_	22	det	_	this
-24	wawa	waa	VERB	vi	Red=Yes	20	compound:svc	_	stand
+24	wawa	waa	VERB	vi	Red=Yes	20	compound	_	stand
 25	na	na	AUX	aux	Gender=Fem	24	aux	_	_
 26	ini	ini	NOUN	n	Gender=Fem|Poss=Yes	20	obl	_	branch
 27	ya	ya	PART	prcl	_	20	obl	_	_
