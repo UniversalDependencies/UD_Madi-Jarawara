@@ -49,7 +49,7 @@
 # text = Koko ni ya tisawiya mata .
 # text_eng = You stay with your uncle for now .
 # text_por =
-1	Koko	koko	NOUN	n	Gender=Masc|Number=Sing|Person=2|Poss=Yes	4	obl:lmod	_	mother´s brother
+1	Koko	koko	NOUN	n	Gender=Masc|Number=Sing|Person=2|Poss=Yes	4	obl	_	mother´s brother
 2	ni	ni	PART	prcl	_	1	case	_	to
 3	ya	ya	PART	prcl	_	1	case	_	_
 4	tisawiya	sawi	VERB	v	Dist=Yes|Gender=Fem|Mood=ImpF|Number=Sing|Person=2	0	root	_	be present
@@ -261,7 +261,7 @@
 2	towakamibe	ka	VERB	vi	Away=Yes|Case=Com|Mood=ImmF	0	root	_	go/come
 3	ha	haa	DET	det	_	2	det	_	_
 4	ya	ya	PART	prcl	_	2	obl	_	_
-5	ahi	ahi	DET	det	_	2	obl:lmod	_	there
+5	ahi	ahi	DET	det	_	2	obl	_	there
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 007.009
@@ -327,7 +327,7 @@
 4	yiko	yiko	NOUN	n	Gender=Masc	6	nsubj	_	howler monkey
 5	me	me	PRON	pro	Number=Plur|Person=3	4	appos	_	_
 6	ayakemetemoneke	ayaka	VERB	vi	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
-7	ahi	ahi	DET	det	_	5	obl:tmod	_	then
+7	ahi	ahi	DET	det	_	5	obl	_	then
 8	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id=007.014
@@ -335,7 +335,7 @@
 # text_eng = They were howling . Yio yio yio ioioio ooooo .
 1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
 2	ayakemetemoneke	ayaka	VERB	vi	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
-3	ahi	ahi	DET	det	_	1	obl:tmod	_	then
+3	ahi	ahi	DET	det	_	1	obl	_	then
 4	,	,	PUNCT	punct	_	5	punct	_	_
 5	Yio	yio	INTJ	intj	_	3	discourse	_	_
 6	yio	yio	INTJ	intj	_	3	discourse	_	_
@@ -351,7 +351,7 @@
 1	Yiko	yiko	NOUN	n	_	3	nsubj	_	_
 2	me	me	PRON	pro	Number=Plur|Person=3	1	appos	_	_
 3	ayakemetemone	ayaka	VERB	vi	Rep=F|TenseEvid=FPastNfhF	0	root	_	sing
-4	ahi	ahi	DET	det	_	2	obl:tmod	_	then
+4	ahi	ahi	DET	det	_	2	obl	_	then
 5	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 007.016
@@ -407,14 +407,14 @@
 18	,	,	PUNCT	punct	_	20	punct	_	_
 19	me	me	PRON	pro	Number=Plur|Person=3	20	nsubj	_	_
 20	kawehemetemone	waa	VERB	vi	Case=Com|Rep=F|TenseEvid=FPastNfhF	2	parataxis	_	stand
-21	ahi	ahi	DET	det	_	20	obl:tmod	_	then
+21	ahi	ahi	DET	det	_	20	obl	_	then
 22	awa	awa	NOUN	n	_	26	nmod:poss	_	tree
 23	aya	aya	DET	det	_	22	det	_	this
 24	wawa	waa	VERB	vi	Red=Yes	20	compound:svc	_	stand
 25	na	na	AUX	aux	Gender=Fem	24	aux	_	_
 26	ini	ini	NOUN	n	Gender=Fem|Poss=Yes	20	obl	_	branch
 27	ya	ya	PART	prcl	_	20	obl	_	_
-28	ahi	ahi	DET	det	_	20	obl:tmod	_	then
+28	ahi	ahi	DET	det	_	20	obl	_	then
 29	.	.	PUNCT	punct	_	24	punct	_	_
 
 # sent_id = 007.020
@@ -425,7 +425,7 @@
 3	tokana	na	AUX	aux	Case=Com|Ch=Yes|Gender=Fem	2	aux	_	_
 4	me	me	PRON	pro	Number=Plur|Person=3	5	nsubj	_	_
 5	ayakemetemone	ayaka	VERB	vi	Rep=F|TenseEvid=FPastNfhF	2	conj	_	sing
-6	ahi	ahi	DET	det	_	4	obl:tmod	_	then
+6	ahi	ahi	DET	det	_	4	obl	_	then
 7	Yioyio	yioyio	INTJ	intj	_	5	discourse	_	_
 8	.	.	PUNCT	punct	_	5	punct	_	_
 
@@ -461,7 +461,7 @@
 8	karaboa	karaboha	NOUN	n	Gender=Fem	9	nsubj	_	blowgun
 9	kawa	kawa	VERB	vt	_	2	parataxis	_	thrust
 10	nematamonaka	na	AUX	aux	Mood=DeclM|Rep=M|TenseEvid=FPastNfhM	9	aux	_	_
-11	ahi	ahi	DET	det	_	9	obl:tmod	_	then
+11	ahi	ahi	DET	det	_	9	obl	_	then
 12	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 007.024
@@ -477,7 +477,7 @@
 8	yama	yama	NOUN	n	Gender=Fem|Red=Yes	7	discourse	_	thing
 9	oye	oye	NOUN	n	Gender=Fem|Poss=Yes	10	nsubj	_	light
 10	kakemetemoneke	ka	VERB	vi	Coming=Yes|Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	2	conj	_	go/come
-11	ahi	ahi	DET	det	_	10	obl:tmod	_	then
+11	ahi	ahi	DET	det	_	10	obl	_	then
 12	.	.	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 007.026
@@ -540,7 +540,7 @@
 13	karaboa	karaboha	NOUN	n	_	14	obj	_	blowgun
 14	baka	baka	VERB	vt	_	11	conj	_	break
 15	tokanemetemoneke	na	AUX	aux	Case=Com|Ch=Yes|Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	14	aux	_	_
-16	ahi	ahi	DET	det	_	14	obl:tmod	_	then
+16	ahi	ahi	DET	det	_	14	obl	_	then
 17	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 007.031
@@ -592,7 +592,7 @@
 11	nabowematamonaka	aboha	VERB	vt	Mood=DeclM|Rep=M|TenseEvid=FPastNfhM|Voice=Cau	6	conj	_	die
 12	karaboa	karaboha	NOUN	n	Gender=Fem	11	case	_	blowgun
 13	ya	ya	PART	prcl	_	11	obl	_	_
-14	ahi	ahi	DET	det	_	10	obl:tmod	_	then
+14	ahi	ahi	DET	det	_	10	obl	_	then
 15	,	,	PUNCT	punct	_	11	punct	_	_
 16	onabana	ona	NOUN	n	Sp=Yes|TenseEvid=FutM	10	obl	_	alligator
 17	.	.	PUNCT	punct	_	11	punct	_	_
@@ -643,7 +643,7 @@
 6	yiwa	yiwa	NOUN	n	Gender=Fem	7	obj	_	pot
 7	kero	kero	VERB	vt	_	2	parataxis	_	_
 8	nemetemone	na	AUX	aux	Rep=F|TenseEvid=FPastNfhF	7	aux	_	make with circular motion
-9	ahi	ahi	DET	det	_	7	obl:tmod	_	then
+9	ahi	ahi	DET	det	_	7	obl	_	then
 10	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 070.040
@@ -653,4 +653,3 @@
 2	kero	kero	VERB	vt	_	0	root	_	make with circular motion
 3	nemetemoneke	na	AUX	aux	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	2	aux	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
-
