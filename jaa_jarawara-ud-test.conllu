@@ -551,9 +551,9 @@
 # sent_id = 007.032
 # text = Oko karaboa hoti awe , baka tokani awane .
 # text_eng = He broke off my stick for making the hole of the blowgun inside .
-1	Oko	ka	PART	prcl	Number=Sing|Person=1|Poss=Yes	4	nmod	_	_
+1	Oko	ka	PRON	pron	Number=Sing|Person=1|Poss=Yes	4	nmod	_	_
 2	karaboa	karaboha	NOUN	n	Gender=Fem	3	nmod	_	karaboha
-3	hoti	hoti	NOUN	n	Gender=Fem|Poss=Yes	4	case	_	hole
+3	hoti	hoti	NOUN	n	Gender=Fem|Poss=Yes	4	nmod	_	hole
 4	awe	awe	NOUN	n	Gender=Fem|Poss=Yes	6	obj	_	wood
 5	,	,	PUNCT	punct	_	6	punct	_	_
 6	baka	baka	VERB	vt	_	0	root	_	break
