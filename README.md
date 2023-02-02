@@ -6,7 +6,7 @@ from a variety of sources, including grammar examples, oral stories, didatic mat
 # Introduction
 
 UD_Madi-Jarawara is a collection of annotated sentences in Madí (Jarawara dialect)
-from a variety of sources, including grammar examples, oral stories, didatic material, and dictionary examples. The texts are annotated by Fabrício Ferraz Gerardi.
+from a variety of sources, including grammar examples, oral stories, didatic material, and dictionary examples. The texts are annotated by Fabrício Ferraz Gerardi and Julia Sattler.
 
 ...
 
