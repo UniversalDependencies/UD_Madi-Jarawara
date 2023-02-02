@@ -179,16 +179,16 @@
 # text_eng = They were going along , and they didn't see any game . [They came] to where Martino lived .
 1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
 2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
-3	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	10	discourse	_	_
+3	me	me	PRON	pro	Number=Plur|Person=3|Red=Yes	6	discourse	_	_
 4	me	me	PRON	pro	Number=Plur|Person=3|Poss=Yes	5	nmod	_	_
 5	noki	noki	NOUN	n	Gender=Fem	6	nsubj	_	eye
 6	honara	hona	VERB	vi	Gender=Fem|Polarity=Neg	2	conj	_	have something
 7	me	me	PRON	pro	Number=Plur|Person=3|Poss=Yes	10	discourse	_	_
 8	Matino	Matino	PROPN	ppn	_	7	csubj	_	Martino
 9	Matino	Matino	PROPN	ppn	Red=Yes	10	discourse	_	Martino
-10	winahi	wina	VERB	vi	Gender=Masc	7	ccomp	_	live
-11	winahi	wina	VERB	vi	Gender=Masc|Red=Yes	10	discourse	_	live
-12	ni	ni	PART	prcl	_	12	case	_	to
+10	winahi	wina	VERB	vi	Gender=Masc	11	discourse	_	live
+11	winahi	wina	VERB	vi	Gender=Masc|Red=Yes	6	parataxis	_	live
+12	ni	ni	PART	prcl	_	11	discourse	_	to
 13	ya	ya	PART	prcl	_	7	obl	_	_
 14	.	.	PUNCT	punct	_	11	punct	_	_
 
@@ -216,7 +216,7 @@
 7	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 007.006
-# text = Me towaka me , me towaka me , yama me kakatoma me yoro na me ni ya , me yoro nemetemoneke
+# text = Me towaka me , me towaka me , yama me kakatoma me yoro na me ni ya , me yoro nemetemoneke .
 # text_eng = They went out . They were looking around , as they stood there .
 1	Me	me	PRON	pro	Number=Plur|Person=3	2	nsubj	_	_
 2	towaka	ka	VERB	vi	Away=Yes|Case=Com|Gender=Fem	0	root	_	go/come
@@ -652,4 +652,3 @@
 2	kero	kero	VERB	vt	_	0	root	_	make with circular motion
 3	nemetemoneke	na	AUX	aux	Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	2	aux	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
-
