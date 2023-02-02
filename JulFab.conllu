@@ -87,7 +87,7 @@
 3	okamatibe	ka	VERB	v	Away=Yes|Mood=ImmF|Number[subj]=Sing|Person[subj]=1|St=Yes	0	root	_	go/come
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = NfSC10.02
+# sent_id = NfSC10
 # text = Yara me towasimeno yara me namoni kameno ama .
 # text_eng = He had found the Brazilians and was coming to tell us about them .
 # text_por = 
