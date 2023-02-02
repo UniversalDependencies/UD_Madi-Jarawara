@@ -96,7 +96,7 @@
 3	towasimeno	wasi	VERB	v	Away=Yes|Back=Yes|TenseEvid=IPastNfHM	0	root	_	find
 4	yara	yara	PROPN	ppn	Gender=Masc	5	discourse	_	Brazilian
 5	me	me	PRON	pro	Number[obj]=Plur|Person[obj]=3|Poss=Yes	6	nmod	_	_
-6	namoni	namoni	SCONJ	_	_	3	case	_	report
+6	namoni	namoni	ADP	posp	_	3	obl	_	report
 7	kameno	ka	VERB	v	Back=Yes	3	conj	_	go/come
 8	ama	ama	AUX	aux	SecV=Yes	7	aux	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
