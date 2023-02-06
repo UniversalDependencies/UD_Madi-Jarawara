@@ -1,11 +1,11 @@
-# sent_id = NfSC01.02
+# sent_id = NfSC01
 # text = Okomara oke
 # text_eng = I came back.
 # text_por = Eu voltei
 1	Okomara	ka	VERB	v	Back=Yes|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	_
 2	oke	ke	X	_	Mood=DeclF|Number=Sing|Person=1	1	dep	_	_
 
-# sent_id = NfSC02.02
+# sent_id = NfSC02
 # text = Faja okisama okomara oke
 # text_eng = I came out of the house, and came back.
 # text_por = Eu saí da casa e voltei
@@ -14,7 +14,7 @@
 3	okomara	ka	VERB	v	Back=Yes|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	_
 4	oke	ke	X	_	Mood=DeclF|Number=Sing|Person=1	3	dep	_	_
 
-# sent_id = NfSC03.02
+# sent_id = NfSC03
 # text = Owaharihamaro oke me ohiyara owa
 # text_eng = I was the only one talking to them.
 # text_por = Eu era o único falando com eles
@@ -24,7 +24,7 @@
 4	ohiyara	_	VERB	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	1	xcomp	_	_
 5	owa	_	X	_	Number[subj]=Sing|Person[subj]=1	4	dep	_	_
 
-# sent_id = NfSC04.02
+# sent_id = NfSC04
 # text = Tomiko ya onakakehabanake .
 # text_eng = I will come to get it on Sunday .
 # text_por = 
@@ -33,7 +33,7 @@
 3	onakakehabanake	ka	VERB	v	AC=Yes|Coming=Yes|Mood=DeclF|Number=Sing|Person=1|TenseEvid=FutF|Voice=Cau	0	root	_	go/come
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = NfSC05.02
+# sent_id = NfSC05
 # text = Kafe ofi ya ohiwawahaba ama oke .
 # text_eng = When I drink the coffee, I will feel warm .
 # text_por =
@@ -45,7 +45,7 @@
 6	oke	ke	X	_	Mood=DeclF|Number[subj]=Sing|Person[subj]=1	4	dep	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = NfSC06.02
+# sent_id = NfSC06
 # text = Koko ni ya tisawiya mata .
 # text_eng = You stay with your uncle for now .
 # text_por =
@@ -56,7 +56,7 @@
 5	mata	mata	ADV	_	_	4	advmod	_	for now
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = NfSC07.02
+# sent_id = NfSC07
 # text = Tiwini ka otaa winineke .
 # text_eng = We're staying here because you are living here .
 # text_por =
@@ -66,7 +66,7 @@
 4	winineke	wina	VERB	v	Aspect=Cont|Mood=DeclF	0	root	_	live
 5	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = NfSC08.02
+# sent_id = NfSC08
 # text = Boni ihi awa boto tonahani amake .
 # text_eng = The tree fell over because of the wind .
 # text_por = 
@@ -78,7 +78,7 @@
 6	amake	ama	AUX	aux	Mood=DeclF|SecV=Yes	4	aux	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = NfSC09.02
+# sent_id = NfSC09
 # text = Bane tabiyo okamatibe .
 # text_eng = I'm going out [hunting] for giant anteater .
 # text_por = 
@@ -87,7 +87,7 @@
 3	okamatibe	ka	VERB	v	Away=Yes|Mood=ImmF|Number[subj]=Sing|Person[subj]=1|St=Yes	0	root	_	go/come
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = NfSC10.02
+# sent_id = NfSC10
 # text = Yara me towasimeno yara me namoni kameno ama .
 # text_eng = He had found the Brazilians and was coming to tell us about them .
 # text_por = 
@@ -101,7 +101,7 @@
 8	ama	ama	AUX	aux	SecV=Yes	7	aux	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
 
-# sent_id = NfSC11.02
+# sent_id = NfSC11
 # text = Faya yana tonematamona fahi waha .
 # text_eng = Then he was ready to go .
 # text_por =
@@ -112,7 +112,7 @@
 5	waha	waha	ADV	_	_	2	advmod	_	now
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = NfSC12.02
+# sent_id = NfSC12
 # text = Oko koraisi nake ohabibone karo .
 # text_eng = I have the courage to die .
 # text_por = 
@@ -123,7 +123,7 @@
 5	karo	karo	X	_	_	3	mark	_	so that
 6	.	.	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = NfSC13.02
+# sent_id = NfSC13
 # text = Tokisemonaka faa boti ya .
 # text_eng = He went down to the bottom of the lake [ someone said ] .
 # text_por = 
@@ -133,7 +133,7 @@
 4	ya	ya	PART	prcl	_	3	case	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
-# sent_id = NfSC14.02
+# sent_id = NfSC14
 # text = Kokowi ohi naka bahi hiwene ehene .
 # text_eng = The kokowi hawk is calling because of the heat of the sun .
 # text_por =
@@ -145,7 +145,7 @@
 6	ehene	ehene	SCONJ	_	Gender=Masc	2	case	_	because of
 7	.	.	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = NfSC15.02
+# sent_id = NfSC15
 # text = Owakosamaro oke oko abohi bai owa nabowe owa .
 # text_eng = I stood there having lost my bearings, because the lightning had stunned me .
 # text_por = 
@@ -158,6 +158,20 @@
 7	nabowe	aboha	VERB	v	Gender=Masc|Voice=Cau	1	obl	_	die
 8	owa	owa	PRON	pro	Number[obj]=Sing|Person[obj]=1	7	discourse	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = NfSC16
+# text = Faya inohowe otaa banemarika awa otaa tii na ya
+# text_eng = Then we threw the sticks we had cut at the alligator
+# text_por =
+1	Faya	faya	SCONJ	sc	_	2	discourse	_	so
+2	inohowe	inohowe	NOUN	n	Gender=Masc|Sp=Yes	4	iobj	_	alligator
+3	otaa	otaa	PRON	pro	Clusivity=Ex	4	nsubj	_	throw something at
+4	banemarika	bana	VERB	v	Mood=DeclM|TenseEvid=FPastFhM	0	root	_	_
+5	awa	awa	NOUN	n	Gender=Fem	4	obj	_	wood
+6	otaa	otaa	PRON	pro	Clusivity=Ex	7	nsubj	_	_
+7	tii	tii	VERB	v	_	5	acl	_	cut through
+8	na	na	AUX	aux	Gender=Fem	7	aux	_	_
+9	ya	ya	PART	prcl	_	5	case	_	_
 
 # sent_id = 007.001
 # text = Ee okobi okobise okobise yama me yete naba me towakemetemone .
