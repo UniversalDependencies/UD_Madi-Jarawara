@@ -712,7 +712,7 @@
 # text = Yomee maka wai hine hasi nenoka
 # text_eng = The dog was bitten by a snake , but it escaped
 # text_por =
-1	yomee	yomee	NOUN	_	_	_	_	_	_
+1	Yomee	yomee	NOUN	_	_	_	_	_	_
 2	maka	maka	NOUN	_	_	_	_	_	_
 3	wai	wai	VERB	_	_	_	_	_	_
 4	hine	na	AUX	_	Gender=Masc|OC=Yes	_	_	_	_
