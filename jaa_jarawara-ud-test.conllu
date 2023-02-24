@@ -657,13 +657,44 @@
 # text = Faya inohowe otaa banemarika awa otaa tii na ya
 # text_eng = Then we threw the sticks we had cut at the alligator
 # text_por =
-1	Faya	faya	SCONJ	sc	_	2	discourse	_	so
-2	inohowe	inohowe	NOUN	n	Gender=Masc|Sp=Yes	4	iobj	_	alligator
-3	otaa	otaa	PRON	pro	Clusivity=Ex	4	nsubj	_	throw something at
-4	banemarika	bana	VERB	v	Mood=DeclM|TenseEvid=FPastFhM	0	root	_	_
-5	awa	awa	NOUN	n	Gender=Fem	4	obj	_	wood
-6	otaa	otaa	PRON	pro	Clusivity=Ex	7	nsubj	_	_
-7	tii	tii	VERB	v	_	5	acl	_	cut through
-8	na	na	AUX	aux	Gender=Fem	7	aux	_	_
-9	ya	ya	PART	prcl	_	5	case	_	_
+1	Faya	faya	SCONJ	_	_	_	_	_	_
+2	inohowe	inohowe	NOUN	_	Gender=Masc|Sp=Yes	_	_	_	_
+3	otaa	otaa	PRON	_	Clusivity=Ex	_	_	_	_
+4	banemarika	bana	VERB	_	Mood=DeclM|TenseEvid=FPastFhM	_	_	_	_
+5	awa	awa	NOUN	_	Gender=Fem	_	_	_	_
+6	otaa	otaa	PRON	_	Clusivity=Ex	_	_	_	_
+7	tii	tii	VERB	_	_	_	_	_	_
+8	na	na	AUX	_	Gender=Fem	_	_	_	_
+9	ya	ya	PART	_	_	_	_	_	_
+
+# sent_id = NfSC17
+# text = Tika tafi tai toahi
+# text_eng = You go ahead and eat
+# text_por = 
+1	tika	ti	PRON	_	Number=Sing|Person=2|Poss=Yes	_	_	_	_
+2	tafi	tafa	VERB	_	_	_	_	_	_
+3	tai	tai	VERB	_	_	_	_	_	_
+4	toahi	ha	AUX	_	Ch=Yes|Mood=ImpF	_	_	_	_
+
+# sent_id = NfSC18
+# text = Tika toki onaf okere
+# text_eng = I don't want you to go
+# text_por = 
+1	tika	ti	PRON	_	Number=Sing|Person=2|Poss=Yes	_	_	_	_
+2	toki	ka	VERB	_	Away=Yes	_	_	_	_
+3	onofa	nofa	VERB_	_	Number=Sing|Person=1	_	_	_	_
+4	okere	o	PRON	_	Mood=DeclF|Number=Sing|Person=1|Polarity=Neg	_	_	_	_
+
+# sent_id = NfSC19
+# text = Hiba yomee ohi ni taboro otaa awaba otaake
+# text_eng = Wait , we are going to look at the place where the jaguar was crying 
+# text_por =
+1	Hiba	hiba	INTJ	_	_	_	_	_	_
+2	yomee	yomee	NOUN	_	_	_	_	_	_
+3	ohi	ohi	VERB	_	_	_	_	_	_
+4	ni	na	AUX	_	_	_	_	_	_
+5	taboro	taboro	NOUN	_	Gender=Masc	_	_	_	_
+6	otaa	otaa	PRON	_	Clusivity=Ex|Number=Pl|Person=1	_	_	_	_
+7	awaba	awa	VERB	_	TenseEvid=FutF	_	_	_	_
+8	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Pl|Person=1	_	_	_	_
 
