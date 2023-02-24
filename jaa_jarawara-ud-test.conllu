@@ -700,7 +700,7 @@
 
 # sent_id = NfSC20
 # text = Okaniso tama ni ofoyara oke
-# text_eng = I was inside [the large basket] holding onto my younger brother 
+# text_eng = I was inside [the large basket] holding onto my younger brother
 # text_por =
 1	Okaniso	niso	NOUN	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
 2	tama	tama	VERB	_	_	_	_	_	_
