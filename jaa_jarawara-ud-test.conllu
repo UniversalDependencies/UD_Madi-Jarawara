@@ -718,3 +718,79 @@
 4	hine	na	AUX	_	Gender=Masc|OC=Yes	_	_	_	_
 5	hasi	hasi	VERB	_	_	_	_	_	_
 6	nenoka	na	AUX	_	TenseEvid=IPastNfhM|Mood=DeclM	_	_	_	_
+
+# sent_id = NfSC22
+# text = Otafara oke
+# text_eng = I ate
+# text_por =
+1	Otafara	tafa	VERB	_	Number=Sing|Person=1|TenseEvid=IPastFhF	_	_	_	_
+2	oke	o	PRON	_	Number=Sing|Person=1|Mood=DeclF	_	_	_	_
+
+# sent_id = NfSC23
+# text = Afi onahara oke
+# text_eng = I took a bath
+# text_por =
+1	Afi	afi	VERB	_	_	_	_	_	_
+2	onahara	na	AUX	_	Number=Sing|Person=1|TenseEvid=IPastFhF	_	_	_	_
+3	oke	o	PRON	_	Number=Sing|Person=1|Mood=DeclF	_	_	_	_
+
+# sent_id = NfSC24
+# text = Afi omatibe
+# text_eng = I am going to take a bath
+# text_por =
+1	Afi	afi	VERB	_	_	_	_	_	_
+2	omatibe	na	AUX	_	Mood=ImmF|Number=Sing|Person=1|St=Yes	_	_	_	_
+
+# sent_id = NfSC25
+# text = Yama hawa toake
+# text_eng = It's ready
+# text_por =
+1	yama	yama	NOUN	_	Gender=Fem	_	_	_	_
+2	hawa	hawa	VERB	_	_	_	_	_	_
+3	toake	ha	VERB	_	Ch=Yes|Mood=DeclF	_	_	_	_
+
+# sent_id = NfSC26
+# text = Hawa ohara oke
+# text_eng = I'm finished
+# text_por =
+1	Hawa	hawa	VERB	_	_	_	_	_	_
+2	ohara	ha	AUX	_	Ch=Yes|Number=Sing|Person=1|TenseEvid=IPastFhF	_	_	_	_
+3	oke	o	PRON	_	Number=Sing|Person=1|Mood=DeclF	_	_	_	_
+
+# sent_id = NfSC27
+# text = Me tase ohara oke
+# text_eng = I'm their companion
+# text_por =
+1	Me	me	PRON	_	Number=Plur|Person=3|Poss=Yes	_	_	_	_
+2	tase	tase	NOUN	_	Gender=Fem	_	_	_	_
+3	ohara	ha	VERB	_	Ch=Yes|Number=Sing|Person=1|TenseEvid=IPastFhF	_	_	_	_
+4	oke	o	PRON	_	Number=Sing|Person=1|Mood=DeclF	_	_	_	_
+
+# sent_id = NfSC28 --- change waha=Now???
+# text = Hisiri me weyeri kaweemetemoneni
+# text_eng = They carried baskets on their backs
+# text_por =
+1	Hisiri	hisiri 	NOUN	_	Gender=Fem	_	_	_	_
+2	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+3	weyeri	weye	VERB	_	Distr=Yes	_	_	_	_
+4	kaweemetemoneni	na	AUX	_	Backgrounding=Fem|Case=Com|Now=Yes|Rep=Fem|TenseEvid=FPastNfhF	_	_	_	_
+
+# sent_id = NfSC29
+# text = Tee ka abise ama oke
+# text_eng = I am your uncle
+# text_por =
+1	Tee	tee	PRON	_	Number=Pl|Person=2	_	_	_	_
+2	ka	ka	PART	_	Poss=Yes	_	_	_	_
+3	abise	abise	NOUN	_	Gender=Masc	_	_	_	_
+4	ama	ama	VERB	_	_	_	_	_	_
+5	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC30
+# text = Tera otaa kana kanamarabone otaake
+# text_eng = We aren't going to run from you (pl) anymore
+# text_por =
+1	Tera	tesa	PRON	_	Number=Pl|Person=2	_	_	_	_
+2	otaa	otaa	PRON	_	Clusivity=Ex|Number=Pl|Person=1	_	_	_	_
+3	kana	kanna	VERB	_	_	_	_	_	_
+4	kanamarabone	na	AUX	_	Back=Yes|Case=Com|Mood=IntF|Polarity=Neg	_	_	_	_
+5	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Pl|Person=1	_	_	_	_
