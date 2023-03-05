@@ -795,3 +795,61 @@
 4	kanamarabone	na	AUX	_	Back=Yes|Case=Com|Mood=IntF|Polarity=Neg	_	_	_	_
 5	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Pl|Person=1	_	_	_	_
 
+# sent_id = NfSC31
+# text = Otaa maa tona otaake
+# text_eng = We stopped (walking)
+# text_por =
+1	Otaa	otaa	PRON	_	Clusivity=Ex|Number=Pl|Person=1	_	_	_	_
+2	maa	maa	VERB	_	_	_	_	_	_
+3	tona	na	AUX	_	Ch=Yes|Gender=Fem	_	_	_	_
+4	otaake	otaa	PRON	_	Clusivity=Ex|Number=Pl|Mood=DeclF|Person=1	_	_	_	_
+
+# sent_id = NfSC32
+# text = Tera otaa awamateehaba otaani
+# text_eng = We will see you again sometime
+# text_por =
+1	Tera	tera	PRON	_	Number=Pl|Person=2	_	_	_	_
+2	otaa	otaa	PRON	_	Clusivity=Ex|Number=Pl|Person=1	_	_	_	_
+3	awamateehaba	awa	VERB	_	Aspect=Hab|Back=Yes|TenseEvid=FutF	_	_	_	_
+4	otaani	otaa	PRON	_	Backgrounding=Fem|Clusivity=Ex|Number=Pl|Person=1	_	_	_	_
+
+# sent_id = NfSC33
+# text = Tokomarematamonaka
+# text_eng = He didn't go away
+# text_por =
+1	Tokomarematamonaka	ka	VERB	_	Away=Yes|Back=Yes|Mood=DeclM|Polarity=Neg|Rep=M|TenseEvid=FPastFhM	_	_	_	_
+
+# sent_id = NfSC34
+# text = Kamarematamonaka
+# text_eng = He didn't come back
+# text_por =
+1	Kamarematamonaka	ka	VERB	_	Back=Yes|Mood=DeclM|Polarity=Neg|Rep=M|TenseEvid=FPastFhM	_	_	_	_
+
+# sent_id = NfSC35
+# text = Wati ino tokanayowe
+# text_eng = He dried the arrow points [in the fire]
+# text_por =
+1	Wati	wati	NOUN	_	Gender=Masc	_	_	_	_
+2	ino	ino	NOUN	_	Gender=Masc	_	_	_	_
+3	tokanayowe	yowa	VERB	_	Case=Com|Ch=Yes|Gender=Masc|Voice=Cau	_	_	_	_
+
+# sent_id = NfSC36
+# text = Okomi ka faaba tee hawa tonihahi
+# text_eng = Get water ready for my mother
+# text_por =
+1	Okomi	ami	NOUN	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes	_	_	_	_
+2	ka	ka	PART	_	Poss=Yes	_	_	_	_
+3	faaba	faha	NOUN	_	TenseEvid=FutF	_	_	_	_
+4	tee	tee	PRON	_	Number=Pl|Person=2	_	_	_	_
+5	hawa	hawa	VERB	_	_	_	_	_	_
+6	tonihahi	ha	AUX	_	Ch=Yes|Mood=ImpF|Voice=Cau	_	_	_	_
+
+# sent_id = NfSC37
+# text = Kararana otaaa tonihate amake bisa
+# text_eng = We call it [that species of grass] kararana
+# text_por =
+1	Kararana	kararana	NOUN	_	Gender=Fem|Sp=Yes	_	_	_	_
+2	otaaa	otaa	PRON	_	Clusivity=Ex|Number=Pl|Person=1	_	_	_	_
+3	tonihate	ha	VERB	_	Aspect=Hab|Ch=Yes|Voice=Cau	_	_	_	_
+4	amake	ama	AUX	_	Mood=DeclF|SecV=Yes	_	_	_	_
+5	bisa	bisa	PART	_	_	_	_	_	_
