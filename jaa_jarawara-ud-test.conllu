@@ -854,3 +854,68 @@
 4	amake	ama	AUX	_	Mood=DeclF|SecV=Yes	_	_	_	_
 5	bisa	bisa	PART	_	_	_	_	_	_
 
+# sent_id = NfSC38
+# text = Owa me fiya tonama me yomee me me waka hinarani
+# text_eng = They [i.e. the girls] passed by me, and the jaguars killed them
+# text_por =
+1	Owa	owa	PRON	_	Number=Sing|Person=1	_	_	_	_
+2	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+3	fiya	fiya	VERB	_	_	_	_	_	_
+4	tonama	na	AUX	_	Away=Yes|Back=Yes|Gender=Fem	_	_	_	_
+5	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+6	yomee	yomee	NOUN	_	Gender=Masc	_	_	_	_
+7	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+8	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+9	waka	waka	VERB	_	_	_	_	_	_
+10	hinarani	na	AUX	_	Backgrounding=Fem|OC=Yes|TenseEvid=IPastFhF	_	_	_	_
+
+# sent_id = NfSC039
+# text = Yama soki ya yama tai ona okoma tasi onamara oke owa me naakira owa
+# text_eng = I came on, stepping in the darkness. I came out at the village. They had not come after me .
+# text_por =
+1	Yama	yama	NOUN	_	Gender=Fem	_	_	_	_
+2	soki	soki 	VERB	_	Nom=Yes	_	_	_	_
+3	ya	ya	PART	_	_	_	_	_	_
+4	yama	yama	NOUN	_	Gender=Fem	_	_	_	_
+5	tai	tai 	VERB	_	_	_	_	_	_
+6	ona	na	AUX	_	Number=Sing|Person=1	_	_	_	_
+7	okoma	ka	VERB	_	Back=Yes|Gender=Fem|Number=Sing|Person=1	_	_	_	_
+8	tasi	tasi	VERB	_	_	_	_	_	_
+9	onamara	na	AUX	_	Back=Yes|Number=Sing|Person=1|TenseEvid=IPastFhF	_	_	_	_
+10	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+11	owa	owa	PRON	_	Number=Sing|Person=1	_	_	_	_
+12	me	ma	PRON	_	Number=Plur|Person=3	_	_	_	_
+13	naakira	ka	VERB	_	Coming=Yes|Polarity=Neg|Voice=Cau	_	_	_	_
+14	owa	owa	PRON	_	Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC040
+# text = Hinawaawaame fata hiwitimatamonaka ahi teee
+# text_eng = [My father] moved [the cougar] over, and pushed it away. "Teee" [went the noise of the cougar hitting against a miriti palm]
+# text_por =
+1	Hinawaawaame	waa	VERB	_	Back=Yes|Ch=Yes|Gender=Masc|OC=Yes|Voice=Cau	_	_	_	_
+2	fata	fata	VERB	_	_	_	_	_	_
+3	hiwitimatamonaka	na	AUX	_	Away=Yes|Mood=DeclM|OC=Yes|Out=Yes|Rep=M|TenseEvid=FPastFhM	_	_	_	_
+4	ahi	ahi	DET	_	_	_	_	_	_
+5	teee	teee	INTJ	_	_	_	_	_	_
+
+# sent_id = NfSC041
+# text = Hibati ya hee nemetemoneke
+# text_eng = Very quickly [the monster] had put something in him [i.e. had put a spell on him]
+# text_por =
+1	Hibati	hibati 	PART	_	_	_	_	_	_
+2	ya	ya	PART	_	_	_	_	_	_
+3	hee	hee	PRON	_	Number=Sing|Person=3	_	_	_	_
+4	nemetemoneke	na	VERB	_	Mood=DeclF|Rep=Fem|TenseEvid=FPastNfhF	_	_	_	_
+
+# sent_id = NfSC042
+# text = Mera waka nabone mera baro nemetemone ahi
+# text_eng = She tried to hit them with a stick, to kill them
+# text_por =
+1	Mera	mera	PRON	_	Number=Plur|Person=3	_	_	_	_
+2	waka	waka	VERB	_	_	_	_	_	_
+3	nabone	na	AUX	_	Mood=IntF	_	_	_	_
+4	mera	mera	PRON	_	Number=Plur|Person=3	_	_	_	_
+5	baro	baro	VERB	_	_	_	_	_	_
+6	nemetemone	na	AUX	_	Rep=Fem|TenseEvid=FPastNfhF	_	_	_	_
+7	ahi	ahi	DET	_	_	_	_	_	_
+
