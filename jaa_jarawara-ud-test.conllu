@@ -919,3 +919,59 @@
 6	nemetemone	na	AUX	_	Rep=Fem|TenseEvid=FPastNfhF	_	_	_	_
 7	ahi	ahi	DET	_	_	_	_	_	_
 
+# sent_id = NfSC043
+# text = Akowabaraka ya otaa kobo tonama boriso otara haa neri otaake
+# text_eng = When we arrived at Água Branca, a policeman called us
+# text_por =
+1	Akowabaraka	Akowabaraka 	NOUN	_	Gender=Fem	_	_	_	_
+2	ya	ya	PART	_	_	_	_	_	_
+3	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+4	kobo	kobo 	VERB	_	_	_	_	_	_
+5	tonama	na	AUX	_	Away=Yes|Back=Yes|Gender=Fem	_	_	_	_
+6	boriso	boriso	NOUN	_	Gender=Masc	_	_	_	_
+7	otara	otara	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+8	haa	haa	VERB	_	_	_	_	_	_
+9	neri	na	AUX	_	TenseEvid=RPastFhM	_	_	_	_
+10	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Plur|Person=1	_	_	_	_
+
+# sent_id = NfSC044
+# text = Otaa ati ee rabone otaake
+# text_eng = We won't say that
+# text_por =
+1	Otaa	otaa 	PRON	_	Clusivity=Ex|Number=Plur|Person=1|Poss=Yes	_	_	_	_
+2	ati	ati	NOUN	_	_	_	_	_	_
+3	ee	ee	VERB	_	_	_	_	_	_
+4	rabone	na	AUX	_	Mood=IntF|Polarity=Neg	_	_	_	_
+5	otaake	otaa	PRON	_	Clusivity=Ex|Number=Plur|Mood=DeclF|Person=1|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC045 ----- Abinima????
+# text = Oko yifo abinima nare oke
+# text_eng = My hammock is coming apart
+# text_por =
+1	Oko	o	PRON	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+2	yifo	yifo	NOUN	_	Gender=Masc	_	_	_	_
+3	abinima	_	_	_	_	_	_	_	_
+4	nare	na	AUX	_	TenseEvid=IPastFhM	_	_	_	_
+5	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC046
+# text = Makoni owati ee tee ama oke ahi
+# text_eng = Therefore this is what I say
+# text_por =
+1	Makoni	makoni	PART	_	_	_	_	_	_
+2	owati	ati	NOUN	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+3	ee	ee	VERB	_	_	_	_	_	_
+4	tee	na	AUX	_	Aspect=Hab	_	_	_	_
+5	ama	ama	VERB	_	SecV=Yes	_	_	_	_
+6	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1|Poss=Yes	_	_	_	_
+7	ahi	ahi	DET	_	_	_	_	_	_
+
+# sent_id = NfSC047
+# text = Oko wani kitahara oke
+# text_eng = I held on tight [to the motorcycle]
+# text_por =
+1	Oko	o	PRON 	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+2	wani	wana	VERB	_	NFIN=Yes	_	_	_	_
+3	kitahara	kita	VERB	_	TenseEvid=IPastFhF	_	_	_	_
+4	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1|Poss=Yes	_	_	_	_
+
