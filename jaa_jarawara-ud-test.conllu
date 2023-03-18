@@ -975,3 +975,32 @@
 3	kitahara	kita	VERB	_	TenseEvid=IPastFhF	_	_	_	_
 4	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1|Poss=Yes	_	_	_	_
 
+# sent_id = NfSC048
+# text = Okomara oke
+# text_eng = I came back
+# text_por =
+1	Okomara	ka	VERB	_	Number=Sing|Person=1|TenseEvid=IPastFhF	_	_	_	_
+2	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC049
+# text = Neme kamahareka
+# text_eng = Neme came back
+# text_por =
+1	Neme	Neme	PROPN	_	GGender=Masc	_	_	_	_
+2	kamahareka	ka	VERB	_	Back=Yes|Mood=DeclF|TenseEvid=IPastFhF	_	_	_	_
+
+# sent_id = NfSC050
+# text = Otaa kama otaake
+# text_eng = We came back
+# text_por =
+1	Otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+2	kama	ka	VERB	_	Back=Yes|Gender=F	_	_	_	_
+3	otaake	otaa	PRON	_	Clusivity=Ex|Number=Plur|Mood=DeclF|Person=1	_	_	_	_
+
+# sent_id = NfSC051
+# text = Otaa kamamaro otaake
+# text_eng = We came back
+# text_por =
+1	Otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+2	kama	ka	VERB	_	Back=Yes|Gender=F|TenseEvid=FPastFhF	_	_	_	_
+3	otaake	otaa	PRON	_	Clusivity=Ex|Number=Plur|Mood=DeclF|Person=1	_	_	_	_
