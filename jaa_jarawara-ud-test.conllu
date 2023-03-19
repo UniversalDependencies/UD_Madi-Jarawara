@@ -1028,19 +1028,19 @@
 # sent_id = NfSC054
 # text = Maneo otaa ka moto rabike otaake
 # text_eng = Maneo, our motor stopped working
-# text_por 
+# text_por =
 1	Maneo	Maneo	PROPN	_	_	_	_	_	_
 2	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
 3	ka	ka	PART	_	Poss=Yes	_	_	_	_
 4	moto	moto	NOUN	_	Gender=Masc	_	_	_	_
-5	rabike	rabika	VERB	_	Gnder=Masc	_	_	_	_
+5	rabike	rabika	VERB	_	Gender=Masc	_	_	_	_
 6	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Plur|Person=1|Poss=Yes	_	_	_	_
 
 # sent_id = NfSC055
 # text = Oyawaro ama oke fahi kaboko bote oko yifo katiseno owa
 # text_eng = I was upset because the old Indian had untied my hammock
 # text_por =
-1	Oyawaro	yawa 	VERB	_	Number=Sing|Person=1|TenseEvid=RPastFhF	_	_	_	_
+1	Oyawaro	yawa	VERB	_	Number=Sing|Person=1|TenseEvid=RPastFhF	_	_	_	_
 2	ama	ama	AUX	_	SecV=Yes	_	_	_	_
 3	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
 4	fahi	fahi	DET	_	_	_	_	_	_
@@ -1051,3 +1051,76 @@
 9	katiseno	tisa	VERB	_	Case=Com|TenseEvid=IPastNfhM	_	_	_	_
 10	owa	owa	PRON	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
 
+# sent_id = NfSC056
+# text = Tera ohiyarabone onara oke otaa ka kanawaa fawa na otaa
+# text_eng = I have been wanting to speak to you all, because our canoe disappeared
+# text_por =
+1	Tera	tera	PRON	_	Number=Plur|Person=2	_	_	_	_
+2	ohiyarabone	hiyara	VERB	_	Mood=IntF|Number=Sing|Person=1	_	_	_	_
+3	onara	na	AUX	_	Number=Sing|Person=1|TenseEvid=IPastFhF	_	_	_	_
+4	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+5	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+6	ka	ka	PART	_	Poss=Yes	_	_	_	_
+7	kanawaa	kanawaa	NOUN	_	Gender=Fem	_	_	_	_
+8	fawa	fawa	VERB	_	_	_	_	_	_
+9	na	na	AUX	_	Gender=Fem	_	_	_	_
+10	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC057
+# text = Yara kakatimamake otara fiya kane otaake fahi otaa ka moto ati fawa ne otaa
+# text_eng = The Brazilian came upstream and passed us by, because our motor wasn't working
+# text_por =
+1	Yara	yara	PROPN	_	Gender=Masc	_	_	_	_
+2	kakatimamake	ka	VERB	_	Case=Com|Follow=Yes|Upst=Yes	_	_	_	_
+3	otara	otara	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+4	fiya	fiya	VERB	_	_	_	_	_	_
+5	kane	na	AUX	_	Case=Com|Gender=Masc	_	_	_	_
+6	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Plur|Person=1	_	_	_	_
+7	fahi	fahi	DET	_	_	_	_	_	_
+8	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+9	ka	ka	PART	_	Poss=Yes	_	_	_	_
+10	moto	moto	NOUN	_	Gender=Masc	_	_	_	_
+11	ati	ati	NOUN	_	_	_	_	_	_
+12	fawa	fawa	VERB	_	_	_	_	_	_
+13	ne	na	AUX	_	Gender=Masc	_	_	_	_
+14	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC058
+# text = Wabori me towakemetemoneke me kana ni towakama mati
+# text_eng = His two brothers-in-law went running away
+# text_por =
+1	Wabori	wabori	NOUN	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	_	_	_	_
+2	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+3	towakemetemoneke	ka	VERB	_	Away=Yes|Case=Com|Mood=DeclF|Rep=F|TenseEvid=FPastNfhF	_	_	_	_
+4	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+5	kana	kana	VERB	_	_	_	_	_	_
+6	ni	na	AUX	_	NFIN=Yes	_	_	_	_
+7	towakama	ka	VERB	_	Away=Yes|Back=Yes|Case=Com|Gender=Fem	_	_	_	_
+8	mati	mati	PRON	_	Number=Plur|Person=3|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC059
+# text = Afi ona owa ni ya tikamara tike owisi Hinabori soko ne owa
+# text_eng = After I bathed you went to me, when Hinabori was washing my leg
+# text_por =
+1	Afi	afi	VERB	_	_	_	_	_	_
+2	ona	na	AUX	_	Gender=Fem|Number=Sing|Person=1	_	_	_	_
+3	owa	owa	PRON	_	Number=Sing|Person=1	_	_	_	_
+4	ni	ni	DET	_	_	_	_	_	_
+5	ya	ya	PART	_	_	_	_	_	_
+6	tikamara	ka	VERB	_	Away=Yes|Back=Yes|Number=Sing|Person=2|TenseEvid=IPastFhF	_	_	_	_
+7	tike	ti	PRON	_	Mood=DeclF|Number=Sing|Person=2	_	_	_	_
+8	owisi	isi	NOUN	_	Gender=Fem|Number=Sing|Person=1|Poss=Yes	_	_	_	_
+9	Hinabori	Hinabori	PROPN	_	Gender=Fem	_	_	_	_
+10	soko	soko	VERB	_	_	_	_	_	_
+11	ne	na	AUX	_	Gender=Masc	_	_	_	_
+12	owa	owa	PRON	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC060
+# text = Otaa winahamaro otaake Makoreni ya
+# text_eng = We were living at Makoreni
+# text_por =
+1	Otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+2	winahamaro	wina	VERB	_	TenseEvid=FPastFhF	_	_	_	_
+3	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Plur|Person=1	_	_	_	_
+4	Makoreni	Makoreni	PROPN	_	Gender=Fem	_	_	_	_
+5	ya	ya	PART	_	_	_	_	_	_
