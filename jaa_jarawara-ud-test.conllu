@@ -1005,3 +1005,49 @@
 2	kama	ka	VERB	_	Back=Yes|Gender=F|TenseEvid=FPastFhF	_	_	_	_
 3	otaake	otaa	PRON	_	Clusivity=Ex|Number=Plur|Mood=DeclF|Person=1	_	_	_	_
 
+# sent_id = NfSC052
+# text = Otara hiyare otaake
+# text_eng = He spoke to us
+# text_por =
+1	Otara	otara	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+2	hiyare	hiyara	VERB	_	Gender=Masc	_	_	_	_
+3	otaake	otaa	PRON	_	Clusivity=Ex|Number=Plur|Mood=DeclF|Person=1	_	_	_	_
+
+# sent_id = NfSC053
+# text = Yara otaa mano me hoka na otaake
+# text_eng = The Brazilians arm-wrestled us [lit., pulled our arms]
+# text_por =
+1	Yara	yara	PROPN	_	Gender=Masc	_	_	_	_
+2	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1|Poss=Yes	_	_	_	_
+3	mano	mano	NOUN	_	_	_	_	_	_
+4	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+5	hoka	hoka	VERB	_	_	_	_	_	_
+6	na	na	AUX	_	Gender=Fem	_	_	_	_
+7	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Plur|Person=1|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC054
+# text = Maneo otaa ka moto rabike otaake
+# text_eng = Maneo, our motor stopped working
+# text_por 
+1	Maneo	Maneo	PROPN	_	_	_	_	_	_
+2	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+3	ka	ka	PART	_	Poss=Yes	_	_	_	_
+4	moto	moto	NOUN	_	Gender=Masc	_	_	_	_
+5	rabike	rabika	VERB	_	Gnder=Masc	_	_	_	_
+6	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Plur|Person=1|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC055
+# text = Oyawaro ama oke fahi kaboko bote oko yifo katiseno owa
+# text_eng = I was upset because the old Indian had untied my hammock
+# text_por =
+1	Oyawaro	yawa 	VERB	_	Number=Sing|Person=1|TenseEvid=RPastFhF	_	_	_	_
+2	ama	ama	AUX	_	SecV=Yes	_	_	_	_
+3	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+4	fahi	fahi	DET	_	_	_	_	_	_
+5	kaboko	kaboko	PROPN	_	Gender=Masc	_	_	_	_
+6	bote	bote	ADJ	_	_	_	_	_	_
+7	oko	o	PRON	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+8	yifo	yifo	NOUN	_	Gender=Masc	_	_	_	_
+9	katiseno	tisa	VERB	_	Case=Com|TenseEvid=IPastNfhM	_	_	_	_
+10	owa	owa	PRON	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+
