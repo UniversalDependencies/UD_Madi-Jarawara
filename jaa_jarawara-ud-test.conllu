@@ -1125,3 +1125,43 @@
 4	Makoreni	Makoreni	PROPN	_	Gender=Fem	_	_	_	_
 5	ya	ya	PART	_	_	_	_	_	_
 
+# sent_id = NfSC061
+# text = Otaa towakamaba otaa awineke
+# text_eng = I guess the two of us will go home
+# text_por =
+1	Otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+2	towakamaba	ka	VERB	_	Away=Yes|Back=Yes|Case=Com|TenseEvid=FutF	_	_	_	_
+3	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+4	awineke	awine	VERB	_	Mood=DeclF	_	_	_	_
+
+# sent_id = NfSC062
+# text = Hawa tohame awaka
+# text_eng = He must have arrived home
+# text_por =
+1	Hawa	hawa	VERB	_	_	_	_	_	_
+2	tohame	ha	AUX	_	Back=Yes|Ch=Yes	_	_	_	_
+3	awaka	awa	VERB	_	Mood=DeclM	_	_	_	_
+
+# sent_id = NfSC063
+# text = Otaa winake
+# text_eng = We are living here
+# text_por =
+1	Otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+2	winake	wina	VERB	_	Mood=DeclF	_	_	_	_
+
+# sent_id = NfSC064
+# text = Ito okiha oke
+# text_eng = I have a cold
+# text_por =
+1	Ito	ito	NOUN	_	Gender=Fem	_	_	_	_
+2	okiha	kiha	VERB	_	Number=Sing|Person=1	_	_	_	_
+3	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC065 ---- hika
+# text = Yaki hikana hika
+# text_eng = It [the mother jaguar] is holding it [its cub] in its teeth
+# text_por =
+1	Yaki	yaki	VERB	_	_	_	_	_	_
+2	hikana	na	AUX	_	Case=Com|OC=Yes	_	_	_	_
+3	hika	X	X	Mood=DeclM|OC=Yes	_	_	_	_	_
+
