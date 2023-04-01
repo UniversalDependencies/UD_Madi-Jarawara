@@ -1165,3 +1165,72 @@
 2	hikana	na	AUX	_	Case=Com|OC=Yes	_	_	_	_
 3	hika	X	X	Mood=DeclM|OC=Yes	_	_	_	_	_
 
+# sent_id = NfSC066
+# text = Otaa keteheri amaka akira ya
+# text_eng = We seasoned it [the pork] with ginger
+# text_por =
+1	Otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+2	keteheri	teha	VERB	_	Case=Com|TenseEvid=RPastFhM	_	_	_	_
+3	amaka	ama	AUX	_	Mood=DeclM|SecV=Yes	_	_	_	_
+4	akira	akira	NOUN	_	Gender=Fem	_	_	_	_
+5	ya	ya	PART	_	_	_	_	_	_
+
+# sent_id = NfSC067 --- Secondary Verb awa/awaine AUX/SecV?
+# text = Hikamoemete awineke 
+# text_eng = I guess he buried her
+# text_por =
+1	Hikamoemete	kamo	VERB	_	OC=Yes|TenseEvid=FPastNfhF	_	_	_	_
+2	awineke	awine	VERB	_	Mood=DeclF	_	_	_	_
+
+# sent_id = NfS068
+# text = Awa atahoa amake
+# text_eng = The tree had latex
+# text_por =
+1	Awa	awa	NOUN	_	Gender=Fem	_	_	_	_
+2	atahoa	ataho	VERB	_	Gender=Fem	_	_	_	_
+3	amake	ama	AUX	_	Mood=DeclF|SecV=Yes	_	_	_	_
+
+# sent_id = NfSC069
+# text = Fowa nemehe awaka
+# text_eng = The manioc is tall
+# text_por =
+1	Fowa	fowa	NOUN	_	Gender=Masc	_	_	_	_
+2	nemehe	nemeha	VERB	_	Gender=Masc	_	_	_	_
+3	awaka	awa	VERB	_	Mood=DeclM	_	_	_	_
+
+# sent_id = NfSC070
+# text = Kanawaa ee behe nawaha eeke ee famaha ee
+# text_eng = The two of us turned over the canoe
+# text =
+1	Kanawaa	kanawa	NOUN	_	Gender=Fem	_	_	_	_
+2	ee	ee	PRON	_	Clusivity=In|Number=Plur|Person=1	_	_	_	_
+3	behe	behe	VERB	_	_	_	_	_	_
+4	nawaha	na	AUX	_	Gender=Fem	_	_	_	_
+5	eeke	ee	PRON	_	Clusivity=In|Mood=DeclF|Number=Plur|Person=1	_	_	_	_
+6	ee	ee	PRON	_	Clusivity=In|Number=Plur|Person=1	_	_	_	_
+7	famaha	fama	VERB	_	Gender=Fem	_	_	_	_
+8	ee	ee	PRON	_	Clusivity=In|Number=Plur|Person=1	_	_	_	_
+
+# sent_id = NfSC071
+# text = Biti yetene toahi Hiba okatao yanakara mata
+# text_eng = His son was a teenager . " Wait , my son has not grown up yet "
+# text_por =
+1	Biti	biti	NOUN	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	_	_	_	_
+2	yetene	yetene	NOUN	_	_	_	_	_	_
+3	toahi	ha	VERB	_	Ch=Yes|Gender=Masc	_	_	_	_
+4	Hiba	hiba	VERB	_	_	_	_	_	_
+5	okatao	okatao	NOUN	_	Gender=Masc	_	_	_	_
+6	yanakara	yana	VERB	_	Mood=DeclM|Polarity=Neg	_	_	_	_
+7	mata	mata	PART	_	_	_	_	_	_
+
+# sent_id = NfSC072
+# text = Biyo owati mitehi amaka hibati ya
+# text_eng = Biyo heard what I said long ago
+# text_por =
+1	Biyo	Biyo	PROPN	_	Gender=Masc	_	_	_	_
+2	owati	ati	NOUN	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+3	mitehi	mita	VERB	_	Gender=Masc	_	_	_	_
+4	amaka	ama	AUX	_	Mood=DeclM|SecV=Yes	_	_	_	_
+5	hibati	hibati	PART	_	_	_	_	_	_
+6	ya	ya	PART	_	_	_	_	_	_
+
