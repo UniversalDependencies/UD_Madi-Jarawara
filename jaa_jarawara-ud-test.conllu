@@ -1234,3 +1234,82 @@
 5	hibati	hibati	PART	_	_	_	_	_	_
 6	ya	ya	PART	_	_	_	_	_	_
 
+# sent_id = NfSC073
+# text = Ayaka otaa awehene otaa ka ayaka amakare
+# text_eng = We would watch the festa , but it's not our festa
+# text_por =
+1	Ayaka	ayaka	NOUN	_	Gender=Fem	_	_	_	_
+2	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+3	awehene	awa	VERB	_	Mood=IrrF	_	_	_	_
+4	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+5	ka	ka	PART	_	Poss=Yes	_	_	_	_
+6	ayaka	ayaka	NOUN	_	Gender=Fem	_	_	_	_
+7	amakare	ama	VERB	_	Mood=DeclF|Polarity=Neg	_	_	_	_
+
+# sent_id = NfSC074
+# text = Okiti kamakibona kamakiraka
+# text_eng = My grandfather is coming , but he hasn't come yet
+# text_por =
+1	Okiti	iti	NOUN	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes	_	_	_	_
+2	kamakibona	ka	VERB	_	Follow=Yes|Mood=IntM	_	_	_	_
+3	kamakiraka	ka	VERB	_	Aspect=Cont|Follow=Yes|Mood=DeclM|Polarity=Neg	_	_	_	_
+
+# sent_id = NfSC075
+# text = Tifimiha titefeb watakere
+# text_eng = You are hungry , but there is no food for you
+# text_por =
+1	Tifimiha	fimi	VERB	_	Number=Sing|Gender=Fem|Person=2	_	_	_	_
+2	titefeba	tefe	NOUN	_	TenseEvid=Fut|Number=Sing|Person=2|Poss=Yes	_	_	_	_
+3	watakere	wata	VERB	_	Mood=DeclF|Polarity=Neg	_	_	_	_
+
+# sent_id = NfSC076
+# text = Hinakame kii hiname hikamorematamonaka
+# text_eng =  He came after him , and looked at him , but he didn't bury him
+# text_por =
+1	Hinakame	ka	VERB	_	Back=Yes|Gender=Masc|OC=Yes|Voice=Cau	_	_	_	_
+2	kii	kii	VERB	_	_	_	_	_	_
+3	hiname	na	AUX	_	Back=Yes|Gender=Masc|OC=Yes	_	_	_	_
+4	hikamorematamonaka	kamo	VERB	_	Mood=DeclM|OC=Yes|Polarity=Neg|Rep=M|TenseEvid=FPastFhM	_	_	_	_
+
+# sent_id = NfSC077
+# text = Oka winika oyababone me tonaka me awineke
+# text_eng = Some people seem to have come after my winika fruits that I was going to pick up
+# text_por =
+1	Oka	o	PRON	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+2	winika	winika	NOUN	_	Gender=Masc|Sp=Yes	_	_	_	_
+3	oyababone	yaba	VERB	_	Mood=IntF|Number=Sing|Person=1	_	_	_	_
+4	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+5	tonaka	ka	VERB	_	Away=Yes|Gender=Fem|Voice=Cau	_	_	_	_
+6	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+7	awineke	awine	VERB	_	Mood=DeclF	_	_	_	_
+
+# sent_id = NfSC078
+# text = Bora taro owitibona tikahitine tike
+# text_eng = You kicked the ball that I was going to kick
+# text_por =
+1	Bora	bora	NOUN	_	Gender=Masc	_	_	_	_
+2	taro	taro	VERB	_	_	_	_	_	_
+3	owitibona	na	AUX	_	Away=Yes|Mood=DeclM|Number=Sing|Out=Yes|Person=1	_	_	_	_
+4	tikahitine	kahiti	VERB	_	Aspect=Cont|Gender=Fem|Number=Sing|Person=2	_	_	_	_
+5	tike	ti	PRON	_	Mood=DeclF|Number=Sing|Person=2	_	_	_	_
+
+# sent_id = NfSC079
+# text = Bira famamakia onofara oke
+# text_eng = I want two more batteries
+# text_por =
+1	Bira	bira	NOUN	_	Gender=Fem	_	_	_	_
+2	famamakia	fama	VERB	_	Follow=Yes|Gender=Fem	_	_	_	_
+3	onofara	nofa	VERB	_	Number=Sing|Person=1|TenseEvid=IPastFhF	_	_	_	_
+4	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC080
+# text = Awi bobi one tabasi one oni
+# text_eng = I am roasting the tapir that I cut up
+# text_por =
+1	Awi	awi	NOUN	_	Gender=Masc	_	_	_	_
+2	bobi	bobi	VERB	_	_	_	_	_	_
+3	one	na	AUX	_	Gender=Masc|Number=Sing|Person=1	_	_	_	_
+4	tabasi	tabasi	VERB	_	_	_	_	_	_
+5	one	o	PRON	_	Aspect=Cont|Gender=Fem|Number=Sing|Person=1	_	_	_	_
+6	oni	o	PRON	_	Backgrounding=Fem|Number=Sing|Person=1	_	_	_	_
+
