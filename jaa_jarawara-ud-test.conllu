@@ -1313,3 +1313,62 @@
 5	one	o	PRON	_	Aspect=Cont|Gender=Fem|Number=Sing|Person=1	_	_	_	_
 6	oni	o	PRON	_	Backgrounding=Fem|Number=Sing|Person=1	_	_	_	_
 
+# sent_id = NfSC81 -- Repeated from 18
+# text = Tika toki onafa okere
+# text_eng = I don't want you to go
+# text_por =
+1	tika	ti	PRON	_	Number=Sing|Person=2|Poss=Yes	_	_	_	_
+2	toki	ka	VERB	_	Away=Yes	_	_	_	_
+3	onofa	nofa	VERB_	_	Number=Sing|Person=1	_	_	_	_
+4	okere	o	PRON	_	Mood=DeclF|Number=Sing|Person=1|Polarity=Neg	_	_	_	_
+
+# sent_id = NfSC082 -- Repeated from 54
+# text = Maneo otaa ka moto rabike otaake
+# text_eng = Maneo , our motor stopped working
+# text_por =
+1	Maneo	Maneo	PROPN	_	_	_	_	_	_
+2	otaa	otaa	PRON	_	Clusivity=Ex|Number=Plur|Person=1	_	_	_	_
+3	ka	ka	PART	_	Poss=Yes	_	_	_	_
+4	moto	moto	NOUN	_	Gender=Masc	_	_	_	_
+5	rabike	rabika	VERB	_	Gender=Masc	_	_	_	_
+6	otaake	otaa	PRON	_	Clusivity=Ex|Mood=DeclF|Number=Plur|Person=1|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC083
+# text = Me ati ihi okomine oke
+# text_eng = Because of what they said I have come
+# text_por =
+1	Me	me	PRON	_	Number=Sing|Person=3|Poss=Yes	_	_	_	_
+2	ati	ati	NOUN	_	_	_	_	_	_
+3	ihi	ihi	SCONJ	_	Gender=Fem	_	_	_	_
+4	okomine	ka	VERB	_	Aspect=Cont|Back=Yes|Gender=Fem|Number=Sing|Person=1	_	_	_	_
+5	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC084 ---- hika -- Repeated from 65
+# text = Yaki hikana hika
+# text_eng = It [the mother jaguar] is holding it [its cub] in its teeth
+# text_por =
+1	Yaki	yaki	VERB	_	_	_	_	_	_
+2	hikana	na	AUX	_	Case=Com|OC=Yes	_	_	_	_
+3	hika	X	X	Mood=DeclM|OC=Yes	_	_	_	_	_
+
+# sent_id = NfSC085
+# text = Oteme komakoma ra owa
+# text_eng = My foot was not hurting at all
+# text_por =
+1	Oteme	teme	NOUN	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+2	komakoma	koma	VERB	_	Red=Yes	_	_	_	_
+3	ra	na	AUX	_	Gender=Fem|Polarity=Neg	_	_	_	_
+4	owa	owa	PRON	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+
+# sent_id = NfSC086
+# text = Faya me mani abee hoka na me
+# text_eng = They were arm-wrestling [lit., pulling each other's arms]
+# text_por =
+1	Faya	faya	PART	_	_	_	_	_	_
+2	me	me	PRON	_	Number=Plur|Person=3|Poss=Yes	_	_	_	_
+3	mani	mani	NOUN	_	Gender=Fem	_	_	_	_
+4	abee	abee	PART	_	Recip=Yes	_	_	_	_
+5	hoka	hoka	VERB	_	_	_	_	_	_
+6	na	na	AUX	_	Gender=Fem	_	_	_	_
+7	me	me	PRON	_	Number=Plur|Person=3|Poss=Yes	_	_	_	_
+
