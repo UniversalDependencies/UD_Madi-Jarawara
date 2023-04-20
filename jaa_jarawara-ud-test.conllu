@@ -1372,3 +1372,81 @@
 6	na	na	AUX	_	Gender=Fem	_	_	_	_
 7	me	me	PRON	_	Number=Plur|Person=3|Poss=Yes	_	_	_	_
 
+# sent_id = NfSC087 -- namako: mako --> makoni/mako "for this reason or taken no responsibility for" --> Mood=???
+# text = Owati watamarara oke Isaki ati fawa namako
+# text_eng = I didn't say anything more , because Izac didn't say anything
+# text_por =
+1	Owati	ati	NOUN	_	Number=Sing|Person=1|Poss=Yes	_	_	_	_
+2	watamarara	wata	VERB	_	Back=Yes|Polarity=Neg|TenseEvid=IPastFhF	_	_	_	_
+3	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1|Poss=Yes	_	_	_	_
+4	Isaki	Isaki	PROPN	_	Gender=Masc	_	_	_	_
+5	ati	ati	NOUN	_	_	_	_	_	_
+6	fawa	fawa	VERB	_	_	_	_	_	_
+7	namako	na	AUX	_	X	_	_	_	_
+
+# sent_id = NfSC088
+# text = Owamakebanane ati naroke
+# text_eng = " I'm going there to see him , " she said
+# text_por =
+1	Owamakebanane	awa	VERB	_	Away=Yes|Backgrounding=Masc|Follow=Yes|Number=Sing|Person=1|TenseEvid=FutM	_	_	_	_
+2	ati	ati	VERB	_	_	_	_	_	_
+3	naroke	na	AUX	_	Mood=DeclF|TenseEvid=RPastFhF	_	_	_	_
+
+# sent_id = NfSC089
+# text = Ratena amarini ?
+# text_eng = Isn't it a flashlight ?
+# text_por =
+1	Ratena	ratena	NOUN	_	Gender=Fem	_	_	_	_
+2	amarini	ama	VERB	_	Backgroundin=Fem|Polarity=Neg	_	_	_	_
+3	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = NfSC090
+# text = Afiao amare ?
+# text_eng = Isn't it a plane ?
+# text_por =
+1	Afiao	afiao	NOUN	_	Gender=Masc	_	_	_	_
+2	amare	ama	VERB	_	Gender=Masc|Polarity=Neg	_	_	_	_
+3	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = NfSC091
+# text = Ati tee mitare awane ?
+# text_eng = Didn't you(pl) hear what he said ?
+# text_por =
+1	Ati	ati	NOUN	_	_	_	_	_	_
+2	tee	tee	PRON	_	Number=Plur|Person=2	_	_	_	_
+3	mitare	mita	VERB	_	Gender=Masc|Polarity=Neg	_	_	_	_
+4	awane	awa	VERB	_	Backgrounding=Masc	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = NfSC092
+# text = Tisinihi ?
+# text_eng = Did you fall ?
+# text_por =
+1	Tisinihi	sona	VERB	_	Number=Sing|Person=2|Rep=F|TenseEvid=IPastNfhF	_	_	_	_
+2	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = NfSC093
+# text = Osawiabone ati nanoho ?
+# text_eng = Did he say I should go along ?
+# text_por =
+1	Osawiabone	sawi	VERB	_	Mood=IntF|Number=Sing|Person=1	_	_	_	_
+2	ati	ati	VERB	_	_	_	_	_	_
+3	nanoho	na	AUX	_	Nom=Yes|Red=M|TenseEvid=IPastNfhM	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = NfSC094
+# text = Abi bakasi owini
+# text_eng =  Father , I'm thirsty
+# text_por =
+1	Abi	abi	NOUN	_	Gender=Masc	_	_	_	_
+2	bakasi	bakasi	NOUN	_	Gender=Fem	_	_	_	_
+3	owini	awa	VERB	_	Backgrounding=F|Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC095
+# text = Bakasi owa oke
+# text_eng = I'm thirsty
+# text_por =
+1	Bakasi	bakasi	NOUN	_	Gender=Fem	_	_	_	_
+2	owa	awa	VERB	_	Number=Sing|Person=1	_	_	_	_
+3	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+
