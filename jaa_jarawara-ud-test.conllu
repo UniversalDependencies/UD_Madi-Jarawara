@@ -1450,3 +1450,54 @@
 2	owa	awa	VERB	_	Number=Sing|Person=1	_	_	_	_
 3	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
 
+# sent_id = NfSC096
+# text = Ofimia okomine oni
+# text_eng = I got hungry and came back 
+# text_por =
+1	Ofimia	fimi	VERB	_	Gender=Fem|Number=Sing|Person=1	_	_	_	_
+2	okomine	ka	VERB	_	Aspect=Cont|Back=Yes|Gender=Fem|Number=Sing|Person=1	_	_	_	_
+3	oni	o	PRON	_	Backgrounding=Yes|Gender=Fem||Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC097
+# text = Me ati ihi okomine oke
+# text_eng = Because of what they said I have come
+# text_por =
+1	Me	me	PRON	_	Number=Plur|Person=3|Poss=Yes	_	_	_	_
+2	ati	ati	NOUN	_	_	_	_	_	_
+3	ihi	ihi	SCONJ	_	Gender=Fem	_	_	_	_
+4	okomine	ka	VERB	_	Aspect=Cont|Back=Yes|Gender=Fem|Number=Sing|Person=1	_	_	_	_
+5	oke	o	PRON	_	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC098
+# text = Ee abi okako onofa ama oni aba me okobara owa
+# text_eng = Yes , I am angry at your father , because I haven't been eating aba fish
+# text_por =
+1	Ee	ee	INTJ	_	_	_	_	_	_
+2	abi	abi	NOUN	_	Gender=Masc|Number=Sing|Person=2|Poss=Yes	_	_	_	_
+3	okako	kaako	VERB	_	Number=Sing|Person=1	_	_	_	_
+4	onofa	o	PRON	_	Gender=Fem|Number=Sing|Person=1|Recent=Yes	_	_	_	_
+5	ama	ama	SEC	_	SecV=Yes	_	_	_	_
+6	oni	o	PRON	_	Backgrounding=Yes|Gender=Fem||Number=Sing|Person=1	_	_	_	_
+7	aba	aba	NOUN	_	Gender=Masc|Sp=Yes	_	_	_	_
+8	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+9	okobara	kaba	VERB	_	Gender=Fem|Number=Sing|Person=1|Polarity=Neg	_	_	_	_
+10	owa	owa	PRON	_	Number=Sing|Person=1	_	_	_	_
+
+# sent_id = NfSC099
+# text = BonoWiyo tiwa okako onofa ama oke aba me taa tira tiwa
+# text_eng = Bono Wiyo , I have been angry with you , because you didn't give aba fish
+# text_por =
+1	BonoWiyo	BonoWiyo	PROPN	_	Gender=Masc	_	_	_	_
+2	tiwa	tiwa	PRON	_	Number=Sing|Person=2	_	_	_	_
+3	okako	kaako	VERB	_	Number=Sing|Person=1	_	_	_	_
+4	onofa	o	PRON	_	Gender=Fem|Number=Sing|Person=1|Recent=Yes	_	_	_	_
+5	ama	ama	AUX	_	SecV=Yes	_	_	_	_
+6	oke	o	PRON	_ 	Mood=DeclF|Number=Sing|Person=1	_	_	_	_
+7	aba	aba	NOUN	_	Gender=Masc|Sp=Yes	_	_	_	_
+8	me	me	PRON	_	Number=Plur|Person=3	_	_	_	_
+9	taa	taa	VERB	_	_	_	_	_	_
+10	tira	na	AUX	_	Gender=Fem|Number=Sing|Person=2|Polarity=Fem	_	_	_	_
+11	tiwa	tiwa	PRON	_	Number=Sing|Person=2	_	_	_	_
+
+
+
