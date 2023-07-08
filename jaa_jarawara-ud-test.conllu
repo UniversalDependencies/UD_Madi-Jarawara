@@ -185,3 +185,65 @@
 2	tamani	tama	VERB	vt	_	3	xcomp	_	hold onto
 3	ofoyaraoke	foya	VERB	_	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=FPastFhF	0	root	_	be inside
 
+# sent_id = NfSC20
+# text = Okaniso tama ni ofoyara oke
+# text_eng = I was inside [the large basket] holding onto my younger brother
+# text_por =
+1	Okaniso	niso	NOUN	n	Number[psor]=Sing|Person[psor]=1|Poss=Yes	2	obj	_	my younger brother
+2	tamani	tama	VERB	vt	_	3	xcomp	_	hold onto
+3	ofoyaraoke	foya	VERB	_	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=FPastFhF	0	root	_	be inside
+
+# sent_id = NfSC21
+# text = Yomee maka wai hine hasi nenoka
+# text_eng = The dog was bitten by a snake , but it escaped
+# text_por =
+1	Yomee	yomee	NOUN	n	Gender=Masc	3	obj	_	dog
+2	maka	maka	NOUN	n	Gender=Fem	3	nsubj	_	snake
+3	waihine	wai	VERB	vt	Gender=Masc|OC=Yes	4	parataxis	_	bite
+4	hasinenoka	hasi	VERB	vi	TenseEvid=IPastNfhM|Mood=DeclM	0	root	_	escape
+
+# sent_id = NfSC22
+# text = Otafara oke
+# text_eng = I ate
+# text_por =
+1	Otafaraoke	tafa	VERB	vi	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	eat
+
+# sent_id = NfSC23
+# text = Afi onahara oke
+# text_eng = I took a bath
+# text_por =
+1	Afionaharaoke	afi	VERB	vi	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	bathe
+
+# sent_id = NfSC24
+# text = Afi omatibe
+# text_eng = I am going to take a bath
+# text_por =
+1	Afiomatibe	afi	VERB	vi	Mood=ImmF|Number[subj]=Sing|Person[subj]=1|St=Yes	0	root	_	bathe
+
+# sent_id = NfSC25
+# text = Yama hawa toake
+# text_eng = It's ready
+# text_por =
+1	yama	yama	NOUN	n	Gender=Fem	2	nsubj	_	thing
+2	hawatoake	hawa	VERB	vi	Mood=DeclF	0	root	_	be finished
+
+# sent_id = NfSC26
+# text = Hawa ohara oke
+# text_eng = I'm finished
+# text_por =
+1	Hawaoharaoke	hawa	VERB	vi	Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	be finished
+
+# sent_id = NfSC27
+# text = Me tase ohara oke
+# text_eng = I'm their companion
+# text_por =
+1	Metase	tase	NOUN	n	Gender=Fem|Number[psor]=Plur|Person[psor]=3|	0	root	_	companion
+2	oharaoke	ha	VERB	v	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	1	cop	_	be
+
+# sent_id = NfSC28
+# text = Hisiri me weyeri kaweemetemoneni
+# text_eng = They carried baskets on their backs
+# text_por =
+1	Hisiri	hisiri 	NOUN	n	Gender=Fem	2	obj	_	basket
+2	meweyerikaweemetemoneni	weye	VERB	vt	Backgrounding=Fem|Case=Com|Distr=Yes|Number[subj]=Plur|Person[subj]=3|Rep=Fem|TenseEvid=FPastNfhF	0	root	_	carry
+
