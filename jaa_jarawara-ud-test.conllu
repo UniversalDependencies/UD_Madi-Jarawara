@@ -8,7 +8,7 @@
 # text = Faya okisama okomara oke
 # text_eng = I came out of the house, and came back.
 # text_por = Eu saร da casa e voltei
-1	Faya	faya	ADV	_	_	2	advmod	_	_
+1	Faya	faya	ADV	adv	_	2	advmod	_	_
 2	okisama	ka	VERB	vi	Back=Yes|Down=Yes|Number[subj]=Sing|Person[subj]=1	3	parataxis	_	go/come
 3	okomaraoke	ka	VERB	vi	Back=Yes|Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	go/come
 
@@ -17,7 +17,7 @@
 # text_eng = I was the only one talking to them.
 # text_por = Eu era o รบnico falando com eles
 1	Owaharihamarooke	ohari	VERB	_	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	be alone
-2	meohiyaraowa	_	VERB	_	Gender=Fem|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=1	1	parataxis	_	speak to
+2	meohiyaraowa	_	VERB	_	AC=Yes|Gender=Fem|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=1	1	parataxis	_	speak to
 
 # sent_id = NfSC04
 # text = Tomiko ya onakakehabanake .
@@ -25,7 +25,7 @@
 # text_por = 
 1	Tomiko	tomiko	NOUN	n	Gender=Fem	3	obl	_	Sunday
 2	ya	ya	PART	prcl	_	1	case	_	_
-3	onakakehabanake	ka	VERB	vi	OC=Yes|Coming=Yes|Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=FutF|Voice=Cau	0	root	_	go/come
+3	onakakehabanake	ka	VERB	vi	Coming=Yes|Mood=DeclF|Number[subj]=Sing|OC=Yes|Person[subj]=1|TenseEvid=FutF|Voice=Cau	0	root	_	go/come
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = NfSC05
@@ -45,15 +45,15 @@
 1	Koko	koko	NOUN	n	Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	obl	_	motherยดs brother
 2	niya	niya	PART	prcl	_	1	case	_	to
 3	tisawiya	sawi	VERB	v	Dist=Yes|Gender=Fem|Mood=ImpF|Number[subj]=Sing|Person[subj]=2	0	root	_	be present
-4	mata	mata	ADV	_	_	3	advmod	_	for now
+4	mata	mata	ADV	adv	_	3	advmod	_	for now
 5	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = NfSC07
 # text = Tiwini ka otaa winineke .
 # text_eng = We're staying here because you are living here .
 # text_por =
-1	Tiwini	wina	VERB	vi	Gender=Fem|Nom=Yes|Number=Sing|Person=2	4	ccomp	_	live
-2	ka	ka	CCONJ	_	_	1	cc	_	because
+1	Tiwini	wina	VERB	vi	Gender=Fem|Nom=Yes|Number=Sing|Person=2	4	advcl	_	live
+2	ka	ka	PART	prcl	_	1	mark	_	because
 3	otaawinineke	wina	VERB	vi	Aspect=Cont|Clusivity[subj]=Ex|Mood=DeclF|Number[subj]=Pl|Person[subj]=1	0	root	_	live
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -63,7 +63,7 @@
 # text_por = 
 1	Boni	boni	NOUN	n	Gender=Fem	4	obl	_	wind
 2	ihi	ihi	ADP	posp	Gender=Fem	1	case	_	_
-3	awa	awa	NOUN	n	_	4	nsubj	_	tree
+3	awa	awa	NOUN	n	Gender=Fem	4	nsubj	_	tree
 4	bototonahaniamake	boto	VERB	vi	Mood=Dec|SecV=Yes|TenseEvid=IPastNfhF	0	root	_	fall over
 5	.	.	PUNCT	punct	_	4	punct	_	_
 
@@ -81,9 +81,107 @@
 # text_eng = He had found the Brazilians and was coming to tell us about them .
 # text_por = 
 1	Yara	yara	PROPN	ppn	Gender=Masc	2	obj	_	Brazilian
-2	metowasimeno	wasi	VERB	vt	Away=Yes|Back=Yes|Number[obj]=Plur|Person[obj]=3|TenseEvid=IPastNfHM	5	parataxis	_	find
+2	metowasimeno	wasi	VERB	vt	AC=Yes|Away=Yes|Back=Yes|Number[obj]=Plur|Person[obj]=3|TenseEvid=IPastNfHM	5	parataxis	_	find
 3	yara	yara	PROPN	ppn	Gender=Masc	5	obl	_	Brazilian
 4	menamoni	namoni	ADP	posp	Number[psor]=3|Person[psor]=Pl	3	case	_	report
 5	kamenoama	ka	VERB	vi	Back=Yes|SecV=Yes	0	root	_	go/come
 6	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = NfSC11
+# text = Faya yana tonematamona fahi waha .
+# text_eng = Then he was ready to go .
+# text_por =
+1	Faya	faya	ADV	adv	_	2	advmod	_	so
+2	yanatonematamona	yana	VERB	vi	Ch=Yes|Rep=M|TenseEvid=FPastFhM	0	root	_	start
+3	fahi	fahi	ADV	adv	_	2	advmod	_	then
+4	waha	waha	ADV	adv	_	2	advmod	_	now
+5	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = NfSC12
+# text = Oko koraisi nake ohabibone karo .
+# text_eng = I have the courage to die .
+# text_por = 
+1	Oko	ka	PART	prcl	Number[psor]=Sing|Person[psor]=1	2	det	_	_
+2	koraisi	koraisi	NOUN	n	Gender=Fem	3	nsubj	_	courage
+3	nake	na	VERB	vi	Mood=DeclF	0	root	_	exist
+4	ohabibone	ahaba	VERB	vi	Mood=IntF|Nom=Yes|Number[subj]=Sing|Person[subj]=1	3	advcl	_	die
+5	karo	karo	PART	prcl	_	4	mark	_	so that
+6	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = NfSC13
+# text = Tokisemonaka faa boti ya .
+# text_eng = He went down to the bottom of the lake [ someone said ] .
+# text_por = 
+1	Tokisemonaka	ka	VERB	vi	Away=Yes|Down=Yes|Mood=DeclM|Rep=M	0	root	_	go/come
+2	faa	faha	NOUN	n	Gender=Fem	3	nmod	_	water
+3	boti	boti	NOUN	n	_	1	obl	_	inside
+4	ya	ya	PART	prcl	_	3	case	_	_
+5	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = NfSC14
+# text = Kokowi ohi naka bahi hiwene ehene .
+# text_eng = The kokowi hawk is calling because of the heat of the sun .
+# text_por =
+1	Kokowi	kokowi	NOUN	n	Gender=Masc|Sp=Yes	2	nsubj	_	bird species
+2	ohinaka	ohi	VERB	vi	Aspect=Cont|Mood=DeclM	0	root	_	cry
+3	bahi	bahi	NOUN	n	Gender=Masc	4	nmod	_	sun
+4	hiwene	hiwene	NOUN	n	Gender=Masc	2	obl	_	heat
+5	ehene	ehene	ADP	posp	Gender=Masc	4	case	_	because of
+6	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = NfSC15
+# text = Owakosamaro oke oko abohi bai owa nabowe owa .
+# text_eng = I stood there having lost my bearings, because the lightning had stunned me .
+# text_por = 
+1	Owakosamarooke	waa	VERB	vi	Ch=Yes|Middle=Yes|Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=FPastFhF	0	root	_	stand
+2	oko	ka	PART	prcl	Number[psor]=Sing|Person[psor]=1	3	det	_	_
+3	abohi	abohi	NOUN	n	_	1	appos	_	dead body
+4	bai	bahi	NOUN	n	Gender=Masc	5	nsubj	_	lightning
+5	owanaboweowa	aboha	VERB	vi	Gender=Masc|Number[obj]=Sing|OC=Yes|Person[obj]=1|Voice=Cau	1	parataxis	_	die
+6	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = NfSC16
+# text = Faya inohowe otaa banemarika awa otaa tii na ya
+# text_eng = Then we threw the sticks we had cut at the alligator
+# text_por =
+1	Faya	faya	ADV	adv	_	3	advmod	_	_
+2	inohowe	inohowe	NOUN	_	Gender=Masc|Sp=Yes	3	obj	_	alligator
+3	otaabanemarika	bana	VERB	vt	Clusivity[subj]=Ex|Mood=DeclM|Number[subj]=Pl|OC=Yes|Person[subj]=1|TenseEvid=FPastFhM	0	root	_	throw something at
+4	awa	awa	NOUN	n	Gender=Fem	3	obl	_	_
+5	otaatiina	tii	VERB	vt	Clusivity[subj]=Ex|Gender=Fem|Number[subj]=Pl|OC=Yes|Person[subj]=1	4	acl	_	_
+6	ya	ya	PART	prcl	_	4	case	_	_
+
+# sent_id = NfSC17
+# text = Tika tafi tai toahi
+# text_eng = You go ahead and eat
+# text_por = 
+1	tika	ka	PART	prcl	Number[psor]=Sing|Person[psor]=2	2	det	_	_
+2	tafi	tafa	VERB	vi	NFIN=Yes	3	csubj	_	eat
+3	taitoahi	tai	VERB	vi	Mood=ImpF	0	root	_	be ahead
+
+# sent_id = NfSC18
+# text = Tika toki onofa okere
+# text_eng = I don't want you to go
+# text_por = 
+1	tika	ka	PART	prcl	Number[psor]=Sing|Person[psor]=2	2	det	_	_
+2	toki	ka	VERB	vi	Away=Yes|NFIN=Yes	3	ccomp	_	go/come
+3	onofaokere	nofa	VERB	vt	Mood=DeclF|Number=Sing|Person=1|Polarity=Neg	0	root	_	want
+
+# sent_id = NfSC19
+# text = Hiba yomee ohi ni taboro otaa awaba otaake
+# text_eng = Wait , we are going to look at the place where the jaguar was crying 
+# text_por =
+1	Hiba	hiba	INTJ	intj	_	5	discourse	_	_
+2	yomee	yomee	NOUN	n	Gender=Masc	3	nsubj	_	jaguar
+3	ohini	ohi	VERB	vi	NFIN=Yes	4	nmod	_	cry
+4	taboro	taboro	NOUN	n	_	5	obj	_	place
+5	otaaawabaotaake	otaa	VERB	vt	AC=Yes|Clusivity[subj]=Ex|Number[subj]=Pl|Person[subj]=1|TenseEvid=FutF	0	root	_	see
+
+# sent_id = NfSC20
+# text = Okaniso tama ni ofoyara oke
+# text_eng = I was inside [the large basket] holding onto my younger brother
+# text_por =
+1	Okaniso	niso	NOUN	n	Number[psor]=Sing|Person[psor]=1|Poss=Yes	2	obj	_	my younger brother
+2	tamani	tama	VERB	vt	_	3	xcomp	_	hold onto
+3	ofoyaraoke	foya	VERB	_	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=FPastFhF	0	root	_	be inside
 
