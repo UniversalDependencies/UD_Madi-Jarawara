@@ -245,5 +245,5 @@
 # text_eng = They carried baskets on their backs
 # text_por =
 1	Hisiri	hisiri 	NOUN	n	Gender=Fem	2	obj	_	basket
-2	meweyerikaweemetemoneni	weye	VERB	vt	Backgrounding=Fem|Case=Com|Distr=Yes|Number[subj]=Plur|Person[subj]=3|Rep=Fem|TenseEvid=FPastNfhF	0	root	_	carry
+2	meweyerikaweemetemoneni	weye	VERB	vt	Backgrounding=Fem|Case=Com|Distr=Yes|Now=Waha|Number[subj]=Plur|Person[subj]=3|Rep=Fem|TenseEvid=FPastNfhF	0	root	_	carry
 
