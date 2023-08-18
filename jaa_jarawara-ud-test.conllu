@@ -232,10 +232,8 @@
 1	Metase	tase	NOUN	n	Gender=Fem|Number[psor]=Plur|Person[psor]=3|	0	root	_	companion
 2	oharaoke	ha	VERB	v	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	1	cop	_	be
 
-# sent_id
- = NfSC28
-# text = Hisiri me weyeri
- kaweemetemoneni
+# sent_id = NfSC28
+# text = Hisiri me weyeri kaweemetemoneni
 # text_eng = They carried baskets on their backs
 # text_por =
 1	Hisiri	hisiri 	NOUN	n	Gender=Fem	2	obj	_	basket
