@@ -239,8 +239,7 @@
 1	Hisiri	hisiri 	NOUN	n	Gender=Fem	2	obj	_	basket
 2	meweyerikaweemetemoneni	weye	VERB	vt	Ac=Yes|Backgrounding=Fem|Case=Com|Change=Yes|Distr=Yes|Number[subj]=Plur|Person[subj]=3|Rep=Fem|TenseEvid=FPastNfhF	0	root	_	carry
 
-#
- sent_id = NfSC29
+# sent_id = NfSC29
 # text = Tee ka abise ama oke
 # text_eng = I am your uncle
 # text_por =
@@ -451,8 +450,7 @@
 3	kaboko	kaboko	PROPN	ppn	Gender=Masc	7	nsubj	_	Indian
 4	bote	bote	ADJ	adj	_	3	amod	_	old
 5	oko	ka	PART	prcl	Number[psor]=Sing|Person[psor]=1	6	det	_	_
-6	yifo	
-yifo	NOUN	n	Gender=Masc	7	obj	_	hammock
+6	yifo	yifo	NOUN	n	Gender=Masc	7	obj	_	hammock
 7	katisenoowa	tisa	VERB	vt	AC=Yes|Case=Com|Number[psor]=Sing|Person[psor]=1|Person[subj]=3|TenseEvid=IPastNfhM	1	parataxis	_	undo
 
 # sent_id = NfSC056
@@ -649,4 +647,5 @@ yifo	NOUN	n	Gender=Masc	7	obj	_	hammock
 1	Bora	bora	NOUN	n	Gender=Masc	3	obj	_	ball
 2	taroowitibona	taro	VERB	vt	Away=Yes|Mood=DeclM|Number[subj]=Sing|OC=Yes|Out=Yes|Person[subj]=1	1	acl	_	kick
 3	tikahitine	kahiti	VERB	_	AC=Yes|Aspect=ContF|Mood=DeclF|Number[subj]=Sing|Person[subj]=2	0	root	_	take first
+
 
