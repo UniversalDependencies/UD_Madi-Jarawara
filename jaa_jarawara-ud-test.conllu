@@ -148,7 +148,7 @@
 2	inohowe	inohowe	NOUN	_	Gender=Masc|Sp=Yes	3	obj	_	alligator
 3	otaabanemarika	bana	VERB	vt	Clusivity[subj]=Ex|Mood=DeclM|Number[subj]=Plur|OC=Yes|Person[obj]=3|Person[subj]=1|TenseEvid=FPastFhM	0	root	_	throw something at
 4	awa	awa	NOUN	n	Gender=Fem	3	obl	_	_
-5	otaatiina	tii	VERB	vt	Clusivity[subj]=Ex|Gender=Fem|Number[subj]=Plur|OC=Yes|Person[obj}=3|Person[subj]=1	4	acl	_	_
+5	otaatiina	tii	VERB	vt	Clusivity[subj]=Ex|Gender=Fem|Number[subj]=Plur|OC=Yes|Person[obj}=3|Person[subj]=1	4	acl	_	cut through
 6	ya	ya	PART	prcl	_	4	case	_	_
 
 # sent_id = NfSC17
@@ -232,14 +232,18 @@
 1	Metase	tase	NOUN	n	Gender=Fem|Number[psor]=Plur|Person[psor]=3|	0	root	_	companion
 2	oharaoke	ha	VERB	v	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	1	cop	_	be
 
-# sent_id = NfSC28
-# text = Hisiri me weyeri kaweemetemoneni
+#
+ sent_id
+ = NfSC28
+# text = Hisiri me weyeri
+ kaweemetemoneni
 # text_eng = They carried baskets on their backs
 # text_por =
 1	Hisiri	hisiri 	NOUN	n	Gender=Fem	2	obj	_	basket
 2	meweyerikaweemetemoneni	weye	VERB	vt	Ac=Yes|Backgrounding=Fem|Case=Com|Change=Yes|Distr=Yes|Number[subj]=Plur|Person[subj]=3|Rep=Fem|TenseEvid=FPastNfhF	0	root	_	carry
 
-# sent_id = NfSC29
+#
+ sent_id = NfSC29
 # text = Tee ka abise ama oke
 # text_eng = I am your uncle
 # text_por =
@@ -449,8 +453,10 @@
 2	fahi	fahi	ADV	adv	_	1	advmod	_	then
 3	kaboko	kaboko	PROPN	ppn	Gender=Masc	7	nsubj	_	Indian
 4	bote	bote	ADJ	adj	_	3	amod	_	old
-5	oko	ka	PART	prcl	Number[psor]=Sing|Person[psor]=1	6	det	_	_
-6	yifo	yifo	NOUN	n	Gender=Masc	7	obj	_	hammock
+5	oko	ka	PART	prcl	Number[psor]=Sing|Person[psor
+]=1	6	det	_	_
+6	yifo	
+yifo	NOUN	n	Gender=Masc	7	obj	_	hammock
 7	katisenoowa	tisa	VERB	vt	AC=Yes|Case=Com|Number[psor]=Sing|Person[psor]=1|Person[subj]=3|TenseEvid=IPastNfhM	1	parataxis	_	undo
 
 # sent_id = NfSC056
@@ -648,6 +654,173 @@
 2	taroowitibona	taro	VERB	vt	Away=Yes|Mood=DeclM|Number[subj]=Sing|OC=Yes|Out=Yes|Person[subj]=1	1	acl	_	kick
 3	tikahitine	kahiti	VERB	_	AC=Yes|Aspect=ContF|Mood=DeclF|Number[subj]=Sing|Person[subj]=2	0	root	_	take first
 
+# sent_id = NfSC079
+# text = Bira famamakia onofara oke
+# text_eng = I want two more batteries
+# text_por =
+1	Bira	bira	NOUN	n	Gender=Fem	3	obj	_	battery
+2	famamakia	fama	VERB	vi	Follow=Yes|Gender=Fem	1	acl	_	be two
+3	onofaraoke	nofa	VERB	vt	Mood=DeclF|Number[subj]=Sing|Person[subj]=1|TenseEvid=IPastFhF	0	root	_	w
+ant
 
+# sent_id = NfSC080
+# text = Awi bobi one tabasi one oni
+# text_eng = I am roasting the tapir that I cut up
+# text_por =
+1	Awi	awi	NOUN	n	Gender=Masc	3	obj	_	tapir
+2	bobione	bobi	VERB	vt	Gender=Masc|Number[subj]=Sing|OC=Yes|Person[obj]=3|Person[subj]=1	1	acl	_	slit
+3	tabasioneoni	tabasi	VERB	vt	AC=Yes|Aspect=ContF|Backgrounding=Fem|Number[subj]=Sing|Person[subj]=1	0	root	_	roast on grill
 
+# sent_id = NfSC81
+# text = Tika toki onofa okere
+# text_eng = I don't want you to go
+# text_por = 
+1	tika	ka	PART	prcl	Number[psor]=Sing|Person[psor]=2	2	det	_	_
+2	toki	ka	VERB	vi	Away=Yes|NFIN=Yes	3	ccomp	_	go/come
+3	onofaokere	nofa	VERB	vt	Mood=DeclF|Number=Sing|Person=1|Polarity=Neg	0	root	_	want	_	_	_
+
+# sent_id = NfSC082
+# text = Maneo otaa ka moto rabike otaake
+# text_eng = Maneo, our motor stopped working
+# text_por =
+1	Maneo	Maneo	PROPN	ppn	_	5	vocative	_	_
+2	otaa	otaa	PRON	_	Clusivity[psor]=Ex|Number[psor]=Plur|Person[psor]=1	4	nmod	_	_
+3	ka	ka	PART	prcl	Poss=Yes	2	case	_	_
+4	moto	moto	NOUN	n	Gender=Masc	5	nsubj	_	motor
+5	rabikeotaake	rabika	VERB	vi	Clusivity[psor]=Ex|Gender[psor]=Masc|Number[psor]=Plur|Person[psor]=1|Person[subj]=3	0	root	_	fail
+
+# sent_id = NfSC083
+# text = Me ati ihi okomine oke
+# text_eng = Because of what they said I have come
+# text_por =
+1	Meati	ati	NOUN	n	Number[psor]=Plur|Person[psor]=3	3	obl	_	voice
+2	ihi	ihi	ADP	posp	Gender=Fem	1	case	_	because of
+3	okomineoke	ka	VERB	vi	Aspect=ContF|Back=Yes|Mood=DeclF|Number[subj]=Sing|Person[subj]=1	0	root	_	go/come
+
+# sent_id = NfSC084
+# text = Yaki hikana hika
+# text_eng = It [the mother jaguar] is holding it [its cub] in its teeth
+# text_por =
+1	Yakihikanahika	yaki	VERB	vt	Case=Com|Mood=DeclM|OC=Yes|Person[obj]=3|Person[subj]=3	0	root	_	bite into
+
+# sent_id = NfSC085
+# text = Oteme komakoma ra owa
+# text_eng = My foot was not hurting at all
+# text_por =
+1	Oteme	teme	NOUN	n	Number[psor]=Sing|Person[psor]=1	2	nsubj	_	foot
+2	komakomaraowa	koma	VERB	vi	Gender=Fem|Number[psor]=Sing|Person[psor]=1|Person[subj]=3|Polarity=Neg|Red=Yes	0	root	_	hurt
+
+# sent_id = NfSC086
+# text = Faya me mani abee hoka na me
+# text_eng = They were arm-wrestling [lit., pulling each other's arms]
+# text_por =
+1	Faya	faya	ADV	adv	_	4	advmod	_	then
+2	memani	mani	NOUN	n	Gender=Fem|Number[psor]=Plur|Person[psor]=3	3	nmod	_	arm
+3	abee	abee	NOUN	n	Recip=Yes	4	obj	_	_
+4	hokaname	hoka	VERB	vt	Number[psor]=Plur|Person[psor]=3|Person[subj]=3	0	root	_	yank
+
+# sent_id = NfSC087
+# text = Owati watamarara oke Isaki ati fawa namako
+# text_eng = I didn't say anything more , because Izac didn't say anything
+# text_por =
+1	Owati	ati	NOUN	n	Number[psor]=Sing|Person[psor]=1	2	nsubj	_	voice
+2	watamararaoke	wata	VERB	vi	Back=Yes|Mood=DeclF|Number[psor]=Sing|Person[psor]=1|Person[subj]=3|Polarity=Neg|TenseEvid=IPastFhF	0	root	_	exist
+3	Isaki	Isaki	PROPN	ppn	Gender=Masc	4	nmod	_	_
+4	ati	ati	NOUN	n	_	5	nsubj	_	voice
+5	fawanamako	fawa	VERB	vi	For this reason=M|Person[subj]=3	2	parataxis	_	disappear
+
+# sent_id = NfSC088
+# text = Owamakebanane ati naroke
+# text_eng = " I'm going there to see him , " she said
+# text_por =
+1	Owamakebanane	awa	VERB	vt	Away=Yes|Backgrounding=Masc|Follow=Yes|Number[subj]=Sing|OC=Yes|Person[subj]=1|Person[obj]=3|TenseEvid=FutM	2	ccomp	_	see
+2	atinaroke	ati	VERB	vt	AC=Yes|Mood=DeclF|Person[subj]=3|TenseEvid=RPastFhF	0	root	_	say
+
+# sent_id = NfSC089
+# text = Ratena amarini ?
+# text_eng = Isn't it a flashlight ?
+# text_por =
+1	Ratena	ratena	NOUN	n	Gender=Fem	0	root	_	flashlight
+2	amarini	ama	VERB	vc	Backgrounding=Fem|Polarity=Neg	1	cop	_	be
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = NfSC090
+# text = Afiao amare ?
+# text_eng = Isn't it a plane ?
+# text_por =
+1	Afiao	afiao	NOUN	n	Gender=Masc	0	root	_	airplane
+2	amare	ama	VERB	vc	Gender=Masc|Polarity=Neg	1	cop	_	be
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = NfSC091
+# text = Ati tee mitare awane ?
+# text_eng = Didn't you(pl) hear what he said ?
+# text_por =
+1	Ati	ati	NOUN	n	_	2	obj	_	voice
+2	teemitareawane	mita	VERB	vt	Backgrounding=Masc|Gender=Masc|Number[subj]=Plur|OC=Yes|Person[subj]=2|Person[obj]=3|Polarity=Neg	_	_	_	hear
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = NfSC092
+# text = Tisinihi ?
+# text_eng = Did you fall ?
+# text_por =
+1	Tisinihi	sona	VERB	vi	Nom=Yes|Number[subj]=Sing|Person[subj]=2|TenseEvid=IPastNfhF	0	root	_	fall
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = NfSC093
+# text = Osawiabone ati nanoho ?
+# text_eng = Did he say I should go along ?
+# text_por =
+1	Osawiabone	sawi	VERB	vi	Mood=IntF|Number[subj]=Sing|Person[subj]=1	2	ccomp	_	be present
+2	atinanoho	ati	VERB	vt	AC=Yes|Nom=Yes|Person[subj]=3|TenseEvid=IPastNfhM	0	root	_	say
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = NfSC094
+# text = Abi bakasi owini
+# text_eng =  Father , I'm thirsty
+# text_por =
+1	Abi	abi	NOUN	_	Gender=Masc	3	vocative	_	father
+2	bakasi	bakasi	NOUN	n	Gender=Fem	3	obj	_	thirst
+3	owini	awa	VERB	vt	Backgrounding=Fem|Number[subj]=Sing|Person[subj]=1	0	root	_	feel
+
+# sent_id = NfSC095
+# text = Bakasi owa oke
+# text_eng = I'm thirsty
+# text_por =
+1	Bakasi	bakasi	NOUN	n	Gender=Fem	2	obj	_	thirst
+2	owaoke	awa	VERB	vt	Mood=DeclF|Number[subj]=Sing|Person[subj]=1	0	root	_	feel
+
+# sent_id = NfSC096
+# text = Ofimia okomine oni
+# text_eng = I got hungry and came back 
+# text_por =
+1	Ofimia	fimi	VERB	vi	Gender=Fem|Number[subj]=Sing|Person[subj]=1	2	parataxis	_	be hungry
+2	okomineoni	ka	VERB	vi	Aspect=ContF|Back=Yes|Backgrounding=Fem|Number=Sing|Person=1	0	root	_	go/come
+
+# sent_id = NfSC097
+# text = Me ati ihi okomine oke
+# text_eng = Because of what they said I have come
+# text_por =
+1	Meati	ati	NOUN	n	Number[psor]=Plur|Person[psor]=3	3	obl	_	voice
+2	ihi	ihi	SCONJ	_	Gender=Fem	1	case	_	because of
+3	okomineoke	ka	VERB	vi	Aspect=ContF|Back=Yes|Mood=DeclF|Number[subj]=Sing|Person[subj]=1	0	root	_	go/come
+
+# sent_id = NfSC098
+# text = Ee abi okako onofa ama oni aba me okobara owa
+# text_eng = Yes , I am angry at your father , because I haven't been eating aba fish
+# text_por =
+1	Ee	ee	INTJ	intj	_	3	discourse	_	yes
+2	abi	abi	NOUN	_	Gender=Masc|Number[psor]=Sing|Person[psor]=2	3	obj	_	father
+3	okakoonofaamaoni	kaako	VERB	vt	AC=Yes|Backgrounding=Fem|Gender=Fem|Number[subj]=Sing|Person[subj]=1|Recent=Yes|SecV=Yes	0	root	_	be angry with
+4	aba	aba	NOUN	_	Gender=Masc|Sp=Yes	5	obj	_	_
+5	meokobaraowa	kaba	VERB	vt	AC=Yes|Number[obj]=Plur|Number[subj]=1|Person[obj]=3|Person[subj]=1	3	parataxis	_	eat
+
+# sent_id = NfSC099
+# text = Bono Wiyo tiwa okako onofa ama oke aba me taa tira tiwa
+# text_eng = Bono Wiyo , I have been angry with you , because you didn't give aba fish
+# text_por =
+1	BonoWiyo	BonoWiyo	PROPN	_	Gender=Masc	2	vocative	_	_
+2	tiwaokakoonofaamaoke	kaako	VERB	vt	AC=Yes|Gender=Fem|Mood=DeclF|Number[obj]=sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1|Recent=Yes	0	root	_	be angry with
+3	aba	aba	NOUN	_	Gender=Masc|Sp=Yes	4	obj	_	_
+4	metaatiratiwa	taa	VERB	vt	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Polarity=Neg	2	parataxis	_	give
 
