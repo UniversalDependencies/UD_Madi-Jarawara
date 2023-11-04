@@ -63,7 +63,7 @@
     <feat name="Tense" value="RPast" upos="AUX">1</feat><!-- kanemetemone -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="17">
+  <deps unique="18">
     <dep name="advcl">2</dep>
     <dep name="advmod">2</dep>
     <dep name="amod">2</dep>
@@ -72,8 +72,9 @@
     <dep name="cop">1</dep>
     <dep name="dep">8</dep>
     <dep name="discourse">10</dep>
+    <dep name="expl">2</dep>
     <dep name="nmod">3</dep>
-    <dep name="nsubj">17</dep>
+    <dep name="nsubj">15</dep>
     <dep name="obj">14</dep>
     <dep name="obl">2</dep>
     <dep name="parataxis">1</dep>
