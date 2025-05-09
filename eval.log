@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Madi-Jarawara:
-commit 2528dbe75562c3bb631de5a3777e31b1ed96ce91
+commit c387a4f09537f93285f5be272a9ca10c84867c81
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:04:26 2024 +0200
+Date:   Mon Nov 11 16:12:52 2024 +0100
 Size: counted 115 of 115 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,18 +23,18 @@ Udapi:
                TOTAL         51
 Udapi: found 51 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 115 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang jaa --max-err=10 UD_Madi-Jarawara/jaa_jarawara-ud-test.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0) = 0
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.470588235294118) = 0.0361990950226244
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.486486486486487) = 0.0374220374220374
-(TOTAL score=0.235581916758387) * (availability=1) * (validity=1) = 0.235581916758387
+(TOTAL score=0.235330534154064) * (availability=1) * (validity=1) = 0.235330534154064
 STARS = 1
-UD_Madi-Jarawara	0.235581916758387	1
+UD_Madi-Jarawara	0.235330534154064	1
