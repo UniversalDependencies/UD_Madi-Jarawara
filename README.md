@@ -35,6 +35,7 @@ The development of the treebank is supported by the by European Research Council
 Data available since: UD v2.10
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
