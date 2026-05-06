@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Madi-Jarawara:
-commit 8abbe72c5386af6010c8b5a8a47fe35282161824
-Merge: 6c20d27 32e5fae
+commit 13805facd7a2a5dc44649579dfc02915f2d55425
+Merge: 7609000 fef58cc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'jaa_jarawara'
@@ -25,17 +25,17 @@ Universal relations: 18 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang jaa --max-err=10 UD_Madi-Jarawara/jaa_jarawara-ud-test.conllu
-[Line 12 Sent 001]: [L3 Warning pron-det-without-prontype] The word 'eke' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 36 Sent 003]: [L3 Warning pron-det-without-prontype] The word 'eke' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 43 Sent 004]: [L3 Warning pron-det-without-prontype] The word 'Te' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 45 Sent 004]: [L3 Warning pron-det-without-prontype] The word 'teke' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 47 Sent 004]: [L3 Warning pron-det-without-prontype] The word 'te' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 49 Sent 004]: [L3 Warning pron-det-without-prontype] The word 'otara' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 50 Sent 004]: [L3 Warning pron-det-without-prontype] The word 'te' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 53 Sent 004]: [L3 Warning pron-det-without-prontype] The word 'te' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 61 Sent 005]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 65 Sent 005]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 12 Sent 001]: [L3 WARNING pron-det-without-prontype] The word 'eke' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 36 Sent 003]: [L3 WARNING pron-det-without-prontype] The word 'eke' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 43 Sent 004]: [L3 WARNING pron-det-without-prontype] The word 'Te' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 45 Sent 004]: [L3 WARNING pron-det-without-prontype] The word 'teke' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 47 Sent 004]: [L3 WARNING pron-det-without-prontype] The word 'te' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 49 Sent 004]: [L3 WARNING pron-det-without-prontype] The word 'otara' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 50 Sent 004]: [L3 WARNING pron-det-without-prontype] The word 'te' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 53 Sent 004]: [L3 WARNING pron-det-without-prontype] The word 'te' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 61 Sent 005]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 65 Sent 005]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 26
 *** PASSED ***
 Validity: 1
